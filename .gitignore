@@ -1,0 +1,10 @@
+.bundle/
+log/*.log
+search_results/*
+public/studies/*
+db/*.sqlite3
+vendor/*
+tmp/*
+config/database.yml
+config/database_local.yml
+

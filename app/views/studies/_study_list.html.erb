@@ -1,0 +1,66 @@
+<script>
+    $(document).ready(function() {
+        $(".star-rating").raty({
+           path: '/assets/',
+           readOnly: true,
+           score: function() {
+             return $(this).attr('data-score');
+           }
+        });
+   });
+</script>
+
+<div class="container-fluid">
+  <%= form_tag search_studies_path, method: :get, class: "form-inline navbar-form" do %>
+
+       <% if user_signed_in? %>
+          <div class='col-xs-offset-2 navbar navbar-right'>
+            <%= text_field_tag :search, params[:search], class: "form-control" %>
+            <%= submit_tag "Retrieve Studies", name: nil, class: "btn btn-default search-button" %>
+          </div>
+       <% end %>
+
+  <% end %>
+</div>
+
+<div class="container-fluid">
+
+  <div class='table-responsive'>
+      <div class='row'>
+        <table id="studies" class='display'>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>status</th>
+              <th>title</th>
+              <th>started</th>
+              <th>completed</th>
+            </tr>
+          </thead>
+          <colgroup>
+            <col class="col-md-1">
+            <col class="col-md-1">
+            <col class="col-md-1">
+            <col class="col-md-4">
+            <col class="col-md-1">
+            <col class="col-md-1">
+          </colgroup>
+
+          <tbody>
+            <% @studies.each do |study| %>
+              <tr onClick=location.href="/studies/<%= study.nct_id %>">
+                <td><%= study.nct_id %></td>
+                <td><%= study.overall_status %></td>
+                <td><%= study.brief_title %></td>
+                <td><%= study.start_date %></td>
+                <td><%= study.primary_completion_date %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</div>
+
+
+
