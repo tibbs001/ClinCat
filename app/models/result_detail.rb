@@ -1,2 +1,0 @@
-class ResultDetail < Aact
-end

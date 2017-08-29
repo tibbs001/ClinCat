@@ -1,2 +1,0 @@
-class Eligibility < Aact
-end

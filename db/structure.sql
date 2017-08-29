@@ -198,6 +198,7 @@ ALTER SEQUENCE mesh_terms_id_seq OWNED BY mesh_terms.id;
 
 CREATE TABLE old_categorized_terms (
     id integer NOT NULL,
+    old_id integer,
     tree_number character varying,
     clinical_category character varying,
     term_type character varying
@@ -229,9 +230,9 @@ ALTER SEQUENCE old_categorized_terms_id_seq OWNED BY old_categorized_terms.id;
 
 CREATE TABLE old_free_text_terms (
     id integer NOT NULL,
-    old_id character varying,
-    mesh_term character varying,
-    downcase_mesh_term character varying
+    old_id integer,
+    free_text_term character varying,
+    downcase_free_text_term character varying
 );
 
 
@@ -625,17 +626,17 @@ CREATE INDEX index_old_categorized_terms_on_tree_number ON old_categorized_terms
 
 
 --
--- Name: index_old_free_text_terms_on_downcase_mesh_term; Type: INDEX; Schema: public; Owner: -
+-- Name: index_old_free_text_terms_on_downcase_free_text_term; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE INDEX index_old_free_text_terms_on_downcase_mesh_term ON old_free_text_terms USING btree (downcase_mesh_term);
+CREATE INDEX index_old_free_text_terms_on_downcase_free_text_term ON old_free_text_terms USING btree (downcase_free_text_term);
 
 
 --
--- Name: index_old_free_text_terms_on_mesh_term; Type: INDEX; Schema: public; Owner: -
+-- Name: index_old_free_text_terms_on_free_text_term; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE INDEX index_old_free_text_terms_on_mesh_term ON old_free_text_terms USING btree (mesh_term);
+CREATE INDEX index_old_free_text_terms_on_free_text_term ON old_free_text_terms USING btree (free_text_term);
 
 
 --

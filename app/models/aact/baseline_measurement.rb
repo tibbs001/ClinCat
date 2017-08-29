@@ -1,0 +1,5 @@
+module Aact
+  class BaselineMeasurement < Aact
+    belongs_to :result_group
+  end
+end

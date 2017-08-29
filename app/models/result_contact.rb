@@ -1,2 +1,0 @@
-class ResultContact < Aact
-end

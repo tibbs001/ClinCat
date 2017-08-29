@@ -1,2 +1,0 @@
-class CentralContact < Aact
-end

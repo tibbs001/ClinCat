@@ -1,2 +1,0 @@
-class DetailedDescription < Aact
-end

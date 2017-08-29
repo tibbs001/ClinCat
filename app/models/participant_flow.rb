@@ -1,2 +1,0 @@
-class ParticipantFlow < Aact
-end

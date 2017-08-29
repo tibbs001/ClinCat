@@ -1,2 +1,0 @@
-class CalculatedValue < Aact
-end
