@@ -1,19 +1,17 @@
-class MeshTerm < ActiveRecord::Base
-  def self.populate_from_file(file_name=Rails.root.join('public','mesh_terms.txt'))
+class Y2010MeshTerm < ActiveRecord::Base
+  def self.populate_from_file(file_name=Rails.root.join('csv','2010_mesh_terms.csv'))
     puts "about to populate table of mesh terms..."
     File.open(file_name).each_line{|line|
-      line_array=line.split(' ')
+      line_array=line.split('|')
       tree=line_array.first
       qualifier=tree.split('.').first
-      desc=line_array[1]
-      term=line.split(/\t/).last.strip
+      term=line_array.last.strip
       if !qualifier.nil?
         new(:qualifier=>qualifier,
             :tree_number=>tree,
-            :description=>desc,
             :downcase_mesh_term=>term.downcase,
             :mesh_term=>term,
-           ).save!
+          ).save!
       end
     }
   end

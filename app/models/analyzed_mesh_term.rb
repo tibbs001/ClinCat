@@ -1,21 +1,25 @@
-class OldFreeTextTerm < ActiveRecord::Base
-  def self.populate_from_file(file_name=Rails.root.join('public','old_free_text_terms.csv'))
-    puts "about to populate table of old free text terms..."
+class AnalyzedMeshTerm < ActiveRecord::Base
+  def self.populate_from_file(file_name=Rails.root.join('csv','analyzed_mesh_terms.csv'))
+    puts "about to populate table of analyzed mesh terms..."
     File.open(file_name).each_line{|line|
       line_array=line.split('|')
-      old_id=line_array[0]
+      tree=line_array.first
+      qualifier=tree.split('.').first
+      desc=''
       term=line_array[1].strip
-      if !old_id.nil? and old_id != 'FREE_TEXT_CONDITION_ID'
-        new(:old_id=>old_id,
-            :free_text_term=>term,
-            :downcase_free_text_term=>term.downcase,
+      if !qualifier.nil? and qualifier != 'MESH_ID'
+        new(:qualifier=>qualifier,
+            :tree_number=>tree,
+            :description=>desc,
+            :downcase_mesh_term=>term.downcase,
+            :mesh_term=>term,
         ).save
-        (2..15).each{|i|
+        (3..16).each{|i|
           if line_array[i]=='Y'
-            OldCategorizedTerm.create(
-              :old_id=>old_id,
+            CategorizedTerm.create(
+              :tree_number=>tree,
               :clinical_category=>indexed_categories[i],
-              :term_type=>'free'
+              :term_type=>'mesh'
             ).save!
           end
         }
