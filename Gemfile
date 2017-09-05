@@ -1,67 +1,76 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-ruby "2.2.3"
+ruby "2.4.1"
 
-gem 'passenger'
-gem 'zip'
-gem 'rails', '4.2.6'
+gem 'libv8', '3.16.14.3'
+gem 'faraday_middleware-aws-signers-v4'
+gem "faraday"
+gem 'rails', github: 'rails/rails', branch: '4-2-stable'
+gem "rack-timeout"
+gem "autoprefixer-rails"
+gem "flutie"
+gem "high_voltage"
+gem 'appsignal', '~> 2.3'
+gem "sidekiq"
+gem "normalize-rails"
 gem 'rails_12factor'
-# postgres gem
-gem 'pg'
-gem 'httparty'
-gem "normalize-rails", "~> 3.0.0"
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-# gem gon lets you set variables in controller that you can access in javascript
-gem 'gon'
+gem "pg"
+gem "puma"
+gem 'rubyzip'
+gem "recipient_interceptor"
+gem "sass-rails"
+gem "sprockets-rails",'>= 2.0'
+gem "title"
+gem "uglifier"
+gem "jbuilder"
+gem 'rest-client'
+gem 'enumerize'
+gem 'bulk_insert'
+gem 'activerecord-import'
+gem 'roo', '~> 2.4.0'
+gem 'string-similarity'
 
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-gem 'jquery-datatables-rails'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-# Commented out turbolinks cuz it causes dataTable features to fail to render when you navigate back to the page.
-#gem 'turbolinks'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
-# bundle exec rake doc:rails generates the API under doc/api.
-gem 'rake', '~> 11.3'
-gem 'sdoc', '~> 0.4.0', group: :doc
-#  Lets us spawn processes in the background
-gem 'spawnling', '~>2.1'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-gem "mini_magick"
-#  User creation gem
-gem 'font-awesome-rails'
+gem "jquery-rails"
 gem 'font-awesome-sass'
-gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
-gem 'backbone-rails'
+# user registration
 
-gem 'execjs'
-gem 'therubyracer'
-gem 'figaro'
-gem 'puma'
-gem 'net-ssh'
-
-group :test do
-  gem "rspec-rails", "~> 3.4.0"
-end
+# Grape API
+gem 'rack'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development do
-  #gem 'byebug'
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'capistrano'
+  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-chruby'
+  gem "quiet_assets"
+  gem "spring"
+  gem "spring-commands-rspec"
+  gem 'letter_opener'
 end
 
+group :development, :test do
+  gem "awesome_print"
+  gem "bullet"
+  gem "bundler-audit", ">= 0.5.0", require: false
+  gem "factory_girl_rails"
+  gem "pry-byebug"
+  gem "pry-rails"
+  gem 'rspec-rails'
+  gem 'single_test'
+end
+
+group :development, :staging do
+  gem "rack-mini-profiler", require: false
+end
+
+group :test do
+  gem "capybara-webkit"
+  gem "database_cleaner"
+  gem "formulaic"
+  gem "launchy"
+  gem "shoulda-matchers"
+  gem "simplecov", require: false
+  gem "timecop"
+  gem "webmock"
+  gem "vcr"
+end
