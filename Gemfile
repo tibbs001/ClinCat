@@ -43,8 +43,6 @@ gem 'spawnling', '~>2.1'
 
 gem "mini_magick"
 #  User creation gem
-gem 'devise'
-gem 'searchkick'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
 gem 'bootstrap-sass', '~> 3.2.0'
