@@ -23,37 +23,4 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
     }
   end
 
-  def self.indexed_categories
-   { 2=>'CARDIOLOGY',
-     3=>'DERMATOLOGY',
-     4=>'ENDOCRINOLOGY',
-     5=>'GI_HEPATOLOGY',
-     6=>'IMMUNO_RHEUMATOLOGY',
-     7=>'INFECTIOUS_DISEASES',
-     8=>'NEPHROLOGY',
-     9=>'NEUROLOGY',
-     10=>'PSYCH_GENERAL',
-     11=>'ONCOLOGY',
-     12=>'OTOLARYNGOLOGY',
-     13=>'PULMONARY_MEDICINE',
-     14=>'REPRODUCTIVE_MEDICINE',
-     15=>'PSYCH_SPECIFIC',
-     16=>'HEPATOLOGY_SPECIFIC'
-   }
-  end
-
-  def self.ids_related_to(incoming_terms=[])
-    ids=[]
-    incoming_terms.each {|term|
-      searchable_term="%#{term.downcase}%"
-      terms=MeshTerm.where('downcase_mesh_term like ?',searchable_term).pluck("mesh_term").uniq
-      terms.each{|term|
-        t=term.downcase
-        ids << BrowseCondition.where('downcase_mesh_term = ?',t).pluck(:nct_id).uniq
-        ids << BrowseIntervention.where('downcase_mesh_term = ?',t).pluck(:nct_id).uniq
-      }
-    }
-    ids.flatten.uniq
-  end
-
 end
