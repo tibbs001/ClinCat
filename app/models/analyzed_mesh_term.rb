@@ -9,16 +9,16 @@ class AnalyzedMeshTerm < ActiveRecord::Base
       term=line_array[1].strip
       if !qualifier.nil? and qualifier != 'MESH_ID'
         new(:qualifier=>qualifier,
-            :tree_number=>tree,
+            :identifier=>tree,
             :description=>desc,
-            :downcase_mesh_term=>term.downcase,
-            :mesh_term=>term,
+            :downcase_term=>term.downcase,
+            :term=>term,
         ).save
         (3..16).each{|i|
           if line_array[i]=='Y'
             CategorizedTerm.create(
-              :tree_number=>tree,
-              :clinical_category=>indexed_categories[i],
+              :identifier=>tree,
+              :clinical_category=>ClinicalCategory.indexed_categories[i],
               :term_type=>'mesh'
             ).save!
           end

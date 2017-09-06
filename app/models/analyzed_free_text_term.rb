@@ -1,20 +1,20 @@
 class AnalyzedFreeTextTerm < ActiveRecord::Base
   def self.populate_from_file(file_name=Rails.root.join('csv','analyzed_free_text_terms.csv'))
-    puts "about to populate table of old free text terms..."
+
     File.open(file_name).each_line{|line|
       line_array=line.split('|')
       old_id=line_array[0]
       term=line_array[1].strip
       if !old_id.nil? and old_id != 'FREE_TEXT_CONDITION_ID'
-        new(:old_id=>old_id,
-            :free_text_term=>term,
-            :downcase_free_text_term=>term.downcase,
+        new(:identifier=>old_id,
+            :term=>term,
+            :downcase_term=>term.downcase,
         ).save
         (2..15).each{|i|
           if line_array[i]=='Y'
             CategorizedTerm.create(
-              :old_id=>old_id,
-              :clinical_category=>indexed_categories[i],
+              :identifier=>old_id,
+              :clinical_category=>ClinicalCategory.indexed_categories[i],
               :term_type=>'free'
             ).save!
           end

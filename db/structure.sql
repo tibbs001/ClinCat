@@ -40,9 +40,9 @@ SET default_with_oids = false;
 
 CREATE TABLE analyzed_free_text_terms (
     id integer NOT NULL,
-    old_id integer,
-    free_text_term character varying,
-    downcase_free_text_term character varying
+    identifier character varying,
+    term character varying,
+    downcase_term character varying
 );
 
 
@@ -72,10 +72,10 @@ ALTER SEQUENCE analyzed_free_text_terms_id_seq OWNED BY analyzed_free_text_terms
 CREATE TABLE analyzed_mesh_terms (
     id integer NOT NULL,
     qualifier character varying,
-    tree_number character varying,
-    description character varying,
-    mesh_term character varying,
-    downcase_mesh_term character varying
+    identifier character varying,
+    term character varying,
+    downcase_term character varying,
+    description character varying
 );
 
 
@@ -104,8 +104,7 @@ ALTER SEQUENCE analyzed_mesh_terms_id_seq OWNED BY analyzed_mesh_terms.id;
 
 CREATE TABLE categorized_terms (
     id integer NOT NULL,
-    old_id integer,
-    tree_number character varying,
+    identifier character varying,
     clinical_category character varying,
     term_type character varying
 );
@@ -372,17 +371,17 @@ ALTER TABLE ONLY y2016_mesh_terms
 
 
 --
--- Name: index_analyzed_free_text_terms_on_downcase_free_text_term; Type: INDEX; Schema: public; Owner: -
+-- Name: index_analyzed_free_text_terms_on_downcase_term; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE INDEX index_analyzed_free_text_terms_on_downcase_free_text_term ON analyzed_free_text_terms USING btree (downcase_free_text_term);
+CREATE INDEX index_analyzed_free_text_terms_on_downcase_term ON analyzed_free_text_terms USING btree (downcase_term);
 
 
 --
--- Name: index_analyzed_free_text_terms_on_free_text_term; Type: INDEX; Schema: public; Owner: -
+-- Name: index_analyzed_free_text_terms_on_term; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE INDEX index_analyzed_free_text_terms_on_free_text_term ON analyzed_free_text_terms USING btree (free_text_term);
+CREATE INDEX index_analyzed_free_text_terms_on_term ON analyzed_free_text_terms USING btree (term);
 
 
 --
@@ -393,17 +392,10 @@ CREATE INDEX index_analyzed_mesh_terms_on_description ON analyzed_mesh_terms USI
 
 
 --
--- Name: index_analyzed_mesh_terms_on_downcase_mesh_term; Type: INDEX; Schema: public; Owner: -
+-- Name: index_analyzed_mesh_terms_on_downcase_term; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE INDEX index_analyzed_mesh_terms_on_downcase_mesh_term ON analyzed_mesh_terms USING btree (downcase_mesh_term);
-
-
---
--- Name: index_analyzed_mesh_terms_on_mesh_term; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX index_analyzed_mesh_terms_on_mesh_term ON analyzed_mesh_terms USING btree (mesh_term);
+CREATE INDEX index_analyzed_mesh_terms_on_downcase_term ON analyzed_mesh_terms USING btree (downcase_term);
 
 
 --
@@ -414,6 +406,13 @@ CREATE INDEX index_analyzed_mesh_terms_on_qualifier ON analyzed_mesh_terms USING
 
 
 --
+-- Name: index_analyzed_mesh_terms_on_term; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_analyzed_mesh_terms_on_term ON analyzed_mesh_terms USING btree (term);
+
+
+--
 -- Name: index_categorized_terms_on_clinical_category; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -421,17 +420,17 @@ CREATE INDEX index_categorized_terms_on_clinical_category ON categorized_terms U
 
 
 --
+-- Name: index_categorized_terms_on_identifier; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_categorized_terms_on_identifier ON categorized_terms USING btree (identifier);
+
+
+--
 -- Name: index_categorized_terms_on_term_type; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX index_categorized_terms_on_term_type ON categorized_terms USING btree (term_type);
-
-
---
--- Name: index_categorized_terms_on_tree_number; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX index_categorized_terms_on_tree_number ON categorized_terms USING btree (tree_number);
 
 
 --
