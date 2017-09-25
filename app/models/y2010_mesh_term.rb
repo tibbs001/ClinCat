@@ -7,11 +7,13 @@ class Y2010MeshTerm < ActiveRecord::Base
       qualifier=tree.split('.').first
       term=line_array.last.strip
       if !qualifier.nil?
-        new(:qualifier=>qualifier,
-            :tree_number=>tree,
-            :downcase_mesh_term=>term.downcase,
-            :mesh_term=>term,
-          ).save!
+        if where('tree_number=?',tree).empty?
+          new(:qualifier=>qualifier,
+              :tree_number=>tree,
+              :downcase_mesh_term=>term.downcase,
+              :mesh_term=>term,
+            ).save!
+        end
       end
     }
   end
