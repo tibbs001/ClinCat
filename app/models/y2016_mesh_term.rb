@@ -8,12 +8,14 @@ class Y2016MeshTerm < ActiveRecord::Base
       desc=line_array[1]
       term=line.split('|').last.strip
       if !qualifier.nil?
-        new(:qualifier=>qualifier,
-            :tree_number=>tree,
-            :description=>desc,
-            :downcase_mesh_term=>term.downcase,
-            :mesh_term=>term,
-           ).save!
+        if where('tree_number=?',tree).empty?
+          new(:qualifier=>qualifier,
+              :tree_number=>tree,
+              :description=>desc,
+              :downcase_mesh_term=>term.downcase,
+              :mesh_term=>term,
+             ).save!
+          end
       end
     }
   end
