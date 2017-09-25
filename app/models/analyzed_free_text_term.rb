@@ -10,11 +10,11 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
             :term=>term,
             :downcase_term=>term.downcase,
         ).save
-        (2..15).each{|i|
+        (2..24).each{|i|
           if line_array[i]=='Y'
             CategorizedTerm.create(
               :identifier=>old_id,
-              :clinical_category=>ClinicalCategory.indexed_categories[i],
+              :clinical_category=>ClinicalCategory.indexed_free_text_categories[i],
               :term_type=>'free'
             ).save!
           end
