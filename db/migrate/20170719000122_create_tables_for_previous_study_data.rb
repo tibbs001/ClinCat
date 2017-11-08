@@ -11,7 +11,6 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
       t.string  'identifier'
       t.string  'term'
       t.string  'downcase_term'
-      t.string  'description'
     end
 
     create_table :analyzed_free_text_terms do |t|
@@ -32,7 +31,6 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
     add_index :analyzed_free_text_terms, :term
     add_index :analyzed_free_text_terms, :downcase_term
     add_index :analyzed_mesh_terms, :qualifier
-    add_index :analyzed_mesh_terms, :description
     add_index :analyzed_mesh_terms, :term
     add_index :analyzed_mesh_terms, :downcase_term
   end

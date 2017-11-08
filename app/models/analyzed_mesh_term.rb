@@ -5,12 +5,10 @@ class AnalyzedMeshTerm < ActiveRecord::Base
       line_array=line.split('|')
       tree=line_array.first
       qualifier=tree.split('.').first
-      desc=''
       term=line_array[1].strip
       if !qualifier.nil? and qualifier != 'MESH_ID'
         new(:qualifier=>qualifier,
             :identifier=>tree,
-            :description=>desc,
             :downcase_term=>term.downcase,
             :term=>term,
         ).save
