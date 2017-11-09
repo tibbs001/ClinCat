@@ -1,8 +1,13 @@
 class CategorizedTerm < ActiveRecord::Base
 
+  belongs_to :analyzed_mesh_term
+  belongs_to :analyzed_free_text_term
+
   def self.create_for(line, year, term_type)
 
-    (2..line.size).each{|i|
+    start_point=1 if term_type == 'free'
+    start_point=2 if term_type == 'mesh'
+    (start_point..line.size).each{|i|
       if line[i] && line[i].gsub(/\n/,"")=='Y'
         new(
           :identifier=>line.first,

@@ -1,5 +1,7 @@
 class AnalyzedMeshTerm < ActiveRecord::Base
 
+  has_many :categorized_terms, :foreign_key => 'identifier', :dependent => :delete_all
+
   def self.populate_from_file(file_name, year)
     puts "about to populate table of analyzed mesh terms..."
     contents=File.open(file_name)
