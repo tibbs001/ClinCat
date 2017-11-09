@@ -1,0 +1,4111 @@
+CONDITION|PULMONARY|TRANSPLANT|MANUAL_YEAR
+healthy|N||Both
+breast cancer|N||Both
+diabetes|N||Both
+prostate cancer|N||Both
+type 2 diabetes|N||Both
+type 2 diabetes mellitus|N||Both
+healthy volunteers|N||Both
+hiv|N||New only
+cancer|N||Both
+rheumatoid arthritis|N||Both
+colorectal cancer|N||Both
+influenza|N||Both
+lung cancer|N||Both
+non-small cell lung cancer|N||Both
+chronic obstructive pulmonary disease|Y||Both
+alzheimer's disease|N||Both
+major depressive disorder|N||Both
+parkinson's disease|N||Both
+cardiovascular disease|N||Both
+pancreatic cancer|N||Both
+chronic kidney disease|N||Both
+hepatocellular carcinoma|N||Both
+ovarian cancer|N||Both
+metabolic syndrome|N||Both
+type 1 diabetes|N||Both
+postoperative pain|N||Both
+solid tumors|N||Both
+gastric cancer|N||Both
+acute myeloid leukemia|N||Both
+healthy subjects|N||Both
+head and neck cancer|N||Both
+copd|Y||Both
+obstructive sleep apnea|Y||Both
+crohn's disease|N||Both
+metastatic breast cancer|N||Both
+spinal cord injury|N||Both
+chronic lymphocytic leukemia|N||Both
+ulcerative colitis|N||Both
+knee osteoarthritis|N||Both
+myelodysplastic syndrome|N||Both
+traumatic brain injury|N||Both
+hiv infection|N||Both
+quality of life|N||New only
+physical activity|N||Both
+cervical cancer|N||Both
+healthy volunteer|N||Both
+insomnia|N||Both
+bladder cancer|N||Both
+mild cognitive impairment|N||Both
+atopic dermatitis|N||Both
+rectal cancer|N||Both
+type 1 diabetes mellitus|N||Both
+surgery|N||Both
+advanced solid tumors|N||Both
+esophageal cancer|N||Both
+non small cell lung cancer|N||Both
+metastatic colorectal cancer|N||Both
+colon cancer|N||Both
+schizoaffective disorder|N||Both
+chronic obstructive pulmonary disease (copd)|Y||Both
+end stage renal disease|N||Both
+attention deficit hyperactivity disorder|N||Both
+dyslipidemia|N||Both
+ischemic stroke|N||Both
+advanced cancer|N||Both
+allergic rhinitis|N||Both
+posttraumatic stress disorder|N||Both
+hyperlipidemia|N||Both
+migraine|N||Both
+acute lymphoblastic leukemia|N||Both
+sickle cell disease|N||Both
+nicotine dependence|N||Both
+solid tumor|N||Both
+chronic hepatitis c|N||Both
+glioblastoma multiforme|N||Both
+renal cell carcinoma|N||Both
+pulmonary arterial hypertension|Y||Both
+overactive bladder|N||Both
+"unspecified adult solid tumor| protocol specific"|N||Both
+acute myocardial infarction|N||Both
+alcohol dependence|N||Both
+septic shock|Y||Both
+cirrhosis|N||Both
+systemic lupus erythematosus|N||Both
+coronary heart disease|N||Both
+congestive heart failure|N||Both
+liver cancer|N||Both
+stress|N||Both
+diabetic macular edema|N||Both
+chronic hepatitis b|N||Both
+pulmonary hypertension|Y||Both
+non-hodgkin's lymphoma|N||Both
+morbid obesity|N||Both
+hiv-1 infection|N||Both
+stage iv breast cancer|N||Both
+ptsd|N||Both
+endometrial cancer|N||Both
+diabetes mellitus type 2|N||Both
+fallopian tube cancer|N||Both
+chronic low back pain|N||Both
+age-related macular degeneration|N||Both
+cardiac arrest|N||Both
+autism|N||Both
+major depression|N||Both
+metastatic melanoma|N||Both
+substance abuse|N||Both
+actinic keratosis|N||Both
+stage iiic breast cancer|N||Both
+respiratory failure|Y||Both
+dry eye|N||Both
+inflammatory bowel disease|N||Both
+neuropathic pain|N||Both
+acute myelogenous leukemia|N||Both
+metastatic cancer|N||Both
+diffuse large b-cell lymphoma|N||Both
+plaque psoriasis|N||Both
+recurrent adult acute myeloid leukemia|N||Both
+stage iiib breast cancer|N||Both
+essential hypertension|N||Both
+seasonal allergic rhinitis|N||Both
+stage iiia breast cancer|N||Both
+gastroesophageal reflux disease|N||Both
+adhd|N||Both
+chronic heart failure|N||Both
+osteoarthritis of the knee|N||Both
+post-traumatic stress disorder|N||Both
+alcohol abuse|N||Both
+peripheral artery disease|N||Both
+benign prostatic hyperplasia|N||Both
+generalized anxiety disorder|N||Both
+human immunodeficiency virus|N||Both
+cocaine dependence|N||Both
+small cell lung cancer|N||Both
+prediabetes|N||Both
+mantle cell lymphoma|N||Both
+trauma|N||Both
+childhood obesity|N||Both
+end-stage renal disease|N||Both
+endothelial dysfunction|N||Both
+heart disease|N||Both
+ischemic heart disease|N||Both
+sleep apnea|Y||Both
+follicular lymphoma|N||Both
+malignant melanoma|N||Both
+recurrent mantle cell lymphoma|N||Both
+hodgkin lymphoma|N||Both
+renal impairment|N||Both
+iron deficiency|N||Both
+nasopharyngeal carcinoma|N||Both
+"infection| human immunodeficiency virus"|N||Both
+children|N||Both
+open-angle glaucoma|N||Both
+cigarette smoking|N||Both
+elderly|N||Both
+peripheral vascular disease|N||Both
+stage iv non-small cell lung cancer|N||New only
+cardiac surgery|N||Both
+obese|N||Both
+congenital heart disease|N||Both
+nsclc|N||Both
+diabetic nephropathy|N||Both
+recurrent small lymphocytic lymphoma|N||Both
+acute respiratory distress syndrome|Y||Both
+adult acute myeloid leukemia with 11q23 (mll) abnormalities|N||Both
+brain metastases|N||Both
+cerebrovascular accident|N||Both
+renal failure|N||Both
+adult acute myeloid leukemia with t(16;16)(p13;q22)|N||Both
+bleeding|N||Both
+duchenne muscular dystrophy|N||Both
+dysphagia|N||Both
+brain tumor|N||Both
+kidney cancer|N||Both
+small lymphocytic lymphoma|N||Both
+total knee arthroplasty|N||Both
+adult acute myeloid leukemia with inv(16)(p13;q22)|N||Both
+adult acute myeloid leukemia with t(8;21)(q22;q22)|N||Both
+advanced cancers|N||Both
+chronic myelogenous leukemia|N||Both
+chronic myeloid leukemia|N||Both
+critical limb ischemia|N||Both
+dietary modification|N||New only
+non-hodgkin lymphoma|N||Both
+severe sepsis|Y||Both
+psychosis|N||Both
+uterine fibroids|N||Both
+cognitive impairment|N||Both
+diabetic foot ulcer|N||Both
+hepatic impairment|N||Both
+recurrent breast cancer|N||Both
+hematologic malignancies|N||Both
+aids|N||Both
+allergy|N||Both
+ankylosing spondylitis|N||Both
+recurrent grade 1 follicular lymphoma|N||Both
+recurrent grade 2 follicular lymphoma|N||Both
+sleep disorders|Y||New only
+soft tissue sarcoma|N||Both
+squamous cell carcinoma of the head and neck|N||Both
+stress urinary incontinence|N||Both
+recurrent adult diffuse large cell lymphoma|N||Both
+iron deficiency anemia|N||Both
+post-operative pain|N||Both
+stage iv prostate cancer|N||Both
+adult acute myeloid leukemia with del(5q)|N||Both
+autism spectrum disorders|N||Both
+chronic myelomonocytic leukemia|N||Both
+head and neck squamous cell carcinoma|N||Both
+helicobacter pylori infection|N||Both
+hepatitis c virus|N||Both
+inguinal hernia|N||Both
+myeloma|N||Both
+pancreatic adenocarcinoma|N||Both
+preterm birth|N||Both
+psoriasis vulgaris|N||Both
+recurrent grade 3 follicular lymphoma|N||Both
+refractive error|N||Both
+refractory chronic lymphocytic leukemia|N||Both
+hemodialysis|N||Both
+recurrent marginal zone lymphoma|N||Both
+stage ii breast cancer|N||Both
+tobacco dependence|N||Both
+untreated adult acute myeloid leukemia|N||Both
+graft versus host disease|N||Both
+hip fracture|N||Both
+impaired glucose tolerance|N||Both
+paroxysmal atrial fibrillation|N||Both
+peripheral t-cell lymphoma|N||Both
+recurrent ovarian carcinoma|N||New only
+secondary acute myeloid leukemia|N||Both
+stable angina|N||Both
+urinary tract infection|N||Both
+diabetic foot ulcers|N||Both
+malignant glioma|N||Both
+overweight and obesity|N||Both
+psoriatic arthritis|N||Both
+recurrent adult acute lymphoblastic leukemia|N||Both
+stage iiib non-small cell lung cancer|N||New only
+surgical site infection|N||Both
+bipolar depression|N||Both
+deep vein thrombosis|N||Both
+dry eye syndrome|N||Both
+insulin sensitivity|N||Both
+pertussis|Y||Both
+allergic conjunctivitis|N||Both
+brain cancer|N||Both
+general anesthesia|N||Both
+myelofibrosis|N||Both
+pre-diabetes|N||Both
+preeclampsia|N||Both
+recurrent melanoma|N||New only
+splenic marginal zone lymphoma|N||Both
+thyroid cancer|N||Both
+acne|N||Both
+adenocarcinoma of the prostate|N||Both
+anxiety disorder|N||Both
+depressive symptoms|N||Both
+metastatic pancreatic cancer|N||Both
+osteopenia|N||Both
+accidental falls|N||New only
+chronic renal failure|N||Both
+liver metastases|N||Both
+peripheral neuropathy|N||Both
+substance use|N||Both
+hiv/aids|N||Both
+tumors|N||Both
+aortic stenosis|N||Both
+recurrent breast carcinoma|N||New only
+stage iiia non-small cell lung cancer|N||New only
+acute respiratory failure|Y||Both
+epithelial ovarian cancer|N||Both
+gestational diabetes|N||Both
+squamous cell carcinoma|N||Both
+stage ib breast cancer|N||New only
+cardiomyopathy|N||Both
+hemiparesis|N||Both
+her2/neu negative|N||New only
+hodgkin's lymphoma|N||Both
+liver disease|N||Both
+metastatic renal cell carcinoma|N||Both
+nodal marginal zone b-cell lymphoma|N||Both
+systemic sclerosis|N||Both
+anaplastic astrocytoma|N||Both
+extranodal marginal zone b-cell lymphoma of mucosa-associated lymphoid tissue|N||Both
+kidney disease|N||Both
+opioid dependence|N||Both
+recurrent prostate cancer|N||Both
+relapsing-remitting multiple sclerosis|N||Both
+alcohol use disorder|N||New only
+clostridium difficile infection|N||New only
+critically ill|Y||Both
+malignant neoplasm|N||New only
+respiratory distress syndrome|Y||Both
+stage ia breast cancer|N||New only
+acute myeloid leukemia (aml)|N||Both
+breastfeeding|N||Both
+obsessive compulsive disorder|N||Both
+obstructive sleep apnea syndrome|Y||Both
+recurrent adult burkitt lymphoma|N||Both
+sedation|N||Both
+acute lymphocytic leukemia|N||Both
+brain and central nervous system tumors|N||Both
+brain injury|N||Both
+gestational diabetes mellitus|N||Both
+myelodysplastic syndrome (mds)|N||Both
+prematurity|N||Both
+recurrent primary peritoneal carcinoma|N||New only
+wounds|N||Both
+age related macular degeneration|N||Both
+bacterial vaginosis|N||Both
+child|N||New only
+recurrent fallopian tube carcinoma|N||New only
+social anxiety disorder|N||Both
+alcohol consumption|N||Both
+recurrent adult lymphoblastic lymphoma|N||Both
+stage iv melanoma|N||Both
+triple negative breast cancer|N||Both
+breast carcinoma|N||Both
+degenerative disc disease|N||Both
+hepatitis c virus infection|N||Both
+primary open angle glaucoma|N||Both
+stage iv pancreatic cancer|N||New only
+anaemia|N||Both
+androgenetic alopecia|N||Both
+barrett's esophagus|N||Both
+colorectal carcinoma|N||Both
+drug abuse|N||Both
+multiple myeloma and plasma cell neoplasm|N||Both
+open angle glaucoma|N||Both
+peritoneal cancer|N||Both
+portal hypertension|N||Both
+recurrent adult diffuse small cleaved cell lymphoma|N||Both
+recurrent adult hodgkin lymphoma|N||Both
+angioimmunoblastic t-cell lymphoma|N||Both
+refractory multiple myeloma|N||Both
+sunscreening agents|N||New only
+anaplastic large cell lymphoma|N||Both
+congenital bleeding disorder|N||New only
+functional dyspepsia|N||Both
+healthy participants|N||New only
+neoplasm|N||Both
+non-small-cell lung cancer|N||Both
+post operative pain|N||Both
+post traumatic stress disorder|N||Both
+recurrent adult diffuse mixed cell lymphoma|N||Both
+recurrent cutaneous t-cell non-hodgkin lymphoma|N||Both
+skin cancer|N||Both
+stage iv renal cell cancer|N||Both
+substance use disorders|N||Both
+abdominal aortic aneurysm|N||Both
+adult acute myeloid leukemia in remission|N||Both
+adult acute myeloid leukemia with t(15;17)(q22;q12)|N||Both
+adult glioblastoma|N||Both
+aml|N||Both
+complications|N||Both
+diabetes type 2|N||Both
+gastric adenocarcinoma|N||New only
+huntington's disease|N||Both
+juvenile idiopathic arthritis|N||Both
+mds|N||Both
+periodontal disease|N||Both
+ventricular tachycardia|N||Both
+chemotherapy-induced nausea and vomiting|N||Both
+chronic hepatitis c infection|N||Both
+estrogen receptor negative|N||New only
+persistent atrial fibrillation|N||Both
+proliferative diabetic retinopathy|N||Both
+recurrent mycosis fungoides/sezary syndrome|N||Both
+relapsing remitting multiple sclerosis|N||Both
+renal transplantation|N||Both
+secondary hyperparathyroidism|N||Both
+aplastic anemia|N||Both
+cataracts|N||Both
+hormone-resistant prostate cancer|N||New only
+recurrent non-small cell lung cancer|N||New only
+recurrent non-small cell lung carcinoma|N||New only
+rotator cuff tear|N||Both
+vascular disease|N||Both
+acute ischemic stroke|N||Both
+postpartum depression|N||Both
+acute leukemia|N||Both
+adult nasal type extranodal nk/t-cell lymphoma|N||Both
+migraine headache|N||Both
+recurrent adult grade iii lymphomatoid granulomatosis|N||Both
+recurrent adult immunoblastic large cell lymphoma|N||Both
+sickle cell anemia|N||Both
+stage iia breast cancer|N||New only
+biliary tract cancer|N||Both
+bone metastases|N||Both
+esophageal squamous cell carcinoma|N||New only
+gastrointestinal cancer|N||Both
+meningococcal disease|N||Both
+metastatic pancreatic adenocarcinoma|N||New only
+non-small cell lung cancer (nsclc)|N||Both
+primary peritoneal carcinoma|N||Both
+stage iib breast cancer|N||New only
+acute stroke|N||Both
+adult gliosarcoma|N||Both
+binge eating disorder|N||Both
+breast neoplasm|N||Both
+cancer survivor|N||Both
+hip osteoarthritis|N||Both
+interstitial lung disease|Y||Both
+opiate dependence|N||Both
+oral mucositis|N||Both
+precancerous condition|N||Both
+primary peritoneal cancer|N||Both
+waldenstrã¶m macroglobulinemia|N||New only
+basal cell carcinoma|N||Both
+chronic pancreatitis|N||Both
+dengue fever|N||Both
+kidney failure|N||New only
+methamphetamine dependence|N||Both
+non-squamous non-small cell lung cancer|N||New only
+perennial allergic rhinitis|N||Both
+progesterone receptor negative|N||New only
+schizophreniform disorder|N||Both
+unstable angina|N||Both
+adult giant cell glioblastoma|N||Both
+bioavailability|N||Both
+cutaneous b-cell non-hodgkin lymphoma|N||Both
+eating disorders|N||New only
+gerd|N||Both
+hodgkin's disease|N||Both
+male breast cancer|N||Both
+safety|N||New only
+social phobia|N||Both
+spasticity|N||Both
+transient ischemic attack|N||Both
+urothelial carcinoma|N||New only
+acute coronary syndromes|N||Both
+aged|N||New only
+arrhythmia|N||Both
+attention deficit hyperactivity disorder (adhd)|N||New only
+bipolar i disorder|N||Both
+growth hormone deficiency|N||Both
+hematological malignancies|N||Both
+hepatosplenic t-cell lymphoma|N||Both
+japanese encephalitis|N||Both
+malignant pleural mesothelioma|N||Both
+metastasis|N||Both
+postherpetic neuralgia|N||Both
+recurrent adult t-cell leukemia/lymphoma|N||Both
+solid tumours|N||New only
+advanced solid tumor|N||Both
+cardiovascular risk factors|N||Both
+interstitial cystitis|N||Both
+meningococcal meningitis|N||Both
+ovarian carcinoma|N||Both
+prostate adenocarcinoma|N||New only
+stage iii pancreatic cancer|N||New only
+wrinkles|N||New only
+adenocarcinoma of the gastroesophageal junction|N||Both
+adult acute myeloblastic leukemia without maturation (m1)|N||New only
+adult erythroleukemia (m6a)|N||Both
+adult pure erythroid leukemia (m6b)|N||Both
+anaesthesia|N||Both
+b-cell chronic lymphocytic leukemia|N||Both
+chronic fatigue syndrome|N||Both
+endotracheal intubation|Y||Both
+haemophilus influenzae type b|N||Both
+healthy adults|N||Both
+in vitro fertilization|N||Both
+intracerebral hemorrhage|N||Both
+mechanical ventilation|Y||Both
+recurrent childhood acute myeloid leukemia|N||Both
+refractory hairy cell leukemia|N||Both
+addiction|N||New only
+adult acute lymphoblastic leukemia in remission|N||Both
+adult acute monoblastic leukemia (m5a)|N||Both
+adult acute monocytic leukemia (m5b)|N||Both
+adult acute myeloblastic leukemia with maturation (m2)|N||New only
+adult acute myelomonocytic leukemia (m4)|N||New only
+agitation|N||Both
+blood loss|N||New only
+brain tumors|N||Both
+chronic sinusitis|N||Both
+cognitive function|N||Both
+coronary artery stenosis|N||Both
+previously treated myelodysplastic syndromes|N||Both
+primary insomnia|N||Both
+prolymphocytic leukemia|N||Both
+recurrent rectal cancer|N||Both
+sexual dysfunction|N||Both
+stage iii prostate cancer|N||Both
+stage iv ovarian cancer|N||New only
+subfertility|N||Both
+triple-negative breast carcinoma|N||New only
+acellular pertussis|N||New only
+adult acute megakaryoblastic leukemia (m7)|N||Both
+allergic rhinoconjunctivitis|N||Both
+chronic liver disease|N||Both
+complications; cesarean section|N||New only
+diabetic neuropathy|N||Both
+estrogen receptor positive|N||New only
+haemophilia a|N||Both
+high blood pressure|N||Both
+idiopathic parkinson's disease|N||Both
+infections|N||Both
+"infections| streptococcal"|N||New only
+kidney transplant|N||Both
+postoperative ileus|N||Both
+recurrent prostate carcinoma|N||New only
+scleroderma|N||Both
+sexually transmitted infections|N||Both
+stage iib prostate cancer|N||New only
+violence|N||New only
+acute heart failure|N||Both
+acute pancreatitis|N||Both
+advanced gastric cancer|N||Both
+caries|N||New only
+chronic lymphocytic leukemia (cll)|N||Both
+clostridium difficile|N||New only
+colorectal cancer metastatic|N||New only
+diffuse large b cell lymphoma|N||New only
+dilated cardiomyopathy|N||Both
+hiv-1|N||New only
+iga nephropathy|N||Both
+neovascular age-related macular degeneration|N||New only
+nonalcoholic steatohepatitis|N||Both
+pancreas cancer|N||Both
+plantar fasciitis|N||Both
+postmenopausal osteoporosis|N||Both
+recurrent colon cancer|N||Both
+sleep disordered breathing|Y||Both
+stage iv skin melanoma|N||New only
+"stroke| acute"|N||Both
+total knee replacement|N||Both
+treatment resistant depression|N||Both
+triple-negative breast cancer|N||New only
+acute renal failure|N||Both
+ankle sprain|N||Both
+concussion|N||New only
+distal radius fracture|N||New only
+human papillomavirus|N||New only
+nafld|N||New only
+necrotizing enterocolitis|N||Both
+peanut allergy|N||Both
+preterm infants|N||Both
+psychological stress|N||New only
+stage i prostate cancer|N||Both
+stage iia prostate cancer|N||New only
+stage iii chronic lymphocytic leukemia|N||Both
+stage iii mantle cell lymphoma|N||Both
+stage iv mantle cell lymphoma|N||Both
+type ii diabetes mellitus|N||Both
+ventilator associated pneumonia|Y||Both
+abdominal obesity|N||Both
+achalasia|N||New only
+attention-deficit/hyperactivity disorder|N||Both
+avascular necrosis|N||Both
+chronic migraine|N||Both
+clear cell renal cell carcinoma|N||Both
+colorectal surgery|N||New only
+de novo myelodysplastic syndromes|N||Both
+"diabetes mellitus| non-insulin-dependent"|N||Both
+fracture|N||Both
+hypoxemia|Y||Both
+neuropathy|N||Both
+pressure ulcers|N||Both
+primary biliary cirrhosis|N||Both
+pulmonary tuberculosis|Y||Both
+stage iv chronic lymphocytic leukemia|N||Both
+adult solid neoplasm|N||New only
+advanced solid malignancies|N||Both
+arterial hypertension|N||Both
+endothelial function|N||Both
+"foot ulcer| diabetic"|N||Both
+graft-versus-host disease|N||Both
+immune thrombocytopenia|N||New only
+ischemic cardiomyopathy|N||Both
+kidney stones|N||Both
+lumbar spinal stenosis|N||Both
+pcos|N||Both
+polycystic ovarian syndrome|N||Both
+refractory plasma cell myeloma|N||New only
+small intestine lymphoma|N||Both
+stage iii grade 1 follicular lymphoma|N||Both
+stage iii grade 2 follicular lymphoma|N||Both
+stage iii grade 3 follicular lymphoma|N||Both
+stage iii multiple myeloma|N||Both
+stage iv grade 1 follicular lymphoma|N||Both
+stage iv grade 2 follicular lymphoma|N||Both
+stage iv grade 3 follicular lymphoma|N||Both
+substance use disorder|N||New only
+testicular lymphoma|N||Both
+tumor|N||Both
+"unspecified childhood solid tumor| protocol specific"|N||Both
+acute otitis media|N||Both
+adult acute minimally differentiated myeloid leukemia (m0)|N||New only
+atelectasis|Y||Both
+breast reconstruction|N||Both
+deep venous thrombosis|N||Both
+"diabetes mellitus| type ii"|N||Both
+domestic violence|N||New only
+ductal breast carcinoma in situ|N||New only
+gastrointestinal stromal tumor|N||Both
+lung disease|Y||Both
+nonalcoholic fatty liver disease|N||Both
+pulmonary disease|Y||New only
+stage i multiple myeloma|N||Both
+stage ii multiple myeloma|N||Both
+stage iii adult diffuse large cell lymphoma|N||Both
+stage iv adult diffuse large cell lymphoma|N||Both
+tetraplegia|N||Both
+tobacco smoking|N||Both
+uterine cancer|N||Both
+diabetes mellitus type 1|N||New only
+food allergy|N||Both
+functional constipation|N||New only
+hepatitis c infection|N||Both
+intubation; difficult|Y||New only
+lymphomas|N||Both
+mood|N||Both
+phenylketonuria|N||Both
+postoperative cognitive dysfunction|N||Both
+recurrent adult brain tumor|N||Both
+stage iv small lymphocytic lymphoma|N||Both
+substance dependence|N||Both
+uveal melanoma|N||Both
+ventilator-associated pneumonia|Y||New only
+allergic asthma|Y||Both
+bone loss|N||Both
+cancer of head and neck|N||New only
+"carcinoma| squamous cell of head and neck"|N||New only
+chronic constipation|N||Both
+chronic renal insufficiency|N||Both
+diabetic peripheral neuropathy|N||Both
+drug safety|N||New only
+drug use|N||New only
+dry eye disease|N||Both
+hcv infection|N||Both
+human immunodeficiency virus (hiv)|N||Both
+pancreatic ductal adenocarcinoma|N||New only
+phantom limb pain|N||Both
+post-transplant lymphoproliferative disorder|N||Both
+recurrent childhood acute lymphoblastic leukemia|N||Both
+recurrent plasma cell myeloma|N||New only
+stage iii renal cell cancer|N||New only
+stage iii small lymphocytic lymphoma|N||Both
+total hip arthroplasty|N||New only
+alcohol use|N||New only
+angina|N||Both
+aortic valve disease|N||Both
+bronchial asthma|Y||Both
+chronic insomnia|N||Both
+community acquired pneumonia|Y||Both
+hemodynamic instability|N||New only
+hepatocellular cancer|N||Both
+hiv prevention|N||Both
+"infant| newborn"|N||New only
+"infant| premature"|N||New only
+non-small cell lung cancer metastatic|N||New only
+plasmodium falciparum malaria|N||Both
+recurrent adult soft tissue sarcoma|N||New only
+relapsing chronic myelogenous leukemia|N||Both
+spinal muscular atrophy|N||New only
+stage iiic ovarian cancer|N||New only
+sunscreening agent|N||New only
+thoracic surgery|N||New only
+actinic keratoses|N||Both
+alcohol use disorders|N||New only
+anaplastic oligodendroglioma|N||Both
+b-cell lymphoma|N||Both
+central retinal vein occlusion|N||Both
+chemotherapy|N||Both
+coronary atherosclerosis|N||Both
+dengue hemorrhagic fever|N||New only
+diastolic heart failure|N||Both
+ewing sarcoma|N||New only
+fungal infection|N||Both
+hereditary angioedema|N||Both
+liver metastasis|N||Both
+mechanical ventilation complication|Y||New only
+mental health wellness 1|N||New only
+non-alcoholic steatohepatitis|N||New only
+oropharyngeal cancer|N||Both
+patent ductus arteriosus|N||Both
+peritoneal carcinomatosis|N||New only
+primary sclerosing cholangitis|N||Both
+renal cancer|N||Both
+satisfaction|N||New only
+scar|N||New only
+severe aplastic anemia|N||New only
+stemi|N||New only
+stomach cancer|N||Both
+unipolar depression|N||Both
+acute lymphoblastic leukemia (all)|N||New only
+advanced hepatocellular carcinoma|N||Both
+anal cancer|N||Both
+bacterial infection|N||Both
+burn|N||Both
+cannabis dependence|N||Both
+cutaneous leishmaniasis|N||Both
+falls|N||Both
+hematologic malignancy|N||New only
+liver fibrosis|N||Both
+lymphoblastic lymphoma|N||Both
+marginal zone lymphoma|N||Both
+metabolism and nutrition disorder|N||New only
+mild traumatic brain injury|N||Both
+non-small-cell lung carcinoma|N||Both
+obesity prevention|N||Both
+opioid use disorder|N||New only
+ovarian endometrioid adenocarcinoma|N||New only
+partial edentulism|N||New only
+recurrent pancreatic cancer|N||New only
+renal transplant|Y|Y|Both
+tongue cancer|N||New only
+type ii diabetes|N||Both
+varicella|N||Both
+ventral hernia|N||Both
+accelerated phase chronic myelogenous leukemia|N||Both
+amyotrophic lateral sclerosis (als)|N||New only
+bariatric surgery candidate|N||New only
+bowel preparation|N||Both
+chronic idiopathic constipation|N||New only
+chronic myeloproliferative disorders|N||Both
+chronic rhinosinusitis|N||Both
+drug addiction|N||Both
+end stage renal failure on dialysis|N||New only
+fallopian tube carcinoma|N||New only
+frail elderly|N||New only
+hcc|N||New only
+hematopoietic/lymphoid cancer|N||Both
+her2-negative breast cancer|N||New only
+her2-positive breast cancer|N||New only
+"infant| small for gestational age"|N||New only
+"infections| meningococcal"|N||New only
+"infections| papillomavirus"|N||New only
+malignancy|N||Both
+meibomian gland dysfunction|N||New only
+melanoma (skin)|N||Both
+myelodysplastic/myeloproliferative neoplasms|N||Both
+non-small cell lung carcinoma|N||New only
+oncology|N||Both
+opiate addiction|N||Both
+plasma cell myeloma|N||New only
+pompe disease|N||New only
+radiation toxicity|N||Both
+recurrent ovarian epithelial cancer|N||Both
+secondary myelodysplastic syndromes|N||Both
+st-elevation myocardial infarction|N||Both
+stage iiia ovarian cancer|N||New only
+stage iiib ovarian cancer|N||New only
+stage iv adult soft tissue sarcoma|N||New only
+stage iva colon cancer|N||New only
+stage ivb colon cancer|N||New only
+t-cell large granular lymphocyte leukemia|N||New only
+treatment|N||Both
+adherence|N||New only
+adult anaplastic oligodendroglioma|N||Both
+advanced malignancies|N||Both
+benign prostate hyperplasia|N||New only
+cardiac arrhythmia|N||New only
+chronic bronchitis|Y||Both
+cocaine addiction|N||Both
+drug dependence|N||Both
+essential thrombocythemia|N||Both
+gallbladder cancer|N||Both
+her-2 positive breast cancer|N||New only
+incontinence|N||Both
+"infant| very low birth weight"|N||New only
+male infertility|N||New only
+malignant solid tumour|N||New only
+metastatic prostate cancer|N||Both
+methicillin-resistant staphylococcus aureus|N||Both
+mood disorder|N||Both
+non-hodgkins lymphoma|N||Both
+orthostatic hypotension|N||Both
+pediatrics|N||New only
+posttraumatic stress disorder (ptsd)|N||Both
+prevention|N||Both
+previously treated myelodysplastic syndrome|N||New only
+progressive supranuclear palsy|N||Both
+psychosocial effects of cancer and its treatment|N||Both
+renal cell cancer|N||Both
+renal failure chronic requiring hemodialysis|N||New only
+scars|N||Both
+sleep apnea syndrome|N||Both
+spinal anesthesia|N||Both
+stage iii adult lymphoblastic lymphoma|N||Both
+stage iv adult lymphoblastic lymphoma|N||Both
+stage iv fallopian tube cancer|N||New only
+stage iva rectal cancer|N||New only
+sudden cardiac death|N||Both
+acute decompensated heart failure|N||Both
+adenocarcinoma of the pancreas|N||New only
+adult anaplastic astrocytoma|N||Both
+blastic phase chronic myelogenous leukemia|N||Both
+body fat disorder|N||New only
+brain metastasis|N||New only
+chemotherapeutic agent toxicity|N||Both
+chronic phase chronic myelogenous leukemia|N||Both
+colorectal neoplasm|N||Both
+dental pain|N||Both
+diabetic kidney disease|N||New only
+effects of chemotherapy|N||New only
+fractures|N||Both
+gastroesophageal junction adenocarcinoma|N||New only
+gastroesophageal reflux disease (gerd)|N||Both
+heart valve disease|N||Both
+human papillomavirus infection|N||Both
+hypovitaminosis d|N||Both
+idiopathic thrombocytopenic purpura|N||Both
+"infections| bacterial"|N||New only
+lower back pain|N||Both
+major depressive disorder (mdd)|N||Both
+"myelodysplastic/myeloproliferative neoplasm| unclassifiable"|N||Both
+neurofibromatosis type 1|N||Both
+nonsmall cell lung cancer|N||New only
+nutrition|N||Both
+pharmacodynamics|N||Both
+postmenopausal|N||Both
+recurrent renal cell carcinoma|N||New only
+recurrent uterine corpus carcinoma|N||New only
+seasonal influenza|N||Both
+sedentary|N||Both
+stage iii marginal zone lymphoma|N||Both
+stage iiic fallopian tube cancer|N||New only
+stage iv adult burkitt lymphoma|N||Both
+stage iv marginal zone lymphoma|N||Both
+stage iv squamous cell carcinoma of the hypopharynx|N||New only
+stage ivb rectal cancer|N||New only
+untreated adult acute lymphoblastic leukemia|N||New only
+advanced adult hepatocellular carcinoma|N||New only
+advanced breast cancer|N||Both
+benign prostatic hyperplasia (bph)|N||Both
+cannabis|N||New only
+cervical adenocarcinoma|N||New only
+cognitive decline|N||Both
+community-acquired pneumonia|Y||Both
+coronary artery bypass grafting|N||Both
+cutaneous t-cell lymphoma|N||Both
+estrogen receptor-positive breast cancer|N||New only
+exudative age-related macular degeneration|N||New only
+female infertility|N||New only
+haemophilia b|N||New only
+healthy controls|N||Both
+laparoscopic cholecystectomy|N||Both
+melasma|N||Both
+metastatic prostate carcinoma|N||New only
+metastatic renal cell cancer|N||New only
+mitral regurgitation|N||Both
+nephropathy|N||Both
+neuromuscular disease|N||Both
+neurotoxicity|N||Both
+nicotine addiction|N||New only
+noncontiguous stage ii mantle cell lymphoma|N||Both
+noncontiguous stage ii small lymphocytic lymphoma|N||Both
+obstructive sleep apnea (osa)|Y||Both
+oral cancer|N||Both
+posttraumatic stress disorders|N||Both
+prostate neoplasms|N||New only
+relapsing multiple sclerosis|N||Both
+rhinosinusitis|N||Both
+skin laxity|N||New only
+solid cancers|N||Both
+solid neoplasm|N||New only
+stage i breast cancer|N||Both
+stage i chronic lymphocytic leukemia|N||Both
+stage ii chronic lymphocytic leukemia|N||Both
+stage iii adult burkitt lymphoma|N||Both
+stage iii adult diffuse small cleaved cell lymphoma|N||Both
+stage iii adult soft tissue sarcoma|N||New only
+stage iii breast cancer|N||New only
+stage iii squamous cell carcinoma of the oropharynx|N||New only
+stage iiia fallopian tube cancer|N||New only
+stage iiib fallopian tube cancer|N||New only
+stage iiic skin melanoma|N||New only
+stage iv adult diffuse small cleaved cell lymphoma|N||Both
+tolerability|N||Both
+undifferentiated ovarian carcinoma|N||New only
+weight|N||New only
+acute myelogenous leukemia (aml)|N||New only
+adhesive capsulitis|N||Both
+adolescent idiopathic scoliosis|N||New only
+advanced non-small cell lung cancer|N||Both
+ageing|N||New only
+airway morbidity|N||New only
+branch retinal vein occlusion|N||Both
+cancer of the breast|N||Both
+cancer of the prostate|N||Both
+cardiac disease|N||Both
+cesarean delivery|N||Both
+chronic kidney failure|N||Both
+claudication|N||New only
+"cognitive ability| general"|N||New only
+congenital heart defects|N||New only
+contrast induced nephropathy|N||Both
+copd exacerbation|Y||New only
+diarrhoea|N||Both
+education|N||New only
+erosive esophagitis|N||New only
+hypertrophic cardiomyopathy|N||Both
+hypoactive sexual desire disorder|N||Both
+ileostomy - stoma|N||New only
+intraventricular hemorrhage|N||Both
+knee arthroplasty|N||Both
+locally advanced malignant neoplasm|N||New only
+malignant pleural effusion|Y||New only
+mental illness|N||New only
+"neoplasms| breast"|N||Both
+noncontiguous stage ii adult diffuse large cell lymphoma|N||Both
+opioid-induced constipation|N||Both
+perioperative/postoperative complications|N||Both
+physical disability|N||New only
+polio|N||New only
+pre-hypertension|N||Both
+prostate cancer metastatic|N||New only
+recurrent chronic lymphocytic leukemia|N||New only
+recurrent glioblastoma|N||Both
+recurrent squamous cell carcinoma of the lip and oral cavity|N||New only
+rhinoconjunctivitis|N||Both
+specific phobia|N||New only
+squamous cell lung cancer|N||New only
+stage iii adult diffuse mixed cell lymphoma|N||Both
+stage iii adult hodgkin lymphoma|N||Both
+stage iii adult immunoblastic large cell lymphoma|N||Both
+stage iii squamous cell carcinoma of the lip and oral cavity|N||New only
+stage iv adult diffuse mixed cell lymphoma|N||Both
+stage iv adult hodgkin lymphoma|N||Both
+stage iv adult immunoblastic large cell lymphoma|N||Both
+stage iv colon cancer|N||Both
+stage iv gastric cancer|N||New only
+valvular heart disease|N||New only
+adult mixed glioma|N||Both
+adverse effects|N||New only
+alcoholic hepatitis|N||New only
+all|N||Both
+anterior cruciate ligament injury|N||New only
+autosomal dominant polycystic kidney disease|N||Both
+becker muscular dystrophy|N||Both
+bile duct cancer|N||Both
+"carcinoma| non-small cell lung"|N||Both
+chronic plaque psoriasis|N||Both
+diabetes prevention|N||Both
+diastolic dysfunction|N||Both
+diffuse intrinsic pontine glioma|N||New only
+disorder related to renal transplantation|Y|Y|New only
+endometrial carcinoma|N||New only
+endometrial clear cell adenocarcinoma|N||New only
+esophageal carcinoma|N||Both
+gynecologic cancer|N||New only
+healthy male volunteers|N||New only
+"healthy| no evidence of disease"|N||Both
+hemophilia|N||Both
+impaired cognition|N||New only
+induction of labor|N||Both
+intubation complication|Y||New only
+local anesthesia|N||New only
+lung adenocarcinoma|N||New only
+lymphoproliferative disorder|N||Both
+memory impairment|N||New only
+meniere's disease|N||New only
+mitral valve regurgitation|N||Both
+nausea and vomiting|N||Both
+non alcoholic fatty liver disease|N||New only
+non small cell lung cancer (nsclc)|N||Both
+oppositional defiant disorder|N||Both
+pathological gambling|N||Both
+patient satisfaction|N||New only
+pharmacokinetics of isavuconazole|N||New only
+premature birth of newborn|N||New only
+preterm labor|N||New only
+primary hyperparathyroidism|N||Both
+prostate carcinoma|N||New only
+recurrent diffuse large b-cell lymphoma|N||New only
+recurrent ovarian germ cell tumor|N||Both
+recurrent renal cell cancer|N||New only
+recurrent verrucous carcinoma of the oral cavity|N||New only
+relapse|N||Both
+respiratory depression|Y||New only
+secondary progressive multiple sclerosis|N||Both
+sleep disturbance|N||New only
+stage iva cervical cancer|N||New only
+systolic heart failure|N||New only
+type2 diabetes|N||New only
+venous leg ulcer|N||New only
+waldenstrom's macroglobulinemia|N||Both
+zinc deficiency|N||Both
+acquired brain injury|N||New only
+anaplastic oligoastrocytoma|N||New only
+axial spondyloarthritis|N||New only
+b-cell adult acute lymphoblastic leukemia|N||New only
+bioequivalence|N||New only
+castration-resistant prostate cancer|N||New only
+childhood acute lymphoblastic leukemia in remission|N||Both
+childhood acute myeloid leukemia in remission|N||Both
+chronic graft versus host disease|N||New only
+chronic obstructive lung disease|Y||New only
+colorectal cancer screening|N||Both
+coronary artery disease (cad)|N||Both
+cytomegalovirus infection|N||Both
+diabetic gastroparesis|N||Both
+diabetic polyneuropathy|N||Both
+distress|N||Both
+duct cell adenocarcinoma of the pancreas|N||New only
+ductal carcinoma in situ|N||Both
+endometrial serous adenocarcinoma|N||New only
+esrd|N||Both
+evidence of liver transplantation|Y|Y|New only
+fed|N||New only
+femoral neck fracture|N||Both
+friedreich's ataxia|N||Both
+"hypertension| resistant to conventional therapy"|N||New only
+infantile colic|N||Both
+invasive breast cancer|N||Both
+juvenile myelomonocytic leukemia|N||Both
+lateral epicondylitis|N||Both
+left ventricular dysfunction|N||Both
+"lymphocytic leukemia| chronic"|N||Both
+malignant solid tumor|N||New only
+mantle-cell lymphoma|N||Both
+metabolic disease|N||New only
+metastases|N||Both
+myelodysplasia|N||Both
+myocardial injury|N||Both
+nasolabial folds|N||Both
+noncontiguous stage ii grade 1 follicular lymphoma|N||Both
+noncontiguous stage ii grade 2 follicular lymphoma|N||Both
+noncontiguous stage ii grade 3 follicular lymphoma|N||Both
+osteoarthritis of knee|N||New only
+peripheral arterial occlusive disease|N||Both
+post-traumatic arthritis|N||Both
+recurrent squamous cell carcinoma of the oropharynx|N||New only
+refractory diffuse large b-cell lymphoma|N||New only
+renal transplant rejection|Y|Y|New only
+restenosis|N||Both
+rupture of anterior cruciate ligament|N||New only
+separation anxiety disorder|N||Both
+sleep disorder|N||Both
+st-segment elevation myocardial infarction|N||New only
+stable angina pectoris|N||New only
+stage i small lymphocytic lymphoma|N||Both
+stage iiib skin melanoma|N||New only
+stage iv primary peritoneal cancer|N||New only
+stage iv rectal cancer|N||Both
+stage iv squamous cell carcinoma of the nasopharynx|N||New only
+temporomandibular disorders|N||Both
+type 2 diabetes mellitus (t2dm)|N||Both
+upper respiratory tract infections|Y||Both
+venous ulcer|N||Both
+wound|N||Both
+ards|Y||New only
+burn injury|N||New only
+cardiovascular risk factor|N||New only
+carotid artery stenosis|N||Both
+cervical adenosquamous carcinoma|N||New only
+cervical dystonia|N||Both
+child maltreatment|N||New only
+chronic venous insufficiency|N||New only
+cognitive disorders|N||New only
+early gastric cancer|N||New only
+ebola virus disease|N||New only
+endometrial adenocarcinoma|N||New only
+facial wrinkles|N||Both
+frailty|N||Both
+glabellar frown lines|N||New only
+healthy adult subjects|N||New only
+"heart failure| congestive"|N||Both
+intensive care|N||New only
+intimate partner violence|N||New only
+intrahepatic cholangiocarcinoma|N||New only
+invasive breast carcinoma|N||New only
+lobular breast carcinoma in situ|N||New only
+musculoskeletal disorders|N||New only
+myofascial pain syndrome|N||New only
+neoplasm malignant|N||New only
+non hodgkin lymphoma|N||Both
+noncontiguous stage ii adult burkitt lymphoma|N||Both
+noncontiguous stage ii adult lymphoblastic lymphoma|N||Both
+noncontiguous stage ii marginal zone lymphoma|N||Both
+oral lichen planus|N||New only
+peritoneal cavity cancer|N||Both
+rectal adenocarcinoma|N||New only
+recurrent childhood lymphoblastic lymphoma|N||Both
+recurrent neuroblastoma|N||New only
+recurrent pancreatic carcinoma|N||New only
+recurrent squamous cell carcinoma of the larynx|N||New only
+recurrent verrucous carcinoma of the larynx|N||New only
+refractory hodgkin lymphoma|N||New only
+refractory solid tumors|N||Both
+secondary hypogonadism|N||Both
+sore throat|N||Both
+stage iiib rectal cancer|N||New only
+subacromial impingement syndrome|N||New only
+transitional cell carcinoma|N||Both
+urinary stress incontinence|N||New only
+urothelial cancer|N||Both
+visceral leishmaniasis|N||Both
+wheezing|Y||Both
+acupuncture|N||New only
+adult grade iii lymphomatoid granulomatosis|N||New only
+adult growth hormone deficiency|N||New only
+advanced adult primary liver cancer|N||New only
+advanced colorectal cancer|N||Both
+adverse anesthesia outcome|N||New only
+cancer of pancreas|N||New only
+carotid artery disease|N||Both
+cerebral stroke|N||Both
+cerebral vasospasm|N||Both
+child abuse|N||New only
+chronic illness|N||New only
+chronic stable angina|N||New only
+chronic urticaria|N||Both
+cocaine abuse|N||New only
+cocaine use disorder|N||New only
+coronary arteriosclerosis|N||Both
+dietary habits|N||New only
+esophagus cancer|N||New only
+ewing's sarcoma|N||Both
+functional gastrointestinal disorders|N||New only
+gbm|N||Both
+hbv|N||New only
+hcv|N||Both
+hormone refractory prostate cancer|N||Both
+human influenza|N||New only
+hypogonadotropic hypogonadism|N||New only
+infant|N||New only
+"infant| low birth weight"|N||New only
+infectious diseases|N||Both
+inflammatory response|N||Both
+intracranial aneurysms|N||New only
+labor|N||Both
+left ventricular hypertrophy|N||Both
+lumbar disc herniation|N||New only
+marijuana dependence|N||Both
+metastatic castration-resistant prostate cancer|N||New only
+metastatic disease|N||New only
+methamphetamine abuse|N||New only
+neurogenic bladder|N||Both
+non hodgkin's lymphoma|N||Both
+noncontiguous stage ii adult diffuse mixed cell lymphoma|N||Both
+noncontiguous stage ii adult diffuse small cleaved cell lymphoma|N||Both
+noncontiguous stage ii adult immunoblastic large cell lymphoma|N||Both
+noncutaneous extranodal lymphoma|N||New only
+older adults|N||New only
+painful bladder syndrome|N||New only
+painful diabetic neuropathy|N||Both
+pancreatic neoplasm|N||Both
+papulopustular rosacea|N||New only
+partial epilepsy|N||Both
+postoperative delirium|N||New only
+postpartum haemorrhage|N||New only
+prostatic neoplasm|N||New only
+psychological distress|N||New only
+rectal carcinoma|N||New only
+recurrent hodgkin lymphoma|N||New only
+recurrent ovarian cancer|N||New only
+recurrent salivary gland cancer|N||New only
+recurrent squamous cell carcinoma of the hypopharynx|N||New only
+recurrent/refractory childhood hodgkin lymphoma|N||New only
+respiratory disorders|Y||New only
+"sarcoma| soft tissue"|N||New only
+stage iii squamous cell carcinoma of the hypopharynx|N||New only
+stage iii squamous cell carcinoma of the larynx|N||New only
+stage iii verrucous carcinoma of the oral cavity|N||New only
+stage iiia rectal cancer|N||New only
+stage iiia skin melanoma|N||New only
+stage iiic primary peritoneal cancer|N||New only
+stage iiic rectal cancer|N||New only
+stage iva squamous cell carcinoma of the oropharynx|N||New only
+stenosis|N||New only
+"surgical procedure| unspecified"|N||New only
+synovial sarcoma|N||New only
+toxicity|N||New only
+tracheal intubation|Y||Both
+vaginal cancer|N||Both
+vascular dementia|N||New only
+venous leg ulcers|N||New only
+abdominal aortic aneurysms|N||Both
+acinar cell adenocarcinoma of the pancreas|N||New only
+acne scars|N||New only
+acute appendicitis|N||New only
+acute gastroenteritis|N||New only
+acute lymphoid leukemia|N||New only
+acute myeloid leukemia arising from previous myelodysplastic syndrome|N||New only
+adult|N||New only
+advanced malignant solid neoplasm|N||New only
+advanced solid tumours|N||Both
+aneurysmal subarachnoid hemorrhage|N||Both
+ankle fracture|N||New only
+antibiotic-associated diarrhea|N||Both
+attention deficit/hyperactivity disorder|N||Both
+blood glucose|N||New only
+brca1 mutation carrier|N||Both
+brca2 mutation carrier|N||Both
+burkitt's lymphoma|N||New only
+cardiac failure|N||New only
+cardiovascular risk|N||Both
+cervical radiculopathy|N||New only
+chemotherapy-induced neutropenia|N||New only
+chronic diseases|N||New only
+chronic hepatitis c virus|N||New only
+complex regional pain syndrome|N||Both
+complication|N||New only
+cow's milk allergy|N||New only
+defect of articular cartilage|N||New only
+end stage renal disease (esrd)|N||New only
+esophageal adenocarcinoma|N||New only
+executive dysfunction|N||New only
+gastric ulcer|N||Both
+geriatric disorder|N||New only
+giant cell glioblastoma|N||New only
+growth hormone disorder|N||New only
+health|N||New only
+healthy male subjects|N||New only
+healthy men|N||New only
+healthy subject|N||New only
+hepatic cirrhosis|N||Both
+her2/neu positive|N||New only
+human epidermal growth factor 2 negative carcinoma of breast|N||New only
+hypoxic ischemic encephalopathy|N||New only
+hypoxic-ischemic encephalopathy|N||Both
+immune thrombocytopenic purpura|N||Both
+infant development|N||New only
+inflammatory breast cancer|N||New only
+iron-deficiency anemia|N||Both
+laparoscopic surgery|N||Both
+low birth weight|N||Both
+malignant neoplasm of breast|N||New only
+medical abortion|N||Both
+muscle damage|N||New only
+myeloproliferative neoplasm|N||New only
+osa|Y||New only
+ovarian clear cell cystadenocarcinoma|N||New only
+ovarian serous cystadenocarcinoma|N||New only
+pancreatic carcinoma|N||New only
+parkinson's disease (pd)|N||New only
+premature ovarian failure|N||Both
+preterm delivery|N||Both
+primary hypercholesterolemia|N||Both
+primary open-angle glaucoma|N||New only
+recurrent childhood large cell lymphoma|N||Both
+recurrent childhood small noncleaved cell lymphoma|N||Both
+recurrent osteosarcoma|N||New only
+recurrent squamous cell carcinoma of the nasopharynx|N||New only
+respiratory infection|Y||Both
+rheumatoid arthritis (ra)|N||New only
+salivary gland squamous cell carcinoma|N||New only
+satiety|N||Both
+sensorineural hearing loss|N||New only
+severe obesity|N||New only
+sleep-disordered breathing|Y||New only
+smoldering multiple myeloma|N||New only
+spondyloarthritis|N||Both
+stage i mantle cell lymphoma|N||Both
+stage iiia primary peritoneal cancer|N||New only
+stage iiib primary peritoneal cancer|N||New only
+stage iiic melanoma|N||New only
+stage iv cutaneous melanoma ajcc v6 and v7|N||New only
+stage iv ovarian epithelial cancer|N||Both
+stage ivb squamous cell carcinoma of the oropharynx|N||New only
+surgical site infections|N||New only
+telemedicine|N||New only
+total hip replacement|N||New only
+undernutrition|N||New only
+unresectable solid neoplasm|N||New only
+vaginal atrophy|N||New only
+vascular access complication|N||New only
+vulvar cancer|N||Both
+acute hiv infection|N||Both
+acute liver failure|N||New only
+acute mountain sickness|N||Both
+allergies|N||Both
+anesthesia intubation complication|Y||New only
+attention deficit disorder|N||Both
+back pain lower back chronic|N||New only
+"body composition| beneficial"|N||New only
+breast tumors|N||Both
+cerebral aneurysm|N||New only
+cervical dysplasia|N||New only
+cervix cancer|N||New only
+childhood cancer|N||New only
+childhood chronic myelogenous leukemia|N||Both
+chlamydia|N||New only
+chronic eosinophilic leukemia|N||Both
+chronic graft-versus-host disease|Y|Y|New only
+cognitive deficits|N||New only
+cognitive/functional effects|N||Both
+colorectal adenocarcinoma|N||New only
+congenital hip dysplasia|N||Both
+contiguous stage ii mantle cell lymphoma|N||Both
+contiguous stage ii small lymphocytic lymphoma|N||Both
+cushing's disease|N||New only
+degenerative joint disease|N||New only
+dementia with lewy bodies|N||Both
+developmental delay|N||New only
+distal radius fractures|N||Both
+eating disorder|N||New only
+end-stage kidney disease|N||New only
+familial hypercholesterolemia|N||Both
+femoroacetabular impingement|N||New only
+head injury|N||New only
+head lice|N||Both
+healthy individuals|N||New only
+hematological malignancy|N||Both
+high grade glioma|N||New only
+kawasaki disease|N||New only
+liver dysfunction|N||New only
+lynch syndrome|N||New only
+major depressive episode|N||Both
+male pattern baldness|N||New only
+malignant female reproductive system neoplasm|N||New only
+merkel cell carcinoma|N||New only
+metastatic malignant solid neoplasm|N||New only
+nasopharyngeal cancer|N||Both
+oesophageal cancer|N||New only
+osteoarthrosis|N||New only
+ovarian seromucinous carcinoma|N||New only
+parastomal hernia|N||Both
+postural tachycardia syndrome|N||Both
+progesterone receptor positive|N||New only
+recurrent follicular lymphoma|N||New only
+recurrent malignant solid neoplasm|N||New only
+renal disease|N||New only
+resistant hypertension|N||Both
+rotavirus gastroenteritis|N||Both
+secondary myelofibrosis|N||Both
+severe hemophilia a|N||Both
+spina bifida|N||Both
+stage iib pancreatic cancer|N||New only
+stage iii cutaneous t-cell non-hodgkin lymphoma|N||Both
+stage iii verrucous carcinoma of the larynx|N||New only
+stage iiia colon cancer|N||New only
+stage iiic colon cancer|N||New only
+stage iiic cutaneous melanoma ajcc v7|N||New only
+stage iv cutaneous t-cell non-hodgkin lymphoma|N||Both
+stage iv non-small cell lung cancer ajcc v7|N||New only
+stage iv ovarian germ cell tumor|N||New only
+stage ivb cervical cancer|N||New only
+stage ivb squamous cell carcinoma of the lip and oral cavity|N||New only
+tbi|N||New only
+tolerance|N||New only
+traumatic arthritis|N||Both
+unstable angina pectoris|N||New only
+vestibular schwannoma|N||New only
+acquired bleeding disorder|N||New only
+acute migraine|N||New only
+adenocarcinoma of the lung|N||New only
+advanced melanoma|N||Both
+allogeneic stem cell transplantation|N||Both
+als|N||Both
+arrhythmias|N||New only
+avian influenza|N||New only
+bacterial conjunctivitis|N||Both
+benign prostatic hypertrophy|N||New only
+bladder carcinoma|N||New only
+breast augmentation|N||Both
+cancer cachexia|N||New only
+cancer of breast|N||New only
+cannabis use disorder|N||New only
+cerebral ischemia|N||New only
+cerebrovascular stroke|N||Both
+cervical carcinoma|N||New only
+"cervical squamous cell carcinoma| not otherwise specified"|N||New only
+childhood diffuse large cell lymphoma|N||New only
+childhood myelodysplastic syndromes|N||Both
+chronic kidney diseases|N||New only
+chronic neutrophilic leukemia|N||Both
+classical hodgkin lymphoma|N||New only
+coagulopathy|N||New only
+colorectal polyps|N||New only
+contiguous stage ii adult diffuse large cell lymphoma|N||Both
+coronary artery bypass surgery|N||Both
+"diabetic neuropathy| painful"|N||Both
+dual diagnosis|N||New only
+endstage renal disease|N||New only
+estrogen receptor-negative breast cancer|N||New only
+female pattern baldness|N||New only
+focal segmental glomerulosclerosis|N||Both
+food habits|N||New only
+gastroesophageal junction cancer|N||New only
+genital warts|N||Both
+health promotion|N||New only
+ibs|N||New only
+infant nutrition|N||Both
+"infections| respiratory tract"|Y||New only
+irreversible pulpitis|N||New only
+lifestyle|N||New only
+localized unresectable adult primary liver cancer|N||New only
+lymphoplasmacytic lymphoma|N||New only
+meningococcal infection|N||Both
+metastatic solid tumors|N||Both
+miscarriage|N||New only
+mucinous adenocarcinoma of the rectum|N||New only
+muscle loss|N||New only
+muscular dystrophy|N||New only
+myeloproliferative diseases|N||New only
+neuroendocrine carcinoma|N||New only
+neuroendocrine tumor|N||Both
+non-alcoholic steatohepatitis (nash)|N||New only
+ovarian epithelial cancer|N||New only
+ovarian serous adenocarcinoma|N||New only
+parkinson|N||New only
+pectus excavatum|N||New only
+pediatric cancer|N||New only
+physical inactivity|N||Both
+plasmodium falciparum|N||New only
+polypoidal choroidal vasculopathy|N||New only
+portal vein thrombosis|N||New only
+premature infants|N||Both
+prevention harmful effects|N||New only
+primary central nervous system lymphoma|N||New only
+primary dysmenorrhea|N||Both
+primary health care|N||New only
+progesterone receptor-positive breast cancer|N||New only
+recurrent adult primary liver cancer|N||New only
+recurrent childhood anaplastic large cell lymphoma|N||New only
+recurrent childhood grade iii lymphomatoid granulomatosis|N||New only
+recurrent childhood medulloblastoma|N||New only
+recurrent fallopian tube cancer|N||New only
+recurrent squamous cell carcinoma of the paranasal sinus and nasal cavity|N||New only
+refractory anemia with excess blasts|N||Both
+renal calculi|N||New only
+shingles|N||Both
+stage i adult diffuse large cell lymphoma|N||Both
+stage iia pancreatic cancer|N||New only
+stage iib non-small cell lung cancer|N||New only
+stage iiib colon cancer|N||New only
+stage iiib cutaneous melanoma ajcc v7|N||New only
+stage iiib gastric cancer|N||New only
+stage iiib melanoma|N||New only
+stage iiic gastric cancer|N||New only
+stage iva verrucous carcinoma of the oral cavity|N||New only
+stage ivb verrucous carcinoma of the oral cavity|N||New only
+t-cell lymphoma|N||New only
+testicular cancer|N||New only
+tobacco cessation|N||New only
+traumatic brain injury (tbi)|N||New only
+tumors metastatic to brain|N||New only
+uncontrolled hypertension|N||New only
+ureter cancer|N||New only
+von willebrand disease|N||Both
+vulvovaginal candidiasis|N||New only
+achilles tendon rupture|N||New only
+acute respiratory distress syndrome (ards)|Y||New only
+adenoid cystic carcinoma|N||New only
+advanced malignancy|N||New only
+adverse drug events|N||Both
+atherosclerotic cardiovascular disease|N||New only
+autoimmune disease|N||New only
+autoimmune hepatitis|N||Both
+balance|N||Both
+biliary cancer|N||Both
+biliary stricture|N||New only
+bone metastasis|N||New only
+breast cancer female|N||New only
+caffeine|N||New only
+cancer of the pancreas|N||New only
+carotid atherosclerosis|N||New only
+cerebrovascular disease|N||New only
+child malnutrition|N||New only
+childhood immunoblastic large cell lymphoma|N||New only
+chronic granulomatous disease|N||Both
+chronic idiopathic urticaria|N||New only
+chronic kidney disease (ckd)|N||New only
+chronic myelogenous leukemia (cml)|N||New only
+chronic renal disease|N||New only
+chronic subdural hematoma|N||New only
+cml|N||Both
+colon carcinoma|N||New only
+colon polyps|N||New only
+congenital diaphragmatic hernia|N||New only
+cryptococcal meningitis|N||Both
+degenerative arthritis|N||New only
+development|N||New only
+dravet syndrome|N||New only
+edentulous|N||New only
+end stage kidney disease|N||New only
+estrogen receptor positive breast cancer|N||New only
+extensive stage small cell lung cancer|N||New only
+familial adenomatous polyposis|N||Both
+fibromyalgia syndrome|N||Both
+germ cell tumor|N||New only
+growth failure|N||New only
+hand osteoarthritis|N||New only
+hay fever|N||Both
+healthy adult volunteers|N||New only
+heart failure with preserved ejection fraction|N||New only
+heavy menstrual bleeding|N||New only
+hematological diseases|N||New only
+hemispatial neglect|N||New only
+hemophagocytic lymphohistiocytosis|N||New only
+hepatoma|N||Both
+her2 positive breast cancer|N||New only
+human papilloma virus|N||New only
+human volunteers|N||New only
+impaired fasting glucose|N||Both
+infectious disease|N||New only
+influenza a|N||New only
+injuries|N||New only
+injury|N||Both
+invasive aspergillosis|N||New only
+ischemic reperfusion injury|N||New only
+latent tuberculosis infection|N||Both
+liver transplant|Y|Y|New only
+macular hole|N||New only
+male breast carcinoma|N||New only
+mania|N||Both
+metastatic malignant neoplasm in the brain|N||New only
+metastatic non-small cell lung cancer|N||New only
+moderate to severe plaque psoriasis|N||New only
+myelodysplastic syndromes (mds)|N||New only
+orthopedic surgery|N||Both
+ovarian clear cell adenocarcinoma|N||New only
+ovarian mucinous cystadenocarcinoma|N||New only
+pain relief|N||Both
+pharmacokinetics of asp015k|N||New only
+post-ercp acute pancreatitis|N||New only
+post-traumatic stress disorders|N||Both
+primary peritoneal serous adenocarcinoma|N||New only
+progesterone receptor-negative breast cancer|N||New only
+recurrent adult brain neoplasm|N||New only
+recurrent cervical carcinoma|N||New only
+recurrent gastric cancer|N||New only
+refractory mantle cell lymphoma|N||New only
+regional anesthesia|N||New only
+relapsed or refractory multiple myeloma|N||Both
+renal artery stenosis|N||Both
+risk behavior|N||New only
+signet ring adenocarcinoma of the rectum|N||New only
+social anxiety|N||New only
+stage i grade 1 follicular lymphoma|N||Both
+stage i grade 2 follicular lymphoma|N||Both
+stage i grade 3 follicular lymphoma|N||Both
+stage iia fallopian tube cancer|N||New only
+stage iia non-small cell lung cancer|N||New only
+stage iib fallopian tube cancer|N||New only
+stage iic fallopian tube cancer|N||New only
+stage iii ovarian cancer|N||New only
+stage iiia cutaneous melanoma ajcc v7|N||New only
+stage iva colorectal cancer|N||New only
+stage iva squamous cell carcinoma of the larynx|N||New only
+stage iva squamous cell carcinoma of the lip and oral cavity|N||New only
+stage iva uterine corpus cancer|N||New only
+stage iva verrucous carcinoma of the larynx|N||New only
+stage ivb colorectal cancer|N||New only
+stage ivb squamous cell carcinoma of the larynx|N||New only
+stage ivb verrucous carcinoma of the larynx|N||New only
+supraventricular tachycardia|N||New only
+thalassemia major|N||New only
+tooth disease|N||New only
+tuberous sclerosis complex|N||New only
+unexplained infertility|N||New only
+urea cycle disorders|N||Both
+uterine myoma|N||New only
+vasomotor symptoms|N||Both
+vivax malaria|N||New only
+abdominal surgery|N||Both
+acute graft versus host disease|Y|Y|New only
+acute myeloid leukaemia|N||New only
+acute myeloid leukemia with multilineage dysplasia following myelodysplastic syndrome|N||New only
+acute promyelocytic leukemia|N||Both
+acute respiratory infection|Y||Both
+adenocarcinoma of the rectum|N||New only
+adult primary hepatocellular carcinoma|N||New only
+advanced parkinson's disease|N||New only
+anal fistula|N||Both
+bone marrow failure syndromes|N||New only
+brain neoplasm|N||New only
+"brain tumor| recurrent"|N||New only
+brca1 gene mutation|N||New only
+brca2 gene mutation|N||New only
+breastcancer|N||New only
+c.surgical procedure; cardiac|N||New only
+carcinoid tumors|N||New only
+cardiac allograft vasculopathy|N||New only
+cat allergy|N||Both
+cataract surgery|N||New only
+central nervous system tumors|N||Both
+cervical pain|N||New only
+childhood nasal type extranodal nk/t-cell lymphoma|N||New only
+chronic obstructive airway disease|Y||New only
+clear-cell metastatic renal cell carcinoma|N||New only
+cll|N||Both
+contiguous stage ii grade 1 follicular lymphoma|N||Both
+contiguous stage ii grade 2 follicular lymphoma|N||Both
+contiguous stage ii grade 3 follicular lymphoma|N||Both
+cystoid macular edema|N||New only
+delinquency|N||New only
+drug interaction potentiation|N||New only
+dyslipidaemia|N||Both
+early stage breast cancer|N||New only
+eating behavior|N||New only
+excessive daytime sleepiness|Y||Both
+fallopian tube clear cell adenocarcinoma|N||New only
+frozen shoulder|N||New only
+glucose metabolism|N||Both
+graves' disease|N||New only
+gulf war illness|N||New only
+healthy infants|N||New only
+healthy males|N||Both
+hemorrhagic shock|Y||New only
+hepatocellular carcinoma (hcc)|N||New only
+hereditary hemorrhagic telangiectasia|N||New only
+hypercholesterolaemia|N||New only
+impacted third molar tooth|N||New only
+inactivity|N||Both
+irritable bowel syndrome (ibs)|N||New only
+lateral canthal lines|N||Both
+lennox-gastaut syndrome|N||New only
+locally advanced rectal cancer|N||New only
+lung carcinoma|N||New only
+lung neoplasm|N||New only
+lymphoid malignancies|N||New only
+major abdominal surgery|N||Both
+male circumcision|N||New only
+medical oncology|N||New only
+mental disorder|N||New only
+metabolic acidosis|N||New only
+multiple myeloma in relapse|N||New only
+nasal congestion|N||Both
+neisseria meningitidis|N||New only
+neoplasm metastases|N||New only
+neuromuscular block|N||New only
+obstructive sleep apnoea|Y||New only
+other surgical procedures|N||New only
+paroxysmal nocturnal hemoglobinuria|N||Both
+pediatric|N||Both
+peripheral arterial diseases|N||New only
+physiological stress|N||New only
+plasma cell leukemia|N||New only
+post-traumatic stress disorder (ptsd)|N||New only
+primary peritoneal cavity cancer|N||New only
+primary progressive multiple sclerosis|N||New only
+prostatic cancer|N||New only
+rectum cancer|N||New only
+recurrent b-cell non-hodgkin lymphoma|N||New only
+recurrent colorectal carcinoma|N||New only
+recurrent metastatic squamous neck cancer with occult primary|N||New only
+recurrent small cell lung cancer|N||New only
+refractory acute myeloid leukemia|N||New only
+respiratory syncytial virus (rsv)|N||New only
+restless leg syndrome|N||New only
+spinal metastases|N||New only
+stage i cutaneous t-cell non-hodgkin lymphoma|N||Both
+stage ii cutaneous t-cell non-hodgkin lymphoma|N||Both
+stage iia cervical cancer|N||New only
+stage iia rectal cancer|N||New only
+stage iib rectal cancer|N||New only
+stage iic rectal cancer|N||New only
+stage iii squamous cell carcinoma of the nasopharynx|N||New only
+stage iiia gastric cancer|N||New only
+stage iiia non-small cell lung cancer ajcc v7|N||New only
+stage iiia uterine corpus cancer|N||New only
+stage iiib uterine corpus cancer|N||New only
+stage iv colorectal cancer|N||New only
+stage iv squamous cell carcinoma of the lip and oral cavity|N||New only
+stage iv squamous cell carcinoma of the oropharynx|N||New only
+thyroid carcinoma|N||Both
+transitional cell carcinoma of the bladder|N||New only
+trigger finger|N||New only
+ulcers|N||Both
+upper respiratory tract infection|Y||Both
+urge urinary incontinence|N||New only
+vertebral fracture|N||Both
+weakness|N||New only
+acute coronary syndrome (acs)|N||New only
+adenocarcinoma of the stomach|N||New only
+adult anaplastic ependymoma|N||New only
+adult diffuse astrocytoma|N||New only
+adult oligodendroglioma|N||New only
+advanced or metastatic solid tumors|N||Both
+al amyloidosis|N||New only
+alkylating agent-related acute myeloid leukemia|N||New only
+alteration of cognitive function|N||New only
+amd|N||New only
+ametropia|N||New only
+"angioplasty| transluminal| percutaneous coronary"|N||New only
+asperger's disorder|N||Both
+aspiration|Y||New only
+atopic asthma|Y||Both
+b cell lymphoma|N||New only
+body dysmorphic disorder|N||Both
+cancer of the head and neck|N||New only
+"carcinoma| non small cell lung"|N||Both
+cardiac arrhythmias|N||New only
+cervical degenerative disc disease|N||Both
+childhood asthma|Y||New only
+chronic respiratory failure|Y||New only
+chronic thromboembolic pulmonary hypertension|Y||New only
+chronic tinnitus|N||New only
+colon neoplasms|N||New only
+contiguous stage ii adult burkitt lymphoma|N||Both
+contiguous stage ii adult lymphoblastic lymphoma|N||Both
+contiguous stage ii marginal zone lymphoma|N||Both
+degenerative spondylolisthesis|N||Both
+diabetic peripheral neuropathic pain|N||New only
+diarrhea predominant irritable bowel syndrome|N||New only
+diffuse large cell lymphoma|N||New only
+ds stage ii plasma cell myeloma|N||New only
+end stage renal failure|N||New only
+extrahepatic bile duct cancer|N||Both
+fallopian tube transitional cell carcinoma|N||New only
+food selection|N||New only
+fragility|N||New only
+gastric carcinoma|N||New only
+gastroesophageal cancer|N||New only
+gastrointestinal bleeding|N||New only
+gastrointestinal stromal tumor (gist)|N||Both
+genetic disorder|N||New only
+h. pylori infection|N||New only
+head and neck carcinoma|N||New only
+hemorrhagic stroke|N||New only
+hip arthroplasty|N||Both
+hiv positive|N||New only
+hiv-1 infections|N||Both
+hodgkins lymphoma|N||New only
+hookworm infection|N||New only
+hot flushes|N||New only
+inflammatory bowel disease (ibd)|N||New only
+insomnia disorder|N||New only
+invasive ductal breast carcinoma|N||New only
+ischemia reperfusion injury|N||Both
+joint pain|N||New only
+knee arthritis|N||New only
+knee injury|N||Both
+"leukemia| lymphoblastic| acute"|N||Both
+locally advanced pancreatic cancer|N||Both
+lung metastases|N||New only
+lymphatic filariasis|N||New only
+malignant ascites|N||Both
+maternal depression|N||New only
+metastatic osteosarcoma|N||New only
+metastatic squamous neck cancer with occult primary squamous cell carcinoma|N||New only
+migraine headaches|N||Both
+mixed dyslipidemia|N||New only
+mucinous adenocarcinoma of the colon|N||New only
+muscle atrophy|N||New only
+musculoskeletal complications|N||Both
+myopathy|N||New only
+neurogenic detrusor overactivity|N||Both
+non small cell lung carcinoma|N||Both
+non-alcoholic fatty liver disease (nafld)|N||New only
+nonalcoholic steatohepatitis (nash)|N||New only
+nosocomial infection|N||New only
+oral health|N||New only
+ovarian brenner tumor|N||New only
+ovarian transitional cell carcinoma|N||New only
+pancreas neoplasms|N||New only
+pancreatic tumor|N||New only
+pandemic influenza|N||Both
+partial onset seizures|N||Both
+peyronie's disease|N||New only
+plaque|N||New only
+pneumococcal infection|N||New only
+ponv|N||New only
+post-essential thrombocythemia myelofibrosis|N||New only
+postoperative complication|N||New only
+postoperative vomiting|N||New only
+pregnant women|N||New only
+procedural sedation|N||Both
+psychotic disorder|N||New only
+pulmonary complications|Y||New only
+recurrent primary peritoneal cavity cancer|N||New only
+recurrent respiratory papillomatosis|Y||New only
+recurrent thyroid gland carcinoma|N||New only
+reflux esophagitis|N||New only
+refractory b-cell non-hodgkin lymphoma|N||New only
+refractory epilepsy|N||New only
+renal function|N||New only
+retinal disease|N||New only
+risk reduction|N||New only
+scarring|N||New only
+seizure|N||New only
+self-efficacy|N||New only
+shigellosis|N||New only
+signet ring adenocarcinoma of the colon|N||New only
+sjã¶gren's syndrome|N||New only
+skin irritation|N||New only
+sleep disturbances|N||New only
+social cognition|N||New only
+spontaneous bacterial peritonitis|N||New only
+squamous cell carcinoma of head and neck|N||New only
+stage i adult burkitt lymphoma|N||Both
+stage i adult lymphoblastic lymphoma|N||Both
+stage i marginal zone lymphoma|N||Both
+stage ii squamous cell carcinoma of the lip and oral cavity|N||New only
+stage iia ovarian cancer|N||New only
+stage iib cervical cancer|N||New only
+stage iib ovarian cancer|N||New only
+stage iic ovarian cancer|N||New only
+stage iii bladder cancer|N||New only
+stage iii colon cancer|N||New only
+stage iii melanoma|N||New only
+stage iiib cervical cancer|N||New only
+stage iiib non-small cell lung cancer ajcc v7|N||New only
+stage iva oropharyngeal squamous cell carcinoma|N||New only
+stage ivb uterine corpus cancer|N||New only
+stage ivc squamous cell carcinoma of the oropharynx|N||New only
+stage ivc verrucous carcinoma of the oral cavity|N||New only
+staphylococcus aureus|N||Both
+stress disorders|N||New only
+systemic scleroderma|N||New only
+temporomandibular disorder|N||New only
+thymic carcinoma|N||Both
+to determine bioequivalence under fasting conditions|N||Both
+tourette's disorder|N||New only
+type i diabetes|N||New only
+undifferentiated fallopian tube carcinoma|N||New only
+uremic pruritus|N||New only
+uterine cervical cancer|N||New only
+viral infection|N||New only
+visual impairment|N||New only
+vitamin d status|N||Both
+vulvovaginal atrophy|N||New only
+well-being|N||New only
+abortion|N||New only
+acute asthma|Y||Both
+acute biphenotypic leukemia|N||New only
+acute cholecystitis|N||New only
+acute myeloid leukemia in remission|N||New only
+acute otitis externa|N||New only
+acute undifferentiated leukemia|N||New only
+adult acute myeloid leukemia with inv(16)(p13.1q22); cbfb-myh11|N||New only
+adult acute myeloid leukemia with t(16;16)(p13.1;q22); cbfb-myh11|N||New only
+adult b acute lymphoblastic leukemia|N||New only
+adult brain stem glioma|N||New only
+adult hepatocellular carcinoma|N||New only
+adult rhabdomyosarcoma|N||New only
+adverse reaction to drug|N||New only
+alcoholic liver disease|N||New only
+alzheimerâ´s disease|N||New only
+anesthesia; reaction|N||New only
+anterior cruciate ligament rupture|N||New only
+apnea of prematurity|Y||New only
+athletic performance|N||New only
+autism spectrum disorder (asd)|N||New only
+behavior problems|N||Both
+bipolar disorders|N||New only
+birth asphyxia|N||New only
+blood and marrow transplantation|N||New only
+cardiopulmonary arrest|Y||New only
+cardiovascular health|N||New only
+castration resistant prostate cancer|N||New only
+chronic hcv infection|N||New only
+chronic hepatitis|N||New only
+chronic inflammatory demyelinating polyneuropathy|N||New only
+"chronic myelogenous leukemia| bcr-abl1 positive"|N||New only
+circulating tumor cells|N||New only
+cognitive performance|N||New only
+colonoscopy preparation|N||New only
+colorectal adenoma|N||New only
+contact dermatitis|N||Both
+contiguous stage ii adult diffuse mixed cell lymphoma|N||Both
+contiguous stage ii adult diffuse small cleaved cell lymphoma|N||Both
+contiguous stage ii adult immunoblastic large cell lymphoma|N||Both
+contraceptive usage|N||New only
+corneal ectasia|N||Both
+de novo myelodysplastic syndrome|N||New only
+decompensated cirrhosis|N||New only
+dengue virus|N||New only
+dentine hypersensitivity|N||New only
+dexmedetomidine|N||New only
+diabetes mellitus type ii|N||New only
+"diabetes mellitus| type i"|N||Both
+"diabetes| type 2"|N||New only
+difficult intubation|Y||New only
+distorted; balance|N||New only
+dry mouth|N||New only
+ds stage i plasma cell myeloma|N||New only
+ds stage iii plasma cell myeloma|N||New only
+duchenne muscular dystrophy (dmd)|N||New only
+early-stage breast carcinoma|N||New only
+esophageal neoplasm|N||New only
+esophageal varices|N||Both
+falciparum malaria|N||Both
+fallopian tube endometrioid adenocarcinoma|N||New only
+fibroids|N||New only
+flu|N||New only
+fluid overload|N||New only
+fungal infections|N||New only
+gastrointestinal disease|N||Both
+glabellar lines|N||New only
+glycemic response|N||New only
+gvhd|N||New only
+hazardous drinking|N||New only
+health literacy|N||New only
+hepatitis b virus|N||Both
+homozygous familial hypercholesterolemia|N||New only
+hormone-refractory prostate cancer|N||Both
+human immunodeficiency virus infection|N||New only
+human papilloma virus infection|N||New only
+hunter syndrome|N||New only
+idiopathic membranous nephropathy|N||Both
+idiopathic scoliosis|N||New only
+implant|N||New only
+infantile spasms|N||New only
+infection; cesarean section|N||New only
+"infections| rotavirus"|N||New only
+infective endocarditis|N||Both
+inflammatory arthritis|N||New only
+influenza infection|N||Both
+invasive candidiasis|N||Both
+irritable bowel syndrome with diarrhea|N||New only
+ischemia-reperfusion injury|N||New only
+"kidney failure| acute"|N||New only
+knee pain|N||Both
+lack of satiety|N||New only
+leg ulcers|N||New only
+lower respiratory tract infection|Y||New only
+lumbar degenerative disc disease|N||Both
+"lung cancer| non-small cell"|N||New only
+"lymphoblastic leukemia| acute| childhood"|N||New only
+malignant lymphoma|N||New only
+malignant mesothelioma|N||Both
+marginal zone b-cell lymphoma|N||New only
+mechanical low back pain|N||New only
+mental health disorder|N||New only
+mesenchymal stem cells|N||New only
+microalbuminuria|N||New only
+myofascial pain|N||New only
+neonatal mortality|N||New only
+neurofibromatosis type 2|N||New only
+non-melanoma skin cancer|N||New only
+nonneoplastic condition|N||Both
+normal pressure hydrocephalus|N||Both
+nstemi|N||New only
+observation of neuromuscular block|N||New only
+ocular inflammation|N||Both
+orthopedic disorders|N||New only
+ototoxicity|N||New only
+ovarian epithelial cancer recurrent|N||New only
+pancreatic polypeptide tumor|N||New only
+patent foramen ovale|N||New only
+patient adherence|N||New only
+pediculosis|N||Both
+peripheral nerve injury|N||New only
+persistent asthma|Y||New only
+photoaging|N||New only
+physical function|N||Both
+plaque-type psoriasis|N||Both
+plasma cell neoplasm|N||New only
+plasmodium falciparum infection|N||New only
+polyneuropathy|N||Both
+polyp|N||New only
+postmenopausal symptoms|N||New only
+postmenopausal women|N||Both
+postoperative pain management|N||New only
+postoperative; dysfunction following cardiac surgery|N||New only
+prader willi syndrome|N||New only
+primary immunodeficiency|N||New only
+pseudomonas aeruginosa|N||Both
+radiographic contrast agent nephropathy|N||New only
+raynaud's phenomenon|N||New only
+recurrent bladder carcinoma|N||New only
+recurrent brain neoplasm|N||New only
+recurrent childhood brain stem glioma|N||New only
+recurrent childhood cerebellar astrocytoma|N||New only
+recurrent childhood cerebral astrocytoma|N||New only
+recurrent childhood visual pathway glioma|N||New only
+recurrent ewing sarcoma/peripheral primitive neuroectodermal tumor|N||New only
+recurrent glioblastoma multiforme|N||New only
+recurrent head and neck carcinoma|N||New only
+recurrent squamous cell lung carcinoma|N||New only
+refractory follicular lymphoma|N||New only
+respiratory distress syndrome in premature infants|Y||New only
+rotator cuff injury|N||New only
+scalp psoriasis|N||New only
+schizophrenic disorders|N||Both
+seborrheic dermatitis|N||Both
+short stature|N||New only
+shoulder surgery|N||New only
+solid tumour|N||New only
+spine surgery|N||New only
+stable coronary artery disease|N||Both
+stage i adult diffuse mixed cell lymphoma|N||Both
+stage i adult diffuse small cleaved cell lymphoma|N||Both
+stage i adult immunoblastic large cell lymphoma|N||Both
+stage i squamous cell carcinoma of the lip and oral cavity|N||New only
+stage ii adult hodgkin lymphoma|N||New only
+stage ii verrucous carcinoma of the oral cavity|N||New only
+stage iib non-small cell lung carcinoma|N||New only
+stage iii adult t-cell leukemia/lymphoma|N||New only
+stage iiia melanoma|N||New only
+stage iiic uterine corpus cancer|N||New only
+stage iv adult t-cell leukemia/lymphoma|N||New only
+stage iv bladder cancer|N||New only
+stage iv esophageal cancer|N||New only
+stage iv pancreatic cancer ajcc v6 and v7|N||New only
+stage iv squamous cell carcinoma of the larynx|N||New only
+stage iv squamous cell lung carcinoma|N||New only
+stage iv uveal melanoma|N||New only
+stage iv verrucous carcinoma of the larynx|N||New only
+stage iv verrucous carcinoma of the oral cavity|N||New only
+stage ivc squamous cell carcinoma of the larynx|N||New only
+stage ivc squamous cell carcinoma of the lip and oral cavity|N||New only
+stage ivc verrucous carcinoma of the larynx|N||New only
+sunscreen agents|N||New only
+systemic inflammation|N||New only
+systemic lupus erythematosus (sle)|N||Both
+tia|N||New only
+"transplant; failure| kidney"|Y|Y|New only
+transplantation infection|Y|Y|New only
+upper gastrointestinal bleeding|N||New only
+upper respiratory infections|N||New only
+uterine atony|N||New only
+vaginal dryness|N||New only
+vaginal infection|N||New only
+venous stasis ulcers|N||Both
+venous ulcers|N||New only
+ventilation|Y||New only
+vitamin b12 deficiency|N||New only
+acute bronchitis|Y||New only
+acute diarrhea|N||New only
+acute myelocytic leukemia|N||New only
+acute on chronic liver failure|N||New only
+acute st segment elevation myocardial infarction|N||New only
+adenocarcinoma of the colon|N||New only
+adenocarcinoma of the esophagus|N||New only
+adenomatous polyp|N||New only
+adhesions|N||Both
+adjustment disorder|N||New only
+advanced pancreatic cancer|N||New only
+age-related cognitive decline|N||New only
+alzheimer's disease (ad)|N||New only
+amnestic mild cognitive impairment|N||Both
+amphetamine dependence|N||New only
+anemia of chronic kidney disease|N||New only
+anterior uveitis|N||New only
+aortic dissection|N||New only
+aortic valve disorder|N||New only
+arterial occlusive disease|N||Both
+atrial septal defect|N||New only
+"atypical chronic myeloid leukemia| bcr-abl1 negative"|N||New only
+binge eating|N||New only
+bone cancer|N||New only
+cancer-related fatigue|N||Both
+cannabis abuse|N||New only
+carcinoid syndrome|N||Both
+cardiac toxicity|N||Both
+cardiogenic shock|Y||New only
+caregivers|N||New only
+cartilage injury|N||New only
+castration levels of testosterone|N||New only
+cd20 positive|N||New only
+childhood burkitt lymphoma|N||New only
+childhood solid neoplasm|N||New only
+chronic cluster headache|N||New only
+chronic lung disease|Y||New only
+chronic neck pain|N||Both
+cognition - other|N||New only
+cognitive impairments|N||New only
+colonic cancer|N||New only
+colorectal adenomas|N||New only
+colorectal disorders|N||New only
+complicated intra-abdominal infection|N||New only
+complication of hemodialysis|N||New only
+complication of surgical procedure|N||New only
+connective tissue disease|N||Both
+coxarthrosis|N||New only
+crohns disease|N||Both
+depressive disorders|N||New only
+developmental coordination disorder|N||New only
+diabetes type 1|N||New only
+diamond-blackfan anemia|N||New only
+differentiated thyroid cancer|N||New only
+disseminated neuroblastoma|N||New only
+drug interaction|N||New only
+drug usage|N||New only
+elderly patients|N||New only
+emergency|N||New only
+endometrial undifferentiated carcinoma|N||New only
+energy expenditure|N||Both
+eye disease|N||New only
+failed induction of labor|N||New only
+feeding behaviors|N||New only
+full thickness rotator cuff tear|N||New only
+functional mitral regurgitation|N||New only
+"gait| unsteady"|N||New only
+gastric intestinal metaplasia|N||New only
+genital herpes|N||New only
+germ cell tumors|N||New only
+gut microbiota|N||New only
+haemophilia a with inhibitors|N||New only
+haemophilia b with inhibitors|N||New only
+head trauma|N||New only
+healthy older adults|N||New only
+healthy volunteer study|N||New only
+heavy drinking|N||New only
+helicobacter infection|N||New only
+hematopoietic and lymphoid cell neoplasm|N||New only
+hemodialysis patients|N||New only
+hereditary angioedema (hae)|N||New only
+heterozygous familial hypercholesterolemia|N||New only
+hilar cholangiocarcinoma|N||New only
+hiv-infection/aids|N||New only
+hypercapnic respiratory failure|N||New only
+hypoglycemia unawareness|N||New only
+ibd|N||New only
+idiopathic parkinson disease|N||New only
+idiopathic pulmonary arterial hypertension|Y||New only
+idiopathic short stature|N||New only
+immunodeficiencies|N||Both
+inborn errors of metabolism|N||Both
+indolent non-hodgkin lymphoma|N||New only
+induced abortion|N||Both
+insulin|N||New only
+intrauterine growth retardation|N||Both
+irritability|N||New only
+joint disease|N||New only
+kidney stone|N||New only
+kidney transplant recipients|Y|Y|New only
+knee|N||New only
+labor induction|N||New only
+"leukaemia| lymphocytic| chronic"|N||New only
+"leukemia| myelocytic| acute"|N||New only
+limbal stem cell deficiency|N||New only
+liver tumors|N||Both
+long-term effects secondary to cancer therapy in adults|N||Both
+"lymphoma| malignant"|N||New only
+major depressive disorders|N||New only
+malaria in pregnancy|N||Both
+male hypogonadism|N||New only
+malignant gliomas|N||Both
+malignant neoplasm of stomach|N||New only
+malignant neoplasms of female genital organs|N||New only
+mast cell leukemia|N||New only
+maternal health|N||New only
+mature t-cell and nk-cell non-hodgkin lymphoma|N||New only
+medication overuse headache|N||New only
+medullary thyroid cancer|N||New only
+menopausal syndrome|N||New only
+mental retardation|N||New only
+metastatic gastric cancer|N||New only
+minimal residual disease|N||New only
+minimally conscious state|N||New only
+missing teeth|N||New only
+moderate or severe submental fullness|N||New only
+morphine|N||New only
+multimorbidity|N||New only
+"multiple sclerosis| primary progressive"|N||New only
+myeloid leukemia|N||New only
+"neoplasms| colorectal"|N||Both
+neovascular glaucoma|N||New only
+neurofibromatosis|N||New only
+nightmares|N||New only
+no evidence of disease|N||New only
+noise-induced hearing loss|N||New only
+non-small cell lung cancer stage iiib|N||New only
+ocular physiology|N||Both
+oncology patients|N||New only
+opioid abuse|N||Both
+opioid dependency|N||Both
+oral contraceptive|N||Both
+osteoarthritis of hip|N||New only
+other acute postoperative pain|N||New only
+out of hospital cardiac arrest|Y||New only
+ovarian cyst|N||New only
+ovarian mucinous adenocarcinoma|N||New only
+ovarian stimulation|N||Both
+overactive bladder syndrome|N||Both
+pancreatic neuroendocrine tumors|N||New only
+papillary thyroid cancer|N||New only
+parkinsons disease|N||New only
+patient fall|N||New only
+peripheral arterial disease (pad)|N||Both
+pervasive developmental disorder|N||New only
+pharmacokinetics of mirabegron|N||New only
+physiology|N||New only
+pneumococcal disease|Y||Both
+pneumococcal vaccines|N||New only
+polycystic ovary syndrome (pcos)|N||New only
+post-herpetic neuralgia|N||New only
+posterior capsule opacification|N||New only
+posterior uveitis|N||New only
+postoperative nausea|N||New only
+previously treated childhood rhabdomyosarcoma|N||New only
+primary care|N||New only
+primary hypertension|N||New only
+primary sjã¶gren's syndrome|N||New only
+primary systemic amyloidosis|N||New only
+progressive keratoconus|N||Both
+progressive multiple sclerosis|N||New only
+recurrent cervical cancer|N||New only
+recurrent childhood ependymoma|N||New only
+recurrent childhood pineoblastoma|N||New only
+recurrent childhood rhabdomyosarcoma|N||New only
+"recurrent chronic myelogenous leukemia| bcr-abl1 positive"|N||New only
+recurrent colon carcinoma|N||New only
+recurrent hepatocellular carcinoma|N||New only
+recurrent islet cell carcinoma|N||New only
+recurrent miscarriage|N||New only
+recurrent pregnancy loss|N||New only
+recurrent small cell lung carcinoma|N||New only
+recurrent uterine sarcoma|N||New only
+reflux|N||New only
+refractory small lymphocytic lymphoma|N||New only
+relapsed multiple myeloma|N||Both
+respiratory distress|Y||New only
+respiratory syncytial virus|N||New only
+scar prevention|N||Both
+screening|N||New only
+shoulder arthroscopy|N||New only
+sleep problems|N||New only
+small cell lung cancer (sclc)|N||New only
+small intestine cancer|N||Both
+smokers|N||Both
+stage 0 chronic lymphocytic leukemia|N||New only
+stage i adult hodgkin lymphoma|N||New only
+stage i verrucous carcinoma of the oral cavity|N||New only
+stage ia pancreatic cancer|N||New only
+stage ib cervical cancer|N||New only
+stage ib pancreatic cancer|N||New only
+stage ii prostate adenocarcinoma|N||New only
+stage ii renal cell cancer|N||New only
+stage iia non-small cell lung carcinoma|N||New only
+stage iii cervical cancer|N||New only
+stage iii cutaneous melanoma ajcc v7|N||New only
+stage iii mycosis fungoides/sezary syndrome|N||Both
+stage iii non-small cell lung cancer|N||New only
+stage iii oropharyngeal squamous cell carcinoma|N||New only
+stage iii pancreatic cancer ajcc v6 and v7|N||New only
+stage iii prostate adenocarcinoma|N||New only
+stage iv mycosis fungoides/sezary syndrome|N||Both
+stage iva salivary gland cancer|N||New only
+stage ivb salivary gland cancer|N||New only
+stage ivc salivary gland cancer|N||New only
+staphylococcal infection|N||New only
+steatohepatitis|N||New only
+"subarachnoid hemorrhage| aneurysmal"|N||New only
+substance related disorders|N||New only
+sudden cardiac arrest|N||New only
+superficial bladder cancer|N||New only
+t-cell adult acute lymphoblastic leukemia|N||New only
+tbi (traumatic brain injury)|N||New only
+tracheal intubation morbidity|Y||New only
+tranexamic acid|N||New only
+tricuspid regurgitation|Y||New only
+umbilical hernia|N||Both
+unresectable pancreatic cancer|N||New only
+untreated childhood acute lymphoblastic leukemia|N||New only
+vaso-occlusive crisis|N||New only
+very low birth weight infants|N||New only
+vestibulodynia|N||New only
+vitamin d insufficiency|N||New only
+weaning failure|N||New only
+wound complications|N||New only
+x-linked hypophosphatemia|N||New only
+abdominal hysterectomy (& wertheim)|N||New only
+achilles tendinopathy|N||New only
+acquired immune deficiency syndrome|N||Both
+acute spinal cord injury|N||New only
+adenocarcinoma of prostate|N||New only
+adenovirus infection|N||New only
+adolescent|N||New only
+adult acute monoblastic leukemia|N||New only
+adult acute monocytic leukemia|N||New only
+adult acute myeloid leukemia without maturation|N||New only
+adult medulloblastoma|N||New only
+adult pineal gland astrocytoma|N||New only
+adult respiratory distress syndrome|Y||New only
+advanced lung cancer|N||New only
+advanced malignant solid tumors|N||Both
+advanced renal cell carcinoma|N||Both
+adverse drug event|N||New only
+aggressive non-hodgkin lymphoma|N||New only
+airway inflammation|Y||Both
+allergic bronchopulmonary aspergillosis|Y||New only
+allogeneic hematopoietic stem cell transplantation|N||New only
+alpha-1 antitrypsin deficiency|Y||New only
+alzheimer's dementia|N||New only
+ambulation difficulty|N||New only
+anaplastic ependymoma|N||New only
+anaplastic thyroid cancer|N||New only
+"anesthesia; adverse effect| spinal and epidural"|N||New only
+anterior cruciate ligament tear|N||New only
+anterior knee pain syndrome|N||New only
+anticoagulants|N||New only
+anticoagulation|N||New only
+aortic valve replacement|N||New only
+arthropathy of knee joint|N||New only
+asperger's syndrome|N||New only
+atopic eczema|N||Both
+auditory hallucinations|N||New only
+autosomal dominant polycystic kidney disease (adpkd)|N||New only
+b-cell acute lymphoblastic leukemia|N||New only
+batten disease|N||New only
+beta thalassemia major|N||New only
+bone disease|N||New only
+bone health|N||New only
+bone mineral density|N||New only
+bone sarcoma|N||New only
+bowel preparation for colonoscopy|N||New only
+bronchospasm|Y||Both
+bullous pemphigoid|N||New only
+cardiovascular disease (cvd)|N||New only
+castrate-resistant prostate cancer|N||New only
+cervical spinal cord injury|N||New only
+cervical squamous cell carcinoma|N||New only
+cervicalgia|N||New only
+chemotherapy induced nausea and vomiting|N||New only
+child neglect|N||New only
+chlamydia trachomatis|N||New only
+cholangiocarcinoma of the extrahepatic bile duct|N||New only
+chronic ankle instability|N||New only
+chronic gastritis|N||New only
+chronic inflammatory demyelinating polyradiculoneuropathy|N||New only
+chronic kidney insufficiency|N||New only
+chronic leukemia|N||New only
+chronic lymphocytic leukaemia|N||New only
+chronic pelvic pain|N||New only
+chronic schizophrenia|N||New only
+clostridium difficile colitis|N||New only
+cmv infection|N||New only
+cocaine use disorders|N||New only
+cognitive side effects of cancer therapy|N||New only
+colorectal tumors|N||New only
+"complication| postoperative"|N||New only
+congenital adrenal hyperplasia|N||New only
+congenital heart defect|N||New only
+conscious sedation failure during procedure|N||New only
+coping|N||New only
+coronary artery bypass graft|N||New only
+coronary artery bypass graft surgery|N||Both
+coronary artery bypass graft triple vessel|N||New only
+coronary artery diseases|N||Both
+coughing|Y||New only
+critical limb ischemia (cli)|N||New only
+crow's feet|N||Both
+cutaneous abscess|N||New only
+delayed onset muscle soreness|N||New only
+delivery of health care|N||New only
+delusional disorder|N||New only
+dentin hypersensitivity|N||New only
+denture stomatitis|N||New only
+"depression| bipolar"|N||New only
+difficult airway|Y||New only
+"diffuse| large b-cell| lymphoma"|N||New only
+disability|N||Both
+disorders of consciousness|N||New only
+diverticular disease|N||New only
+dysplasia|N||New only
+dysthymia|N||New only
+ebv|N||New only
+effect of high altitude|Y||New only
+effects of immunotherapy|N||New only
+efficacy|N||Both
+egfr gene mutation|N||New only
+emesis|N||New only
+empowerment|N||New only
+endometrial adenosquamous carcinoma|N||New only
+endometrioma|N||New only
+endometrium cancer|N||New only
+"epicondylitis| lateral humeral"|N||New only
+erythematotelangiectatic rosacea|N||New only
+eustachian tube dysfunction|N||New only
+exercise addiction|N||New only
+exposure to man-made visible light|N||New only
+extensive-stage small cell lung cancer|N||New only
+feeding intolerance|N||New only
+female sexual dysfunction|N||New only
+female stress urinary incontinence|N||New only
+femoral artery occlusion|N||New only
+fluid responsiveness|Y||New only
+functional abdominal pain|N||New only
+gallbladder disease|N||New only
+gastrointestinal complications|N||Both
+gastrointestinal tolerance|N||New only
+gist|N||New only
+gliomas|N||New only
+glycemic control|N||Both
+graft failure|Y|Y|New only
+hcv coinfection|N||New only
+head and neck cancers|N||Both
+head and neck squamous cell cancer|N||New only
+healthy elderly|N||New only
+healthy women|N||New only
+heart transplant|Y|Y|New only
+"heart; dysfunction postoperative| cardiac surgery"|N||New only
+helicobacter pylori|N||New only
+hepatic cancer|N||New only
+hepatic steatosis|N||New only
+hepatitis c (hcv)|N||New only
+hiatal hernia|N||Both
+hiv disease|N||New only
+hiv-infection|N||New only
+hodgkins disease|N||Both
+house dust mite allergy|N||New only
+hyperandrogenemia|N||New only
+hypertensive disease|N||New only
+hypertrophic scars|N||New only
+hypoglycaemia|N||New only
+impaired renal function|N||New only
+impaired wound healing|N||New only
+impulsivity|N||New only
+injury prevention|N||New only
+intermediate uveitis|N||New only
+intracranial hemorrhage|N||New only
+intradialytic hypotension|N||New only
+invasive ductal breast cancer|N||New only
+iron deficiency anaemia|N||New only
+irritable bowel syndrome characterized by constipation|N||New only
+ischemic cerebrovascular accident|N||New only
+"knee arthroplasty| total"|N||New only
+lentigo maligna|N||New only
+localized non-resectable adult liver carcinoma|N||New only
+localized prostate cancer|N||Both
+lung transplant|Y|Y|New only
+lymphoid leukemia|N||New only
+"lymphoma| small lymphocytic"|N||Both
+lysosomal acid lipase deficiency|N||New only
+malignant tumor|N||New only
+medical education|N||New only
+mental health impairment|N||New only
+metabolic disorder|N||New only
+metabolic disorders|N||New only
+metastatic castration resistant prostate cancer|N||New only
+metastatic malignant neoplasm|N||New only
+migraines|N||New only
+mild cognitive impairment (mci)|N||New only
+mitral insufficiency|N||New only
+mucosal melanoma|N||New only
+multiple myeloma (mm)|N||New only
+"multiple sclerosis| secondary progressive"|N||New only
+multivessel coronary artery disease|N||New only
+muscle injury|N||New only
+myofascial trigger point pain|N||New only
+nasolabial fold|N||New only
+neonatal hyperbilirubinemia|N||New only
+"neoplasms| head and neck"|N||New only
+"neoplasms| malignant"|N||Both
+newborn|N||New only
+nhl|N||Both
+nodal marginal zone lymphoma|N||New only
+non alcoholic steatohepatitis|N||New only
+non-hodgkin's lymphoma (nhl)|N||Both
+non-ischemic cardiomyopathy|N||New only
+non-proliferative diabetic retinopathy|N||New only
+nonalcoholic fatty liver disease (nafld)|N||New only
+normal volunteers|N||New only
+obstructive jaundice|N||New only
+ocular surface disease|N||New only
+opioid induced constipation|N||New only
+"opioid use| unspecified"|N||New only
+oropharyngeal dysphagia|N||New only
+osteoarthritis knee|N||New only
+"osteoarthritis|knee"|N||New only
+ovarian sarcoma|N||New only
+ovary cancer|N||New only
+pancreatic disease|N||New only
+pancreatic insufficiency|N||Both
+parkinson's disease dementia|N||New only
+parkinsonâ´s disease|N||New only
+periampullary adenocarcinoma|N||New only
+personality disorder|N||New only
+pharmacogenetics|N||New only
+pharmacokinetics of asp1941|N||New only
+platelet function|N||New only
+pleural mesothelioma|Y||New only
+post operative analgesia|N||Both
+post traumatic stress disorder (ptsd)|N||New only
+post-polycythemia vera myelofibrosis|N||New only
+postdural puncture headache|N||New only
+primary brain tumor|N||New only
+primary progressive aphasia|N||New only
+problem drinking|N||New only
+"progressive hairy cell leukemia| initial treatment"|N||New only
+prostate neoplasm|N||New only
+psychiatric disorders|N||New only
+psychosis nos|N||New only
+pulmonary sarcoidosis|Y||New only
+recurrent bladder cancer|N||New only
+recurrent childhood supratentorial primitive neuroectodermal tumor|N||New only
+recurrent childhood visual pathway and hypothalamic glioma|N||New only
+recurrent disease|N||New only
+recurrent endometrial carcinoma|N||New only
+recurrent malignant testicular germ cell tumor|N||Both
+recurrent non-hodgkin lymphoma|N||New only
+recurrent oropharyngeal squamous cell carcinoma|N||New only
+recurrent rectal carcinoma|N||New only
+recurrent skin cancer|N||New only
+refractory anemia|N||New only
+refractory angina pectoris|N||New only
+regional anesthesia morbidity|N||New only
+renal function disorder|N||New only
+resectable pancreatic cancer|N||New only
+respiratory diseases|Y||New only
+respiratory infections|Y||New only
+restless legs syndrome (rls)|N||New only
+salivary gland cancer|N||New only
+sclc|N||New only
+seborrheic keratosis|N||New only
+severe aortic stenosis|N||New only
+severe hypertriglyceridemia|N||New only
+sexually transmitted infection|N||New only
+sleep quality|N||New only
+small for gestational age|N||New only
+solid malignancies|N||Both
+sprain|N||Both
+stage 0 breast cancer|N||New only
+stage i renal cell cancer|N||New only
+stage ib non-small cell lung cancer|N||New only
+stage ib non-small cell lung carcinoma|N||New only
+stage ii squamous cell carcinoma of the oropharynx|N||New only
+stage iii esophageal squamous cell carcinoma|N||New only
+stage iiia cervical cancer|N||New only
+stage iiic esophageal cancer|N||New only
+stage iv bladder urothelial carcinoma|N||New only
+stage iv prostate adenocarcinoma|N||New only
+stage iv salivary gland cancer|N||New only
+stage iva laryngeal squamous cell carcinoma|N||New only
+stage iva oral cavity squamous cell carcinoma|N||New only
+stage iva squamous cell carcinoma of the paranasal sinus and nasal cavity|N||New only
+stage ivb oropharyngeal squamous cell carcinoma|N||New only
+stage ivb squamous cell carcinoma of the paranasal sinus and nasal cavity|N||New only
+stem cell transplant|N||New only
+streptococcus pneumoniae|N||New only
+"stress disorders| post traumatic"|N||New only
+stunting|N||New only
+subclinical hypothyroidism|N||New only
+swine-origin a/h1n1 influenza|N||Both
+systemic mastocytosis|N||New only
+therapy-related acute myeloid leukemia|N||New only
+therapy-related toxicity|N||New only
+thrombotic thrombocytopenic purpura|N||Both
+thyroid neoplasm|N||Both
+tibial fracture|N||New only
+tinea cruris|N||New only
+tobacco smoking behavior|N||New only
+tongue carcinoma|N||New only
+tooth extraction status nos|N||New only
+total parenteral nutrition-induced cholestasis|N||New only
+transfusion|N||New only
+transfusional iron overload|N||Both
+transient insomnia|N||Both
+treatment-resistant depression|N||New only
+type1diabetes|N||New only
+ulcerative colitis (uc)|N||New only
+umbilical cord|N||New only
+upper respiratory infection|N||New only
+urge incontinence|N||New only
+urinary bladder cancer|N||New only
+uterine carcinosarcoma|N||New only
+uterine myomas|N||Both
+vaccines|N||New only
+vaginal vault prolapse|N||New only
+variceal bleeding|N||Both
+vascular function|N||New only
+venous reflux|N||New only
+vesicoureteral reflux|N||New only
+volunteers|N||New only
+abnormal uterine bleeding|N||New only
+acquired immune deficiency syndrome virus|N||New only
+active rheumatoid arthritis|N||Both
+acute pyelonephritis|N||New only
+adult acute megakaryoblastic leukemia|N||New only
+adult acute myeloid leukemia with maturation|N||New only
+adult acute myelomonocytic leukemia|N||New only
+adult acute promyelocytic leukemia (m3)|N||New only
+adult brain glioblastoma|N||New only
+adult ependymoma|N||New only
+adult erythroleukemia|N||New only
+adult pure erythroid leukemia|N||New only
+adult synovial sarcoma|N||New only
+advance care planning|N||New only
+advanced gastric adenocarcinoma|N||New only
+age-related maculopathy|N||Both
+age-related memory disorders|N||New only
+alcohol withdrawal|N||New only
+allergic contact dermatitis|N||New only
+allodynia|N||New only
+"alopecia| androgenetic"|N||New only
+anal fissure|N||New only
+analgesia disorder|N||New only
+angiosarcoma|N||New only
+appetite and general nutritional disorders|N||New only
+arterial stiffness|N||New only
+"arthritis| juvenile rheumatoid"|N||New only
+arthropathy of hip|N||New only
+"astrocytoma| grade iv"|N||New only
+attention-deficit hyperactivity disorder|N||New only
+b acute lymphoblastic leukemia|N||New only
+b-cell non-hodgkin lymphoma|N||New only
+bacterial infection due to helicobacter pylori (h. pylori)|N||New only
+bacterial meningitis|N||New only
+bacterial pneumonia|N||New only
+biliary obstruction|N||New only
+bioequivalency|N||Both
+birch pollen allergy|N||New only
+bone fracture|N||New only
+bone marrow failure|N||New only
+bowel obstruction|N||New only
+brain stem glioma|N||New only
+brca1 mutation|N||New only
+breast adenocarcinoma|N||New only
+breast cancer survivors|N||New only
+breast fibroadenoma|N||New only
+breast tumor|N||New only
+bullous keratopathy|N||New only
+cancer of prostate|N||New only
+cancer related fatigue|N||New only
+cancer-related problem/condition|N||New only
+carcinoma breast stage iv|N||New only
+caregiver|N||New only
+castration-resistant prostate carcinoma|N||New only
+central nervous system lymphoma|N||New only
+cerebral blood flow|N||New only
+cerebral edema|N||New only
+cervicogenic headache|N||New only
+childbirth|N||Both
+childhood atypical teratoid/rhabdoid tumor|N||New only
+childhood choroid plexus tumor|N||New only
+chronic anal fissure|N||New only
+chronic cough|Y||New only
+chronic headache|N||New only
+chronic lower back pain|N||New only
+chronic myelomonocytic leukemia (cmml)|N||New only
+chronic myocardial ischemia|N||New only
+chronic pelvic pain syndrome|N||Both
+"chronic phase chronic myelogenous leukemia| bcr-abl1 positive"|N||New only
+chronic phase chronic myeloid leukemia|N||New only
+coagulation|N||New only
+cognitive development|N||Both
+"cognitive function 1| social"|N||New only
+cold|N||New only
+colonic polyp|N||New only
+comorbidity|N||New only
+compensated cirrhosis|N||New only
+compliance behavior|N||New only
+complicated urinary tract infection|N||New only
+conditions influencing health status|N||New only
+conductive hearing loss|N||New only
+congenital cytomegalovirus infection|N||New only
+congenital fxiii deficiency|N||New only
+contact lens wear|N||Both
+corneal astigmatism|N||New only
+cow milk allergy|N||New only
+craniosynostosis|N||New only
+crow's feet lines|N||New only
+cushing's syndrome|N||New only
+cutaneous lupus erythematosus|N||New only
+cutaneous t cell lymphoma|N||New only
+cutaneous t-cell lymphoma (ctcl)|N||New only
+cytokines|N||New only
+deep vein thrombosis (dvt)|N||New only
+delayed gastric emptying|N||New only
+dental implant|N||New only
+developmental delays|N||New only
+diabetes mellitus type 2 in obese|N||New only
+"diabetes mellitus| insulin-dependent"|N||New only
+diabetic macular oedema|N||New only
+diarrhea-predominant irritable bowel syndrome|N||New only
+diffuse adenocarcinoma of the stomach|N||New only
+diffuse large b-cell lymphoma (dlbcl)|N||New only
+"disease| hodgkin"|N||Both
+disorder of shoulder|N||New only
+disorder related to lung transplantation|Y|Y|New only
+disorders associated with peritoneal dialysis|N||New only
+diverticulosis|N||New only
+drug toxicity|N||New only
+dry eyes|N||New only
+dysfunctional uterine bleeding|N||New only
+dyskinesia|N||New only
+ectopic pregnancy|N||New only
+"education| medical"|N||New only
+egfr activating mutation|N||New only
+emergence agitation|N||New only
+emotional distress|N||New only
+endoscopic retrograde cholangiopancreatography|N||New only
+exercise capacity|N||New only
+extensive stage small cell lung carcinoma|N||New only
+extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue|N||New only
+facial rhytides|N||New only
+fallopian tube mucinous adenocarcinoma|N||New only
+fallopian tube serous adenocarcinoma|N||New only
+family planning|N||New only
+femur fracture|N||Both
+fibroid|N||New only
+food intake|N||New only
+gastric varices|N||New only
+gastrointestinal cancers|N||New only
+gastrointestinal symptoms|N||Both
+growth hormone deficiency in children|N||New only
+growth retardation|N||New only
+gynecologic diseases|N||New only
+haemorrhage|N||New only
+hairy cell leukemia|N||New only
+health behaviour|N||New only
+hepatitis b infection|N||New only
+high-risk pregnancy|N||New only
+hiv risk|N||New only
+hookworm disease|N||New only
+hormone receptor positive tumor|N||New only
+hpv|N||Both
+hpv infections|N||Both
+hyperlipoproteinemia|N||New only
+hypertrophic scar|N||New only
+immune function|N||New only
+immune response|N||New only
+in-stent restenosis|N||Both
+influenza a virus infection|N||New only
+influenza vaccines|N||New only
+intervertebral disk displacement|N||New only
+intestinal adenocarcinoma of the stomach|N||New only
+intra-abdominal infection|N||New only
+intractable pain|N||New only
+"intubation| endotracheal"|Y||New only
+iris melanoma|N||New only
+ischaemic heart disease|N||New only
+ischemic heart failure|N||New only
+kaposi's sarcoma|N||New only
+knee arthroscopy|N||New only
+large cell lung cancer|N||New only
+locally advanced breast cancer|N||New only
+"low back pain| mechanical"|N||New only
+low grade glioma|N||New only
+lower limb amputation|N||New only
+lumbosacral radiculopathy|N||New only
+lung resection|Y||New only
+macular holes|N||New only
+malignant solid tumors|N||New only
+marijuana use|N||New only
+mdd|N||New only
+medication compliance|N||New only
+medication therapy management|N||New only
+memory deficits|N||New only
+memory loss|N||New only
+meniscal tear|N||New only
+meniscus lesion|N||New only
+metastatic colon cancer|N||New only
+metastatic malignant neoplasm in the bone|N||New only
+metastatic malignant neoplasm to brain|N||New only
+milk allergy|N||New only
+minimal hepatic encephalopathy|N||Both
+mixed adenocarcinoma of the stomach|N||New only
+mixed glioma|N||New only
+mrsa - methicillin resistant staphylococcus aureus infection|N||New only
+muscle wasting|N||New only
+myalgic encephalomyelitis|N||New only
+myelodysplastic syndrome with isolated del(5q)|N||New only
+neonatal death|N||New only
+neonatal encephalopathy|N||New only
+neonatal jaundice|N||New only
+"neoplasms| ovarian"|N||New only
+neovascular age related macular degeneration|N||Both
+neuromyelitis optica spectrum disorder|N||New only
+non-erosive reflux disease|N||New only
+non-inflammatory degenerative joint disease|N||New only
+non-small cell lung cancer stage iv|N||New only
+nonmalignant neoplasm|N||Both
+nonsquamous nonsmall cell neoplasm of lung|N||New only
+nosocomial infections|N||New only
+nosocomial pneumonia|N||New only
+nutritional deficiency|N||New only
+obsessive compulsive disorder (ocd)|N||New only
+"obstetric labour| premature"|N||New only
+ocular hypertension (oht)|N||New only
+omphalitis|N||New only
+opioid related disorders|N||New only
+orofacial pain|N||New only
+oropharynx cancer|N||New only
+osteoarthritis of the hip|N||New only
+pain control|N||New only
+pain due to certain specified procedures|N||New only
+"pain| post-operative"|N||New only
+partially edentulous jaw|N||New only
+patient participation|N||New only
+patient safety|N||New only
+penile cancer|N||New only
+performance|N||New only
+peritoneal carcinoma|N||New only
+pharmacokinetic|N||Both
+"pharmacology| clinical"|N||New only
+pituitary adenoma|N||New only
+polyp of large intestine|N||New only
+poor glycemic control|N||New only
+poor ovarian response|N||New only
+post-traumatic; arthrosis|N||New only
+postmenopausal disorder|N||New only
+postoperative analgesia|N||New only
+postprandial hyperglycemia|N||New only
+poverty|N||New only
+pre-diabetic|N||New only
+preterm infant|N||New only
+primary open angle glaucoma (poag)|N||New only
+radiation dermatitis|N||New only
+rectal neoplasm|N||New only
+recurrent adult liver carcinoma|N||New only
+recurrent childhood subependymal giant cell astrocytoma|N||New only
+recurrent head and neck cancer|N||New only
+recurrent laryngeal squamous cell carcinoma|N||New only
+recurrent lymphoplasmacytic lymphoma|N||New only
+recurrent urinary tract infection|N||New only
+refractory adult acute lymphoblastic leukemia|N||New only
+refractory cytopenia with multilineage dysplasia|N||Both
+respiratory tract infection|Y||New only
+retention|N||New only
+rhegmatogenous retinal detachment|N||New only
+"rhinitis| allergic| perennial and seasonal"|N||New only
+rotator cuff disease|N||New only
+rotator cuff syndrome|N||New only
+rotavirus infection|N||New only
+schizophrenia and disorders with psychotic features|N||New only
+secondary myelodysplastic syndrome|N||New only
+serious mental illness|N||New only
+severe persistent asthma|Y||New only
+shift-work sleep disorder|N||New only
+shoulder injury|N||New only
+side effects|N||New only
+single ventricle|N||New only
+skin and subcutaneous tissue bacterial infections|N||New only
+skin structures and soft tissue infections|N||New only
+slipped capital femoral epiphysis|N||New only
+small bowel obstruction|N||New only
+small intestinal bacterial overgrowth|N||New only
+"smoking| tobacco"|N||New only
+soft-tissue sarcoma|N||New only
+spinocerebellar ataxia|N||New only
+spinocerebellar degeneration|N||New only
+squamous cell cancer|N||Both
+squamous cell carcinoma of the oral cavity|N||New only
+squamous cell carcinoma of the skin|N||New only
+squamous non-small cell lung cancer|N||New only
+stage i colon cancer|N||New only
+stage i squamous cell carcinoma of the oropharynx|N||New only
+stage ia non-small cell lung cancer|N||New only
+stage ii uterine corpus cancer|N||New only
+stage iia colon cancer|N||New only
+stage iib colon cancer|N||New only
+stage iib skin melanoma|N||New only
+stage iic colon cancer|N||New only
+stage iic skin melanoma|N||New only
+stage iii non-small cell lung cancer ajcc v7|N||New only
+stage iii ovarian epithelial cancer|N||Both
+stage iii rectal cancer|N||New only
+stage iii salivary gland cancer|N||New only
+stage iiia ovarian epithelial cancer|N||New only
+stage iiib esophageal cancer|N||New only
+stage iiib ovarian epithelial cancer|N||New only
+stage iiic ovarian epithelial cancer|N||New only
+stage iv lung cancer|N||New only
+stage ivc squamous cell carcinoma of the paranasal sinus and nasal cavity|N||New only
+"stem cell transplantation| hematopoietic"|N||New only
+stomach neoplasm|N||New only
+sudden death|N||New only
+survival|N||New only
+t cell lymphoma|N||New only
+tattoo removal|N||New only
+thrombus|N||New only
+thyroid|N||New only
+thyroid disease|N||New only
+thyroid eye disease|N||New only
+to determine bioequivalence under fed conditions.|N||Both
+total laryngectomy|N||New only
+tourette's syndrome|N||New only
+transitional cell cancer of the renal pelvis and ureter|N||Both
+traumatic amputation of lower extremity|N||New only
+ttr-mediated amyloidosis|N||New only
+type-2 diabetes|N||New only
+type2 diabetes mellitus|N||New only
+unresectable malignant neoplasm|N||New only
+upper airway obstruction|Y||New only
+urinary complications|N||Both
+urinary urge incontinence|N||New only
+uterine corpus leiomyosarcoma|N||New only
+uterine leiomyoma|N||New only
+valve surgery|N||Both
+vegetative state|N||New only
+vitamin d|N||New only
+wegener's granulomatosis|N||Both
+weight changes|N||Both
+weight reduction|N||New only
+wet age-related macular degeneration|N||Both
+wound complication|N||New only
+abdominal aortic aneurysm (aaa)|N||New only
+abdominal compartment syndrome|Y||New only
+acute bronchiolitis|Y||New only
+acute hepatitis c|N||New only
+acute kidney failure|N||Both
+acute leukemia of ambiguous lineage|N||New only
+acute leukemias|N||New only
+acute low back pain|N||New only
+acute myocardial infarction (ami)|N||New only
+acute on chronic hepatic failure|N||New only
+acute respiratory infections|Y||New only
+acute upper respiratory tract infections|N||New only
+adenoviral conjunctivitis|N||New only
+adult acute myeloid leukemia with minimal differentiation|N||New only
+adult acute myeloid leukemia with t(9;11)(p22;q23); mllt3-mll|N||New only
+adult angiosarcoma|N||New only
+adult grade ii meningioma|N||New only
+adult liposarcoma|N||New only
+adult pineoblastoma|N||New only
+adult soft tissue sarcoma|N||New only
+adult supratentorial primitive neuroectodermal tumor (pnet)|N||New only
+adult t acute lymphoblastic leukemia|N||New only
+adult t-cell leukemia-lymphoma|N||New only
+adverse drug reaction|N||New only
+adverse effect of radiation therapy|N||New only
+adverse events|N||New only
+aerobic exercise|N||New only
+age-related macular degeneration (amd)|N||New only
+airway complication of anaesthesia|Y||New only
+alcohol addiction|N||New only
+alzheimers disease|N||New only
+amputation stumps|N||New only
+anal incontinence|N||New only
+anastomotic leakage|N||New only
+anesthesia; functional|N||New only
+"anesthetics| local"|N||New only
+ankle injury|N||New only
+antibiotic associated diarrhea|N||New only
+antineoplastic agents|N||New only
+aortic disease|N||New only
+aortic insufficiency|N||New only
+aortic regurgitation|N||New only
+arthropathy of knee|N||New only
+asd|N||New only
+asherman syndrome|N||New only
+asymptomatic bacteriuria|N||New only
+atopy|N||New only
+axillary hyperhidrosis|N||New only
+b-cell childhood acute lymphoblastic leukemia|N||New only
+b-cell lymphomas|N||New only
+b-cell prolymphocytic leukemia|N||New only
+basal cell carcinoma of the skin|N||New only
+behaviour|N||New only
+beta-thalassemia major|N||New only
+bipolar ii disorder|N||New only
+bladder outlet obstruction|N||New only
+bladder pain syndrome|N||New only
+bone fractures|N||New only
+"brain tumor| primary"|N||New only
+brainstem glioma|N||New only
+breast abnormalities|N||Both
+burn scar|N||New only
+burnout|N||New only
+caesarean section|N||New only
+cancer of liver|N||New only
+cancer of ovary|N||New only
+cancer prevention|N||New only
+"cancer| breast"|N||New only
+cardiac death|N||New only
+cardiorenal syndrome|N||New only
+cardiovascular disease risk|N||New only
+"caries| dental"|N||New only
+central venous catheterization|Y||New only
+cervical spondylosis|N||New only
+chemoradiation|N||New only
+chf|N||New only
+childhood acute erythroleukemia (m6)|N||New only
+childhood acute megakaryocytic leukemia (m7)|N||New only
+childhood central nervous system germ cell tumor|N||New only
+childhood craniopharyngioma|N||New only
+childhood high-grade cerebellar astrocytoma|N||New only
+childhood high-grade cerebral astrocytoma|N||New only
+childhood infratentorial ependymoma|N||New only
+childhood medulloepithelioma|N||New only
+childhood mixed glioma|N||New only
+childhood supratentorial ependymoma|N||New only
+choroidal melanoma|N||New only
+chronic arsenic poisoning|N||New only
+chronic fatigue|N||New only
+chronic inflammation|N||New only
+chronic ischemic heart disease|N||New only
+chronic kidney disease stage 5|N||New only
+chronic myeloid leukemia (cml)|N||New only
+chronic postoperative pain|N||New only
+chronic spontaneous urticaria|N||New only
+chronic tic disorder|N||New only
+chronic total occlusion of coronary artery|N||New only
+chronic wounds|N||New only
+cigarette smoking behavior|N||New only
+circumcision|N||New only
+circumference reduction|N||New only
+clinically isolated syndrome|N||New only
+collagen disorders|N||Both
+colorectal liver metastases|N||New only
+common bile duct stones|N||New only
+common warts|N||New only
+complementary feeding|N||New only
+"complete tear| knee| anterior cruciate ligament"|N||New only
+complex regional pain syndrome (crps)|N||New only
+complication of coronary artery bypass graft|N||New only
+complication of prematurity|N||New only
+complications due to coronary artery bypass graft|N||New only
+complications; arthroplasty|N||New only
+contingency management|N||New only
+contrast-induced nephropathy|N||New only
+corneal disease|N||New only
+coronary artery calcification|N||New only
+crohnâ´s disease|N||New only
+cutaneous melanoma|N||New only
+cvd|N||New only
+cytomegalovirus|N||New only
+dcis|N||New only
+degenerative lesion of articular cartilage of knee|N||New only
+"delirium| dementia| amnestic| cognitive disorders"|N||New only
+delivery systems|N||New only
+"depression| unipolar"|N||New only
+"diabetes mellitus| adult-onset"|N||New only
+difficulty walking|N||New only
+digestive system disorders|N||New only
+dlbcl|N||New only
+drug-drug interaction|N||New only
+drug-drug interaction (ddi)|N||New only
+dupuytren's contracture|N||New only
+early breast cancer|N||New only
+early childhood caries|N||New only
+ectasia|N||New only
+effects of vibration|N||New only
+egfr positive non-small cell lung cancer|N||New only
+emotional stress|N||New only
+endometrial mixed adenocarcinoma|N||New only
+endometrial transitional cell carcinoma|N||New only
+enteral feeding|N||New only
+epicondylitis|N||New only
+"epilepsy| partial"|N||New only
+excessive sleepiness|N||New only
+exclusive breastfeeding|N||New only
+extramedullary plasmacytoma|N||New only
+"extranodal nk/t-cell lymphoma| nasal type"|N||New only
+facioscapulohumeral muscular dystrophy|N||New only
+familial dysautonomia|N||New only
+family caregivers|N||New only
+fasting state|N||New only
+female breast cancer|N||New only
+female contraception|N||New only
+female infertility due to diminished ovarian reserve|N||New only
+femoral artery stenosis|N||New only
+femoral fracture|N||New only
+fetal alcohol syndrome|N||New only
+focal dystonia|N||New only
+focal epilepsy|N||New only
+foot drop|N||New only
+gastric tumor|N||New only
+gastrointestinal motility disorder|N||New only
+general surgery|N||New only
+genetic diseases|N||New only
+geriatrics|N||New only
+glabellar rhytides|N||New only
+gne myopathy|N||New only
+gonorrhoea|N||New only
+grade 1 follicular lymphoma|N||New only
+grade 2 follicular lymphoma|N||New only
+h1n1 influenza virus|N||Both
+haemodialysis|N||Both
+haemophilia|N||New only
+hand eczema|N||New only
+"headache| migraine"|N||New only
+healthy men and women|N||New only
+healthy term infants|N||New only
+hearing impairment|N||New only
+heart failure with normal ejection fraction|N||New only
+hematological disease|N||New only
+hemorrhoid|N||New only
+her2 positive|N||New only
+herniated disc|N||New only
+hip pain|N||New only
+hiv lipodystrophy|N||New only
+homelessness|N||New only
+hormone receptor positive malignant neoplasm of breast|N||New only
+human immunodeficiency virus (hiv) infection|N||New only
+hypercholesteremia|N||New only
+hyperinsulinemia|N||New only
+hypersomnia|N||New only
+hypertension resistant to conventional therapy|N||New only
+hyperthermia|N||New only
+hypomagnesemia|N||New only
+hypothalamic obesity|N||New only
+idiopathic intracranial hypertension|N||New only
+immune deficiency|N||New only
+immunodeficiency|N||New only
+impaired driving|N||New only
+increased metabolic requirement|N||New only
+indolent non-hodgkin's lymphoma|N||New only
+infantile hemangioma|N||New only
+"influenza a virus| h1n1 subtype"|N||New only
+influenza vaccine|N||New only
+"injuries| spinal cord"|N||New only
+injury of anterior cruciate ligament|N||New only
+intermittent exotropia|N||New only
+intervention|N||New only
+intervertebral disc disease|N||New only
+intrabony periodontal defect|N||New only
+intracerebral haemorrhage|N||New only
+intraoperative bleeding|N||New only
+intrauterine adhesions|N||New only
+intrauterine growth restriction|N||New only
+invasive fungal infection|Y||New only
+invasive lobular breast carcinoma|N||New only
+iodine deficiency|N||New only
+iron absorption|N||New only
+irritable bowel syndrome with constipation|N||New only
+kaposi sarcoma|N||New only
+kidney injury|N||Both
+"labor; forced or induced| affecting fetus or newborn"|N||New only
+laceration|N||New only
+langerhans cell histiocytosis|Y||New only
+laryngeal cancer|N||New only
+late onset neonatal sepsis|N||New only
+left ventricular systolic dysfunction|N||New only
+"leukemia| acute lymphoblastic"|N||New only
+"leukemia| chronic myeloid"|N||New only
+"leukemia| myeloid| chronic"|N||Both
+lifestyle-related condition|N||New only
+light chain deposition disease|N||New only
+lipids|N||New only
+liver carcinoma|N||New only
+liver neoplasm|N||New only
+liver surgery|N||New only
+living donors|N||New only
+locally advanced|N||New only
+locally advanced cervical cancer|N||New only
+low bone mineral density|N||Both
+low cardiac output syndrome|N||New only
+lower limb ischemia|N||New only
+lumbago|N||New only
+lumbar spine disc herniation|N||New only
+lung metastasis|N||New only
+lupus|N||New only
+lymphoblastic leukemia|N||Both
+"lymphoma| non-hodgkin's"|N||New only
+malabsorption|N||New only
+"malignant melanoma| neoplasms"|N||New only
+malignant ovarian mixed epithelial tumor|N||New only
+malignant peripheral nerve sheath tumor|N||New only
+men|N||New only
+meningococcemia|N||Both
+meniscus tear|N||New only
+metabolic cardiovascular syndrome|N||New only
+metachromatic leukodystrophy|N||New only
+metastatic|N||New only
+metastatic cancers|N||New only
+metastatic ewing sarcoma/peripheral primitive neuroectodermal tumor|N||New only
+metastatic lung cancer|N||New only
+metastatic malignant melanoma|N||New only
+metastatic malignant neoplasm in the lung|N||New only
+metastatic pancreatic ductal adenocarcinoma|N||New only
+metastatic tumors|N||New only
+mhealth|N||New only
+mild dementia|N||New only
+mitral valve disease|N||New only
+mixed phenotype acute leukemia|N||New only
+motor deficit|N||New only
+mucopolysaccharidosis|N||New only
+multidrug resistant tuberculosis|N||New only
+multiple sclerosis (ms)|N||New only
+muscle soreness|N||New only
+nail psoriasis|N||New only
+nasal polyposis|N||New only
+neck cancer|N||New only
+neonatal respiratory failure|Y||New only
+neurotoxicity syndrome|N||New only
+non muscle invasive bladder cancer|N||New only
+non st elevation myocardial infarction|N||New only
+non st segment elevation acute coronary syndrome|N||New only
+non-cystic fibrosis bronchiectasis|Y||New only
+non-hodgkin lymphoma (nhl)|N||New only
+non-infectious uveitis|N||New only
+normal healthy volunteers|N||New only
+normal hepatic function|N||New only
+normal tension glaucoma|N||New only
+nutritional intervention|N||New only
+oligoastrocytoma|N||New only
+open abdomen|N||New only
+opioid use disorders|N||New only
+oral cavity cancer|N||New only
+other solid tumors|N||New only
+ovarian neoplasm|N||New only
+oxytocin|N||New only
+pad|N||New only
+pancreatic acinar cell carcinoma|N||New only
+pancreatic carcinoma non-resectable|N||New only
+parkinsonism|N||New only
+partial seizures|N||New only
+pdd|N||New only
+percutaneous transluminal coronary angioplasty|N||New only
+peripheral t cell lymphoma|N||New only
+persistent pulmonary hypertension of the newborn|Y||New only
+placebo effect|N||New only
+plasmodium vivax|N||New only
+platelet aggregation inhibitors|N||New only
+platelet reactivity|N||New only
+pneumococcal pneumonia|Y||New only
+polyarthritis|N||New only
+polycystic liver disease|N||New only
+poor performance status|N||New only
+poor quality sleep|N||New only
+port wine stain|N||Both
+post partum hemorrhage|N||New only
+post-polio syndrome|N||New only
+postoperative blood loss|N||New only
+postoperative confusion|N||New only
+postoperative infection|N||New only
+postprandial lipemia|N||Both
+pre diabetes|N||New only
+pregnancy induced hypertension|N||New only
+premature infant|N||New only
+prevention & control|N||New only
+primary central nervous system non-hodgkin lymphoma|N||New only
+primary immune deficiency|N||Both
+primary prevention|N||New only
+prostate cancer recurrent|N||New only
+"prostatic hypertrophy| benign"|N||New only
+psychosocial problem|N||New only
+pulmonary hypoplasia|Y||New only
+quality improvement|N||New only
+radius fracture|N||New only
+recurrent adenoid cystic carcinoma of the oral cavity|N||New only
+recurrent childhood anaplastic oligodendroglioma|N||New only
+recurrent childhood glioblastoma|N||New only
+recurrent childhood soft tissue sarcoma|N||New only
+recurrent endometrial cancer|N||New only
+recurrent hypopharyngeal squamous cell carcinoma|N||New only
+recurrent kaposi sarcoma|N||New only
+recurrent malignant mesothelioma|N||New only
+recurrent mucoepidermoid carcinoma of the oral cavity|N||New only
+recurrent mycosis fungoides and sezary syndrome|N||New only
+recurrent uterine corpus sarcoma|N||New only
+recurrent uveal melanoma|N||New only
+refractory angina|N||New only
+refractory chronic cough|Y||New only
+refractory mature t-cell and nk-cell non-hodgkin lymphoma|N||New only
+refractory non-hodgkin lymphoma|N||New only
+replacement|N||New only
+retinopathy|N||New only
+sacroiliac joint pain|N||New only
+schizo-affective disorder|N||New only
+schizoaffective disorders|N||New only
+second hand tobacco smoke|N||New only
+secondary malignant neoplasm of liver|N||New only
+sedentary behavior|N||New only
+seizure disorder|N||New only
+severe malnutrition|N||New only
+sexual assault|N||New only
+shoulder impingement|N||New only
+simulation|N||New only
+simulation training|N||New only
+skin wrinkling|N||New only
+sly syndrome|N||New only
+snake bite|N||Both
+"squamous cell carcinoma| head and neck"|N||New only
+st elevation acute myocardial infarction|N||New only
+stage i adult t-cell leukemia/lymphoma|N||New only
+stage i rectal cancer|N||New only
+stage i squamous cell carcinoma of the larynx|N||New only
+stage i verrucous carcinoma of the larynx|N||New only
+stage ia mycosis fungoides/sezary syndrome|N||New only
+stage ia non-small cell lung carcinoma|N||New only
+stage ia uterine corpus cancer|N||New only
+stage ib mycosis fungoides/sezary syndrome|N||New only
+stage ib uterine corpus cancer|N||New only
+stage ii adult t-cell leukemia/lymphoma|N||New only
+stage ii bladder cancer|N||New only
+stage ii prostate cancer|N||Both
+stage ii squamous cell carcinoma of the hypopharynx|N||New only
+stage ii squamous cell carcinoma of the larynx|N||New only
+stage ii verrucous carcinoma of the larynx|N||New only
+stage iia mycosis fungoides/sezary syndrome|N||New only
+stage iii ovarian germ cell tumor|N||New only
+stage iii skin melanoma|N||New only
+stage iii squamous cell carcinoma of the paranasal sinus and nasal cavity|N||New only
+stage iii uterine sarcoma|N||New only
+stage iiia esophageal cancer|N||New only
+stage iiia gallbladder cancer|N||New only
+stage iiib gallbladder cancer|N||New only
+stage iv urethral cancer|N||New only
+stage iva colorectal cancer ajcc v7|N||New only
+stage ivb colorectal cancer ajcc v7|N||New only
+stage ivc oropharyngeal squamous cell carcinoma|N||New only
+steatosis|N||New only
+stent thrombosis|N||Both
+sterility|N||New only
+subjective tinnitus|N||Both
+substance abuse problem|N||New only
+superficial basal cell carcinoma|N||New only
+swallowing disorders|N||New only
+systemic juvenile idiopathic arthritis|N||New only
+therapeutic uses|N||New only
+thoracoabdominal aortic aneurysm|N||New only
+thrombocytopaenia|N||New only
+thyroid nodules|N||New only
+tick-borne encephalitis|N||New only
+tissue and organ procurement|Y|Y|New only
+tobacco|N||New only
+training|N||New only
+treatment as usual|N||New only
+"tumors| breast"|N||New only
+ultrasound|N||New only
+uncomplicated falciparum malaria|N||New only
+unresectable|N||New only
+unresectable hepatocellular carcinoma|N||New only
+urethral cancer|N||Both
+vascular inflammation|N||New only
+vascular surgery|N||Both
+ventricular arrhythmia|N||New only
+vertebral compression fractures|N||New only
+video-assisted thoracoscopic surgery|N||New only
+"violence| non-accidental"|N||New only
+vitreomacular adhesion|N||New only
+vulvar intraepithelial neoplasia|N||New only
+abdominal fat|N||New only
+abdominal obesity metabolic syndrome|N||New only
+ablation|N||New only
+achromatopsia|N||New only
+acid reflux|N||New only
+active ulcerative colitis|N||New only
+acute alcoholic hepatitis|N||New only
+acute brain injuries|N||New only
+acute brain injury|N||New only
+acute cerebrovascular accident|N||New only
+acute gastritis|N||New only
+acute gout|N||Both
+acute gouty arthritis|N||New only
+acute graft rejection|Y|Y|New only
+acute graft-versus-host disease|Y|Y|New only
+acute gvh disease|N||New only
+acute intermittent porphyria|N||New only
+acute leukaemia|N||New only
+acute leukemias of ambiguous lineage|N||New only
+acute lung injury (ali)|Y||New only
+acute lymphocytic leukemia (all)|N||New only
+acute myeloblastic leukemia|N||New only
+acute myocardial infarction: rehabilitation phase|N||New only
+acute renal injury|N||New only
+acute rhinosinusitis|N||New only
+acute schizophrenia|N||New only
+acute urticaria|N||New only
+adenotonsillectomy|N||New only
+adipose tissue|N||New only
+adolescents|N||New only
+adult acute basophilic leukemia|N||New only
+adult acute eosinophilic leukemia|N||New only
+adult acute myeloid leukemia|N||New only
+adult acute myeloid leukemia with t(8;21)(q22;q22); runx1-runx1t1|N||New only
+adult acute myeloid leukemia with t(8;21); (q22; q22.1); runx1-runx1t1|N||New only
+adult acute myeloid leukemia with t(9;11)(p22.3;q23.3); mllt3-kmt2a|N||New only
+adult ependymoblastoma|N||New only
+adult fibrosarcoma|N||New only
+adult lymphoblastic lymphoma|N||New only
+adult myelodysplastic syndrome|N||New only
+adult papillary meningioma|N||New only
+adult pilocytic astrocytoma|N||New only
+adult primary cholangiocellular carcinoma|N||New only
+adult solid tumor|N||New only
+adult subependymal giant cell astrocytoma|N||New only
+advanced gastrointestinal cancer|N||New only
+advanced non small cell lung cancer|N||New only
+advanced nonhematologic malignancies|N||New only
+advanced or metastatic breast cancer|N||New only
+advanced solid cancers|N||New only
+advanced/metastatic solid tumors|N||New only
+adverse effect|N||New only
+affective disorders|N||New only
+aggressive behavior|N||New only
+alcohol intoxication|N||New only
+alpha1-antitrypsin deficiency|Y||New only
+alzheimer dementia|N||New only
+alzheimer's type dementia|N||New only
+ampullary cancer|N||New only
+anal squamous cell carcinoma|N||New only
+"analgesics| opioid"|N||New only
+anaplastic large-cell lymphoma|N||New only
+anemia of chronic disease|N||New only
+angiogenesis|N||New only
+ankle sprains|N||New only
+anti-infective agents|N||New only
+antibiotics|N||New only
+aorto-iliac aneurysms|N||New only
+aphthous stomatitis|N||New only
+apical periodontitis|N||New only
+apoplexy|N||New only
+apraxia of speech|N||New only
+arteriovenous malformation|N||New only
+"arthritis| degenerative"|N||New only
+aspiration pneumonia|Y||New only
+aspirin|N||New only
+asthmatic|N||New only
+atherothrombosis|N||New only
+athlete's foot|N||New only
+atrophic acne scars|N||New only
+attention-deficit hyperactivity disorder (adhd)|N||New only
+"atypical chronic myeloid leukemia| bcr-abl negative"|N||New only
+atypical ductal breast hyperplasia|N||New only
+autoimmune pancreatitis|N||New only
+autologous stem cell transplantation|N||New only
+autonomic failure|N||New only
+"b-cell lymphoma| unclassifiable| with features intermediate between diffuse large b-cell lymphoma and burkitt lymphoma"|N||New only
+b-cell malignancies|N||New only
+bacterial keratitis|N||New only
+baldness|N||New only
+behavioral problems|N||New only
+bile duct carcinoma|N||New only
+bile duct obstruction|N||New only
+biphenotypic leukemia|N||New only
+bipolar|N||Both
+bipolar affective disorder|N||New only
+bladder dysfunction|N||New only
+blastic plasmacytoid dendritic cell neoplasm|N||New only
+bloating|N||New only
+bloodloss|N||New only
+bloodstream infection|Y||New only
+bone marrow failure syndrome|N||New only
+bone metabolism|N||Both
+bone tumor|N||New only
+bph|N||New only
+brain aneurysm|N||New only
+brain function|N||New only
+breast cancer metastatic|N||New only
+breast cancer recurrent|N||New only
+breathlessness|Y||New only
+bronchopulmonary dysplasia (bpd)|Y||New only
+bypass complications|N||New only
+"c.delivery; surgery (previous)| gynecological"|N||New only
+cancer of cervix|N||New only
+cannabis use|N||New only
+cardiac function|N||New only
+cardiovascular|N||New only
+carotid artery plaque|N||New only
+carpal tunnel|N||New only
+castrate resistant prostate cancer|N||New only
+catheter related infection|Y||New only
+central abdominal bulging|N||New only
+central nervous system metastases|N||New only
+central obesity|N||New only
+central precocious puberty|N||New only
+central sleep apnea|Y||New only
+cerebral palsy (cp)|N||New only
+cervical intraepithelial neoplasia grade 2/3|N||New only
+chikungunya virus infection|N||New only
+childhood acute monoblastic leukemia (m5a)|N||New only
+childhood acute monocytic leukemia (m5b)|N||New only
+childhood b acute lymphoblastic leukemia|N||New only
+childhood central nervous system germinoma|N||New only
+childhood ependymoblastoma|N||New only
+childhood grade iii meningioma|N||New only
+childhood oligodendroglioma|N||New only
+childhood solid tumor|N||New only
+cholangiocarcinoma of the gallbladder|N||New only
+cholangiocellular carcinoma|N||New only
+cholesterol|N||New only
+chronic allograft nephropathy|Y|Y|Both
+chronic central serous chorioretinopathy|N||New only
+chronic daily headache|N||New only
+chronic diarrhea|N||New only
+chronic heart failure (chf)|N||New only
+chronic hepatitis c virus infection|N||Both
+chronic hypercapnic respiratory failure|Y||New only
+chronic myeloid leukaemia|N||New only
+chronic nonspecific low back pain|N||New only
+chronic prostatitis with chronic pelvic pain syndrome|N||New only
+chronic stable heart failure|N||New only
+chronic systolic heart failure|N||New only
+chronic wound|N||New only
+clear cell renal carcinoma|N||New only
+cleft lip and palate|N||New only
+clinical efficacy|N||New only
+cmml|N||New only
+cochlear implant|N||New only
+colon adenocarcinoma|N||New only
+colon cancer liver metastasis|N||New only
+colon cancer screening|N||New only
+colon cleansing|N||New only
+colonic adenomas|N||New only
+colorectal disease|N||New only
+community-acquired bacterial pneumonia|N||New only
+compartment syndrome|N||New only
+complete edentulism|N||New only
+complication of transplant|Y|Y|New only
+complication of ventilation therapy|Y||New only
+complications of diabetes mellitus|N||New only
+"concussion| mild"|N||New only
+congenital cataract|N||New only
+constipation - functional|N||New only
+constipation predominant irritable bowel syndrome|N||New only
+constipation-predominant irritable bowel syndrome|N||New only
+contrast induced acute kidney injury|N||New only
+contrast media|N||New only
+coping skills|N||New only
+corneal staining|N||New only
+coronary artery occlusive disease|N||New only
+criminogenic thinking|N||New only
+critical lower limb ischemia|N||New only
+critically ill patients|Y||New only
+cryotherapy effect|N||New only
+current smoker|N||New only
+cystic fibrosis related diabetes|N||New only
+dedifferentiated liposarcoma|N||New only
+deep caries|N||New only
+deficiency of vitamin d3|N||New only
+"deficiency| vitamin d"|N||New only
+degeneration of lumbar intervertebral disc|N||New only
+degenerative osteoarthritis|N||New only
+delayed function of renal transplant|Y|Y|New only
+deleterious brca1 gene mutation|N||New only
+deleterious brca2 gene mutation|N||New only
+delirium on emergence|N||New only
+delivery uterine|N||New only
+dentinal hypersensitivity|N||New only
+depressive disorder and anxiety disorders|N||New only
+detrusor overactivity|N||Both
+"diabetes| type 1"|N||New only
+"diabetes| type i"|N||Both
+diabetic foot infection|N||New only
+diabetic macular edema (dme)|N||New only
+diabetic ulcer|N||New only
+diamond blackfan anemia|N||New only
+dietary intervention|N||New only
+digestive cancer|N||New only
+"disorder of bone density and structure| unspecified"|N||New only
+disorder of glucose regulation|N||New only
+"disorder; heart| functional| postoperative| cardiac surgery"|N||New only
+disuse atrophy|N||New only
+dopamine beta hydroxylase deficiency|N||New only
+dose finding study|N||New only
+drug-induced liver injury|N||New only
+dupuytren's disease|N||New only
+dyslipidaemias|N||New only
+eating behaviour|N||New only
+edentulous alveolar ridge|N||New only
+edentulous jaw|N||New only
+edentulous mouth|N||New only
+elective surgery|N||New only
+embryo development|N||New only
+encephalopathy|N||New only
+end-stage renal disease (esrd)|N||New only
+end-stage renal failure|N||New only
+endometrial mucinous adenocarcinoma|N||New only
+endometrial polyps|N||New only
+environmental exposure|N||New only
+eosinophilic asthma|Y||New only
+eosinophilic esophagitis (eoe)|N||New only
+epiphora|N||New only
+episodic cluster headache|N||New only
+episodic migraine|N||New only
+erythema migrans|N||New only
+erythropoietic protoporphyria|N||New only
+esophageal|N||New only
+esophageal squamous cell cancer|N||New only
+estrogen receptor positive tumor|N||New only
+ewings sarcoma|N||New only
+exposure laser|N||New only
+eyelash hypotrichosis|N||New only
+failed moderate sedation during procedure|N||New only
+fall prevention|N||New only
+fall risk|N||New only
+"falls| accidental"|N||New only
+fear of falling|N||New only
+flexibility|N||New only
+food allergies|N||New only
+food effect|N||New only
+food insecurity|N||New only
+frail older adults|N||New only
+gall stone disease|N||New only
+gallbladder carcinoma|N||New only
+gastric adenoma|N||New only
+gastric neoplasm|N||New only
+gastroenteropancreatic neuroendocrine tumors|N||New only
+gastrointestinal carcinoid tumor|N||Both
+gastrointestinal infections|N||New only
+"gaucher disease| type 1"|N||Both
+genital herpes simplex type 2|N||New only
+gestational hypertension|N||New only
+gestational weight gain|N||New only
+glioblastoma multiforme (gbm)|N||New only
+glucose homeostasis|N||New only
+glucose transporter type 1 deficiency syndrome|N||New only
+growth disorder|N||New only
+growth hormone treatment|N||New only
+gynecologic disease|N||New only
+gynecologic neoplasms|N||New only
+h1n1 influenza|N||New only
+hair loss|N||New only
+hand surgery|N||New only
+head & neck cancer|N||Both
+head and neck neoplasm|N||New only
+head lice infestation|N||New only
+head neck cancer|N||New only
+health-related quality of life|N||Both
+healthy humans|N||New only
+healthy male volunteer|N||New only
+healthy people|N||New only
+healthy smokers|N||New only
+healthy young adults|N||New only
+heart attack|N||New only
+heart decompensation|N||New only
+heart failure nyha class iii|N||New only
+heart failure with reduced ejection fraction|N||New only
+heart rate and rhythm disorders|N||New only
+heart rate variability|N||New only
+hematopoietic stem cell transplant|N||New only
+hemiplegic cerebral palsy|N||New only
+hemophilia a with inhibitors|N||New only
+hepatic carcinoma|N||New only
+hepatic neoplasms|N||New only
+hepatitis c genotype 1|N||New only
+her2 positive breast carcinoma|N||New only
+hereditary hemorrhagic telangiectasia (hht)|N||New only
+hereditary inclusion body myopathy|N||New only
+"hereditary tyrosinemia| type i"|N||New only
+high cholesterol|N||New only
+high grade ovarian serous adenocarcinoma|N||New only
+high-grade glioma|N||New only
+hip arthritis|N||New only
+hip dysplasia|N||New only
+hiv-associated hodgkin lymphoma|N||New only
+hmg coa reductase inhibitor adverse reaction|N||New only
+hnscc|N||New only
+hospital acquired pneumonia|N||New only
+hpv infection|N||New only
+human immunodeficiency virus type 1|N||New only
+humans|N||New only
+hurler syndrome|N||New only
+hydroxymethylglutaryl-coa reductase inhibitors|N||New only
+hyperglycaemia|N||New only
+"hyperglycemia| postprandial"|N||New only
+"hypertension| essential"|N||New only
+hypopharyngeal cancer|N||New only
+icd|N||New only
+idiopathic gastroparesis|N||New only
+idiopathic pulmonary fibrosis (ipf)|Y||New only
+iliac aneurysms|N||New only
+immediate hypersensitivity|N||New only
+immunogenicity|N||New only
+impaired health|N||New only
+inadequate glycaemic control|N||New only
+incomplete abortion|N||New only
+infant malnutrition|N||New only
+infant morbidity|N||New only
+infection in solid organ transplant recipients|Y|Y|New only
+"infections| human immunodeficiency virus and herpesviridae"|N||New only
+infectious keratitis|N||New only
+infiltrating bladder urothelial carcinoma|N||New only
+inflammatory breast carcinoma|N||New only
+inflammatory disease|N||New only
+informed consent|N||New only
+innate immune response|N||New only
+intensive care unit|Y||Both
+intertrochanteric fracture|N||New only
+intestinal permeability|N||New only
+intracranial atherosclerosis|N||New only
+intrinsic aging of skin|N||New only
+irritable bowel syndrome with constipation (ibs-c)|N||New only
+isolated plasmacytoma of bone|N||New only
+isolated systolic hypertension|N||New only
+itching|N||New only
+ivf|N||New only
+keloids|N||New only
+kidney neoplasm|N||New only
+kidney tumor|N||New only
+knee replacement|N||New only
+lactic acidosis|N||New only
+large cell lung carcinoma|N||New only
+laryngospasm|N||New only
+learning disability|N||New only
+left bundle branch block|N||New only
+left ventricular function systolic dysfunction|N||New only
+"leukemia| lymphocytic| acute"|N||Both
+"leukemia| lymphocytic| chronic"|N||Both
+leukemias|N||New only
+liver resection|N||New only
+localized unresectable neuroblastoma|N||New only
+"low back pain| recurrent"|N||New only
+low-grade glioma|N||New only
+lower respiratory tract infections|Y||New only
+lumbar disc disease|N||New only
+lumbar radiculopathy|N||New only
+lung carcinoid tumor|Y||New only
+lung function|Y||New only
+lung infection|Y||New only
+lung inflammation|Y||New only
+lung transplant rejection|Y|Y|New only
+lupus erythematosus|N||New only
+"lymphoblastic leukemia| acute"|N||New only
+lymphocytic leukemia|N||New only
+lysosomal storage disease|N||New only
+major trauma|N||New only
+malignant brain tumor|N||New only
+malignant glioma of brain|N||New only
+malignant melanoma stage iv|N||New only
+malignant neoplasms of digestive organs|N||New only
+malignant tumors|N||New only
+"malnutrition| child"|N||New only
+maxillary hypoplasia|N||New only
+mediastinal lymphadenopathy|Y||New only
+medullary thyroid carcinoma|N||New only
+meniscectomy|N||New only
+metastatic carcinoma|N||New only
+metastatic castrate-resistant prostate cancer|N||New only
+metastatic clear cell renal cell carcinoma|N||New only
+metastatic liposarcoma|N||New only
+metastatic neoplasm|N||New only
+metastatic renal cancer|N||New only
+metastatic sarcoma|N||New only
+metastatic solid tumor|N||New only
+metastatic triple negative breast cancer|N||New only
+metastatic uveal melanoma|N||New only
+methadone|N||New only
+middle cerebral artery infarction|N||New only
+mild alzheimer's disease|N||Both
+"mild cognitive impairment| so stated"|N||New only
+mildly hypercholesterolemic subjects|N||New only
+missed abortion|N||New only
+mitral stenosis|N||New only
+mitral valve incompetence|N||New only
+mixed hyperlipidemia|N||New only
+mobile applications|N||New only
+mobile health|N||New only
+moderate acute malnutrition|N||New only
+moderate to severe plaque-type psoriasis|N||New only
+morquio a syndrome|N||New only
+mountain sickness|N||New only
+mri|N||New only
+mrsa|N||New only
+mrsa infection|N||Both
+multifocal motor neuropathy|N||New only
+multiple organ dysfunction syndrome|N||New only
+muscle function|N||New only
+muscle protein synthesis|N||New only
+myelodysplastic syndrome with excess blasts|N||New only
+"myelogenous leukemia| acute"|N||New only
+"myeloid leukemia| chronic"|N||New only
+myeloid malignancies|N||New only
+myelomeningocele|N||New only
+myeloproliferative neoplasms|N||New only
+myocardial fibrosis|N||New only
+myocardial perfusion|N||New only
+myxofibrosarcoma|N||New only
+myxovirus infection|N||Both
+"nausea and vomiting| postoperative"|N||New only
+neonatal infection|N||New only
+neonatal seizures|N||New only
+neoplasia|N||New only
+"neoplasms| liver"|N||New only
+"neoplasms| lung"|N||New only
+"neoplasms| prostate"|N||New only
+nerve pain|N||New only
+neurodevelopmental disorder|N||New only
+neurogenic orthostatic hypotension|N||New only
+neurosurgery|N||New only
+nicotine withdrawal|N||New only
+nitric oxide|N||New only
+non-muscle invasive bladder cancer|N||New only
+non-small cell lung cancer(nsclc)|N||New only
+nonunion of femoral fractures|N||Both
+nutrition intervention|N||New only
+obsessive-compulsive disorder (ocd)|N||New only
+ocd|N||New only
+ocular melanoma|N||New only
+ohss|N||New only
+onychomycosis of toenails|N||New only
+opioid addiction|N||New only
+opioid-induced constipation (oic)|N||New only
+oral candidiasis|N||New only
+oral surgery|N||New only
+osteoarthrosis of the carpometacarpal joint of the thumb|N||New only
+"other diagnoses| comorbidities| and complications"|N||New only
+other preterm infants|N||New only
+other reconstructive surgery|N||New only
+ovarian|N||New only
+ovarian carcinosarcoma|N||New only
+ovarian germ cell tumor|N||New only
+ovarian stromal cancer|N||New only
+over weight|N||New only
+overactive detrusor|N||New only
+pain postoperative|N||New only
+"pain| chronic"|N||New only
+"pain| neuropathic"|N||New only
+painful neuropathy|N||New only
+pancreas|N||New only
+pancreatic cysts|N||New only
+pancreatic neuroendocrine tumor|N||New only
+parkinson's|N||New only
+paroxysmal nocturnal hemoglobinuria (pnh)|N||New only
+pediatric crohn's disease|N||New only
+pediatric growth hormone deficiency|N||New only
+pemphigus vulgaris|N||New only
+periampullary cancer|N||New only
+perianal abscess|N||New only
+perinatal asphyxia|N||New only
+pharmacokinetics of ym178|N||New only
+pigmented villonodular synovitis|N||New only
+pilonidal disease|N||New only
+placental transfusion|N||New only
+plasmodium vivax malaria|N||New only
+poor graft function|Y|Y|New only
+post cardiac surgery|N||New only
+post concussion syndrome|N||New only
+post partum haemorrhage|N||New only
+post thrombotic syndrome|N||New only
+post traumatic stress disorders|N||New only
+post-menopausal osteoporosis|N||Both
+post-operative delirium|N||New only
+post-thrombotic syndrome|N||New only
+postnatal depression|N||New only
+postoperative respiratory complications|Y||New only
+postoperative wound infection|N||New only
+precocious puberty|N||New only
+pregnancy complication|N||New only
+"premature; infant| light-for-dates"|N||New only
+preterm|N||New only
+preterm premature rupture of membranes|N||New only
+preventive health services|N||New only
+primary axillary hyperhidrosis|N||New only
+primary brain tumors|N||New only
+primary breast cancer|N||Both
+primary fibromyalgia|N||New only
+primary immune deficiency disorder|N||New only
+primary liver cancer|N||New only
+primary mediastinal b-cell lymphoma|N||New only
+proliferative vitreoretinopathy|N||New only
+prostate|N||New only
+prostate carcinoma metastatic in the bone|N||New only
+prosthetic joint infection|N||New only
+provoked vestibulodynia|N||New only
+psa progression|N||New only
+pseudomonas aeruginosa infection|N||New only
+ptosis|N||New only
+pulmonary cancer|N||New only
+pulmonary embolus|Y||New only
+pulmonary function|Y||New only
+pulmonary metastases|N||New only
+pulmonary neoplasms|N||New only
+pulmonary regurgitation|Y||New only
+pulmonary rehabilitation|Y||New only
+"qt interval| variation in"|N||New only
+quality of health care|N||New only
+radiation retinopathy|N||New only
+radiofrequency ablation|N||New only
+randomized controlled trial|N||New only
+reading disabilities|N||New only
+reconstructive surgery|N||New only
+recruitment|N||New only
+rectal bleeding|N||New only
+recurrent adult immunoblastic lymphoma|N||New only
+recurrent adult non-hodgkin lymphoma|N||New only
+recurrent aphthous stomatitis|N||New only
+recurrent burkitt lymphoma|N||New only
+recurrent central nervous system neoplasm|N||New only
+recurrent childhood anaplastic astrocytoma|N||New only
+recurrent childhood anaplastic oligoastrocytoma|N||New only
+recurrent esophageal cancer|N||New only
+recurrent gastric carcinoma|N||New only
+recurrent laryngeal verrucous carcinoma|N||New only
+recurrent lip and oral cavity squamous cell carcinoma|N||New only
+recurrent lung carcinoma|N||New only
+recurrent lymphoepithelioma of the nasopharynx|N||New only
+recurrent lymphoepithelioma of the oropharynx|N||New only
+recurrent melanoma of the skin|N||New only
+recurrent nasal cavity and paranasal sinus squamous cell carcinoma|N||New only
+recurrent oral cavity verrucous carcinoma|N||New only
+recurrent pterygium|N||New only
+recurrent salivary gland carcinoma|N||New only
+recurrent vaginal cancer|N||New only
+recurrent wilms tumor and other childhood kidney tumors|N||New only
+refractory central nervous system neoplasm|N||New only
+"refractory chronic myelogenous leukemia| bcr-abl1 positive"|N||New only
+refractory partial seizures|N||Both
+refractory schizophrenia|N||New only
+regional neuroblastoma|N||New only
+regurgitation|N||New only
+rejection|Y|Y|New only
+relapsed and refractory multiple myeloma|N||New only
+relapsed/refractory multiple myeloma|N||New only
+relapsing forms of multiple sclerosis|N||New only
+relapsing-remitting multiple sclerosis (rrms)|N||New only
+renal denervation|N||New only
+renal dysfunction|N||New only
+renal pelvis cancer|N||New only
+respiratory complication|Y||New only
+respiratory muscles|Y||New only
+rhinovirus|N||New only
+rotator cuff tears|N||New only
+rotator cuff tendinitis|N||New only
+sarcomas|N||New only
+school readiness|N||New only
+secondary|N||New only
+secondhand smoke exposure|N||New only
+self-esteem|N||New only
+sentinel lymph node|N||New only
+severe alcoholic hepatitis|N||New only
+severe congenital neutropenia|N||New only
+severe haemophilia a|N||New only
+severe major depression with psychotic features|N||New only
+severe mental illness|N||New only
+severe sepsis with septic shock|Y||New only
+severe traumatic brain injury|N||Both
+sevoflurane|N||New only
+sexual function|N||New only
+sexual risk behavior|N||New only
+sexual violence|N||New only
+short cervix|N||New only
+sickle cell disorders|N||New only
+sinus node dysfunction|N||New only
+skin basal cell carcinoma|N||New only
+skin disease|N||New only
+sle|N||New only
+slow transit constipation|N||New only
+small intestinal lymphoma|N||New only
+social determinants of health|N||New only
+social psychology|N||New only
+soft tissue injury|N||New only
+soft tissue sarcomas|N||New only
+spinal cord injury (sci)|N||New only
+spinal cord trauma|N||New only
+spinal deformity|N||New only
+sporadic inclusion body myositis|N||New only
+squamous cell carcinoma of oropharynx|N||New only
+squamous cell carcinoma of the head and neck (scchn)|N||New only
+squamous cell lung carcinoma|N||New only
+st segment elevation myocardial infarction|N||New only
+stage i adenoid cystic carcinoma of the oral cavity|N||New only
+stage i mucoepidermoid carcinoma of the oral cavity|N||New only
+stage i mycosis fungoides/sezary syndrome|N||New only
+stage i oropharyngeal squamous cell carcinoma|N||New only
+stage i prostate adenocarcinoma|N||New only
+stage i squamous cell carcinoma of the hypopharynx|N||New only
+stage ia fallopian tube cancer|N||New only
+stage ib fallopian tube cancer|N||New only
+stage ib skin melanoma|N||New only
+stage ib2 cervical cancer|N||New only
+stage ic fallopian tube cancer|N||New only
+stage ii adenoid cystic carcinoma of the oral cavity|N||New only
+stage ii cervical cancer|N||New only
+stage ii colon cancer|N||New only
+stage ii esophageal squamous cell carcinoma|N||New only
+stage ii mucoepidermoid carcinoma of the oral cavity|N||New only
+stage ii mycosis fungoides/sezary syndrome|N||New only
+stage ii oropharyngeal squamous cell carcinoma|N||New only
+stage ii small lymphocytic lymphoma|N||New only
+stage ii squamous cell carcinoma of the nasopharynx|N||New only
+stage ii vulvar cancer|N||New only
+stage iia ovarian epithelial cancer|N||New only
+stage iia skin melanoma|N||New only
+stage iib gastric cancer|N||New only
+stage iib mycosis fungoides/sezary syndrome|N||New only
+stage iib ovarian epithelial cancer|N||New only
+stage iic ovarian epithelial cancer|N||New only
+stage iii adenoid cystic carcinoma of the oral cavity|N||New only
+stage iii bladder urothelial carcinoma|N||New only
+stage iii diffuse large b-cell lymphoma|N||New only
+stage iii endometrial carcinoma|N||New only
+stage iii hypopharyngeal squamous cell carcinoma|N||New only
+stage iii laryngeal squamous cell carcinoma|N||New only
+stage iii mucoepidermoid carcinoma of the oral cavity|N||New only
+stage iii oral cavity squamous cell carcinoma|N||New only
+stage iii urethral cancer|N||New only
+stage iii vaginal cancer|N||New only
+stage iiia colorectal cancer|N||New only
+stage iiia mycosis fungoides/sezary syndrome|N||New only
+stage iiia ovarian germ cell tumor|N||New only
+stage iiia primary peritoneal cavity cancer|N||New only
+stage iiia uveal melanoma|N||New only
+stage iiib colorectal cancer|N||New only
+stage iiib mycosis fungoides/sezary syndrome|N||New only
+stage iiib ovarian germ cell tumor|N||New only
+stage iiib primary peritoneal cavity cancer|N||New only
+stage iiib uterine sarcoma|N||New only
+stage iiib uveal melanoma|N||New only
+stage iiic colorectal cancer|N||New only
+stage iiic ovarian germ cell tumor|N||New only
+stage iiic primary peritoneal cavity cancer|N||New only
+stage iiic uterine sarcoma|N||New only
+stage iiic uveal melanoma|N||New only
+stage iv diffuse large b-cell lymphoma|N||New only
+stage iv endometrial carcinoma|N||New only
+stage iv lymphoepithelioma of the nasopharynx|N||New only
+stage iv merkel cell carcinoma|N||New only
+stage iv squamous cell carcinoma of the paranasal sinus and nasal cavity|N||New only
+stage iv thyroid gland follicular carcinoma|N||New only
+stage iv thyroid gland papillary carcinoma|N||New only
+stage iv uterine sarcoma|N||New only
+stage iva hypopharyngeal squamous cell carcinoma|N||New only
+stage iva mycosis fungoides/sezary syndrome|N||New only
+stage iva oral cavity verrucous carcinoma|N||New only
+stage iva oropharyngeal squamous cell carcinoma ajcc v7|N||New only
+stage iva thyroid gland follicular carcinoma|N||New only
+stage iva thyroid gland papillary carcinoma|N||New only
+stage iva uterine sarcoma|N||New only
+stage ivb laryngeal squamous cell carcinoma|N||New only
+stage ivb mycosis fungoides/sezary syndrome|N||New only
+stage ivb oropharyngeal squamous cell carcinoma ajcc v7|N||New only
+stage ivb thyroid gland follicular carcinoma|N||New only
+stage ivb thyroid gland papillary carcinoma|N||New only
+stage ivb uterine sarcoma|N||New only
+stage ivc thyroid gland follicular carcinoma|N||New only
+stage ivc thyroid gland papillary carcinoma|N||New only
+staphylococcus aureus infection|N||New only
+striae|N||New only
+stump pain|N||New only
+subacromial bursitis|N||New only
+subcutaneous fat|N||New only
+submental fat|N||New only
+symptomatic aortic stenosis|N||New only
+t-cell non-hodgkin lymphoma|N||New only
+teen pregnancy prevention|N||New only
+temporal lobe epilepsy|N||New only
+temporomandibular joint disorder|N||New only
+temporomandibular joint dysfunction|N||New only
+tendonitis|N||New only
+testicular germ cell tumor|N||Both
+therapeutic procedural complication|N||New only
+therapy|N||Both
+thermal injury|N||New only
+thoracic aortic aneurysm|N||New only
+thyroid gland medullary carcinoma|N||New only
+thyroid surgery|N||New only
+thyroid-associated ophthalmopathy|N||New only
+tinea corporis|N||New only
+tobacco addiction|N||New only
+toxicity due to chemotherapy|N||New only
+toxicity due to radiotherapy|N||New only
+transformed recurrent non-hodgkin lymphoma|N||New only
+transient ischemic attack (tia)|N||New only
+transplants and implants|Y|Y|New only
+traumatic femoral fractures|N||New only
+traveler's diarrhea|N||New only
+travelers' diarrhea|N||Both
+triage|N||New only
+type-2 diabetes mellitus|N||New only
+typhoid|N||New only
+typical atrial flutter|N||New only
+unilateral hearing loss|N||New only
+unilateral primary osteoarthritis of knee|N||New only
+unresectable extrahepatic bile duct cancer|N||New only
+unresectable pancreatic carcinoma|N||New only
+unspecified adult solid tumor|N||New only
+untreated childhood anaplastic astrocytoma|N||New only
+untreated childhood brain stem glioma|N||New only
+untreated childhood gliosarcoma|N||New only
+untreated childhood supratentorial primitive neuroectodermal tumor|N||New only
+untreated hairy cell leukemia|N||New only
+upper aerodigestive tract neoplasms|N||New only
+urethra cancer|N||New only
+urinary stones|N||New only
+uterine fibroid|N||New only
+uterine leiomyomas|N||New only
+vaccine|N||New only
+vaginal delivery|N||New only
+vasomotor rhinitis|N||New only
+vasospastic angina|N||New only
+vasovagal syncope|N||New only
+venous stasis ulcer|N||New only
+ventricular arrythmias|N||Both
+very low birth weight infant|N||New only
+vitamin deficiency|N||New only
+voiding dysfunction|N||New only
+von hippel-lindau syndrome|N||New only
+well being|N||New only
+white spot lesions|N||New only
+wound infections|N||New only
+acute kidney injury|N||Old only
+acute pain|N||Old only
+advanced heart failure|N||Old only
+alzheimerazs disease|N||Old only
+apathy|N||Old only
+attention deficit disorder with hyperactivity|N||Old only
+autism spectrum disorder|N||Old only
+beta-thalassemia|N||Old only
+candidemia|N||Old only
+cardiac catheterization|N||Old only
+cardiac transplantation|Y|Y|Old only
+cellulite|N||Old only
+cervical neoplasia|N||Old only
+childhood germ cell tumor|N||Old only
+chronic|N||Old only
+chronic pain|N||Old only
+cns cancer|N||Old only
+cognitive dysfunction|N||Old only
+congenital hyperinsulinism|N||Old only
+continuous ambulatory peritoneal dialysis|N||Old only
+edentulism|N||Old only
+eosinophilic esophagitis|N||Old only
+extragonadal germ cell tumor|N||Old only
+first episode psychosis|N||Old only
+haemophilus influenzae infections|N||Old only
+haemophilus influenzae type b disease|N||Old only
+hypoxia|Y||Old only
+impotence|N||Old only
+incisional hernia|N||Old only
+influenza disease|N||Old only
+intraocular lymphoma|N||Old only
+intraocular melanoma|N||Old only
+islet cell tumor|N||Old only
+lower urinary tract symptoms|N||Old only
+lymphomas: non-hodgkin|N||Old only
+methamphetamine addiction|N||Old only
+migraine with aura|N||Old only
+mild asthma|Y||Old only
+myalgia|N||Old only
+myelodysplastic/myeloproliferative diseases|N||Old only
+neonatal sepsis|N||Old only
+neonates|N||Old only
+non-alcoholic fatty liver disease|N||Old only
+non-melanomatous skin cancer|N||Old only
+otitis media with effusion|N||Old only
+pain management|N||Old only
+parenteral nutrition associated liver disease|N||Old only
+pediatric obesity|N||Old only
+percutaneous coronary intervention|N||Old only
+peripheral arterial disease|N||Old only
+pneumococcal diseases|N||Old only
+postoperative|N||Old only
+premature ejaculation|N||Old only
+refractory anemia with ringed sideroblasts|N||Old only
+schizoaffective|N||Old only
+sexual dysfunction and infertility|N||Old only
+solid tumor cancer|N||Old only
+stroke prevention|N||Old only
+tobacco use|N||Old only
+tooth extractions|N||Old only
+transplant|Y||Old only
+uncomplicated malaria|N||Old only
+"vaccines| pneumococcal conjugate vaccine"|N||Old only
+vaginal prolapse|N||Old only
+vision|N||Old only

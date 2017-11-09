@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe AnalyzedMeshTerm, type: :model do
-  context 'when hepatoloy_specific term loaded' do
+  context 'when loading mesh terms' do
 
-    it 'should create a hepatology_specific row' do
+    it 'should create a hepatology_specific row when Y found in that column' do
       year='2010'
       sample_identifier='C02.256.430.400'
       AnalyzedMeshTerm.destroy_all
