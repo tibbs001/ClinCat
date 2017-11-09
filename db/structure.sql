@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.6.2
--- Dumped by pg_dump version 9.6.2
+-- Dumped from database version 10.0
+-- Dumped by pg_dump version 10.0
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -42,7 +42,9 @@ CREATE TABLE analyzed_free_text_terms (
     id integer NOT NULL,
     identifier character varying,
     term character varying,
-    downcase_term character varying
+    downcase_term character varying,
+    year character varying,
+    manual_year character varying
 );
 
 
@@ -51,6 +53,7 @@ CREATE TABLE analyzed_free_text_terms (
 --
 
 CREATE SEQUENCE analyzed_free_text_terms_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -75,7 +78,9 @@ CREATE TABLE analyzed_mesh_terms (
     identifier character varying,
     term character varying,
     downcase_term character varying,
-    description character varying
+    description character varying,
+    year character varying,
+    manual_year character varying
 );
 
 
@@ -84,6 +89,7 @@ CREATE TABLE analyzed_mesh_terms (
 --
 
 CREATE SEQUENCE analyzed_mesh_terms_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -106,7 +112,8 @@ CREATE TABLE categorized_terms (
     id integer NOT NULL,
     identifier character varying,
     clinical_category character varying,
-    term_type character varying
+    term_type character varying,
+    year character varying
 );
 
 
@@ -115,6 +122,7 @@ CREATE TABLE categorized_terms (
 --
 
 CREATE SEQUENCE categorized_terms_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -145,6 +153,7 @@ CREATE TABLE clinical_categories (
 --
 
 CREATE SEQUENCE clinical_categories_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -187,6 +196,7 @@ CREATE TABLE y2010_mesh_terms (
 --
 
 CREATE SEQUENCE y2010_mesh_terms_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -218,6 +228,7 @@ CREATE TABLE y2016_mesh_headings (
 --
 
 CREATE SEQUENCE y2016_mesh_headings_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -251,6 +262,7 @@ CREATE TABLE y2016_mesh_terms (
 --
 
 CREATE SEQUENCE y2016_mesh_terms_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -385,6 +397,13 @@ CREATE INDEX index_analyzed_free_text_terms_on_term ON analyzed_free_text_terms 
 
 
 --
+-- Name: index_analyzed_free_text_terms_on_year; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_analyzed_free_text_terms_on_year ON analyzed_free_text_terms USING btree (year);
+
+
+--
 -- Name: index_analyzed_mesh_terms_on_description; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -399,6 +418,13 @@ CREATE INDEX index_analyzed_mesh_terms_on_downcase_term ON analyzed_mesh_terms U
 
 
 --
+-- Name: index_analyzed_mesh_terms_on_manual_year; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_analyzed_mesh_terms_on_manual_year ON analyzed_mesh_terms USING btree (manual_year);
+
+
+--
 -- Name: index_analyzed_mesh_terms_on_qualifier; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -410,6 +436,13 @@ CREATE INDEX index_analyzed_mesh_terms_on_qualifier ON analyzed_mesh_terms USING
 --
 
 CREATE INDEX index_analyzed_mesh_terms_on_term ON analyzed_mesh_terms USING btree (term);
+
+
+--
+-- Name: index_analyzed_mesh_terms_on_year; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_analyzed_mesh_terms_on_year ON analyzed_mesh_terms USING btree (year);
 
 
 --
