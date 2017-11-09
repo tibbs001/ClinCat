@@ -1,6 +1,8 @@
 class Y2016MeshHeading < ActiveRecord::Base
+
   def self.populate_from_file(file_name=Rails.root.join('csv','2016_mesh_headings.txt'))
     puts "about to populate table of mesh headings..."
+    destroy_all
     qualifier=''
     heading=''
     File.open(file_name).each_line{|line|
