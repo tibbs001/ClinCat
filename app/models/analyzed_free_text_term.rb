@@ -1,6 +1,6 @@
 class AnalyzedFreeTextTerm < ActiveRecord::Base
-  def self.populate_from_file(file_name=Rails.root.join('csv','analyzed_free_text_terms.csv'))
 
+  def self.populate_from_file(file_name=Rails.root.join('csv','2010_analyzed_mesh_terms.csv'),year='2010')
     File.open(file_name).each_line{|line|
       line_array=line.split('|')
       old_id=line_array[0]
@@ -9,6 +9,7 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
         new(:identifier=>old_id,
             :term=>term,
             :downcase_term=>term.downcase,
+            :year=>year,
         ).save
         (2..24).each{|i|
           if line_array[i]=='Y'
@@ -21,6 +22,7 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
         }
       end
     }
+
   end
 
 end

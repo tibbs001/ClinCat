@@ -1,22 +1,35 @@
 class ClinicalCategory < ActiveRecord::Base
 
-  def self.indexed_categories
-   { 2=>'CARDIOLOGY',
-     3=>'DERMATOLOGY',
-     4=>'ENDOCRINOLOGY',
-     5=>'GI_HEPATOLOGY',
-     6=>'IMMUNO_RHEUMATOLOGY',
-     7=>'INFECTIOUS_DISEASES',
-     8=>'NEPHROLOGY',
-     9=>'NEUROLOGY',
-     10=>'PSYCH_GENERAL',
-     11=>'ONCOLOGY',
-     12=>'OTOLARYNGOLOGY',
-     13=>'PULMONARY_MEDICINE',
-     14=>'REPRODUCTIVE_MEDICINE',
-     15=>'PSYCH_SPECIFIC',
-     16=>'HEPATOLOGY_SPECIFIC'
-   }
+  def self.get_category_for(year, index, term_type)
+    return mesh_cat_2010[index] if year == '2010' && term_type == 'mesh'
+    return mesh_cat_2017[index] if year == '2017' && term_type == 'mesh'
+  end
+
+  def self.mesh_cat_2010
+    {
+      2=>'CARDIOLOGY',
+      3=>'DERMATOLOGY',
+      4=>'ENDOCRINOLOGY',
+      5=>'GI_HEPATOLOGY',
+      6=>'IMMUNO_RHEUMATOLOGY',
+      7=>'INFECTIOUS_DISEASES',
+      8=>'NEPHROLOGY',
+      9=>'NEUROLOGY',
+      10=>'PSYCH_GENERAL',
+      11=>'ONCOLOGY',
+      12=>'OTOLARYNGOLOGY',
+      13=>'PULMONARY_MEDICINE',
+      14=>'REPRODUCTIVE_MEDICINE',
+      15=>'PSYCH_SPECIFIC',
+      16=>'HEPATOLOGY_SPECIFIC'
+    }
+  end
+
+  def self.mesh_cat_2017
+    {
+      2=>'PULMONARY',
+      3=>'TRANSPLANT',
+    }
   end
 
   def self.indexed_free_text_categories
