@@ -1,0 +1,4 @@
+MESH_ID|MESH_TERM|Cardiology|Dermatology|Endocrinology|GI Hepatology|Immuno Rheumatology|Infectious Diseases|Nephrology|Neurology|Psych General|Oncology|Otolaryngology|Pulmonary Medicine|Reproductive Medicine|Psych Specific|Hepatology Specific
+C01.539.830.025.020.455.460|Liver Abscess, Amebic|N|N|N|Y|N|Y|N|N|N|N|N|N|N|N|Y
+C02.256.430.400|Hepatitis B|N|N|N|Y|N|Y|N|N|N|N|N|N|N|N|Y
+C02.256.430.400.100|Hepatitis B, Chronic|N|N|N|Y|N|Y|N|N|N|N|N|N|N|N|Y
