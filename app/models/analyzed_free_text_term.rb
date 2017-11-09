@@ -7,10 +7,11 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
       line_array=line.split('|')
       term=line_array[0].split.map(&:capitalize).join(' ').strip
 
-      if !term.nil? and term != 'CONDITION'
+      if !term.nil? and term.downcase != 'condition'
         new(:term=>term,
             :downcase_term=>term.downcase,
             :year=>year,
+            :year_verification=>line_array.last
         ).save
 
         CategorizedTerm.create_for(line_array, year, 'free')

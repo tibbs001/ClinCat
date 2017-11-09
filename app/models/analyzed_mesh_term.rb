@@ -10,13 +10,14 @@ class AnalyzedMeshTerm < ActiveRecord::Base
       qualifier=line_array.first.split('.').first
       term=line_array[1].strip
 
-      if !qualifier.nil? and qualifier != 'MESH_ID'
+      if !qualifier.nil? and qualifier.downcase != 'mesh_id'
 
         new(:qualifier=>qualifier,
             :identifier=>line_array.first,
             :downcase_term=>term.downcase,
             :term=>term,
             :year=>year,
+            :year_verification=>line_array.last
         ).save
         CategorizedTerm.create_for(line_array, year, 'mesh')
       end
