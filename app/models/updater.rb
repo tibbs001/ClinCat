@@ -60,6 +60,13 @@ class Updater
     table_cnt=AnalyzedMeshTerm.where('year like ?','%2017%').count
     errors << "Number of 2017 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
 
+    # Verify that we parsed thru the Y/N columns correctly
+    con=ActiveRecord::Base.establish_connection.connection
+    results=con.execute("select distinct clinical_category from categorized_terms where term_type='mesh' ")
+    errors << "Number of MeSH Clinical Categories is wrong. Expected: 17 Actual: #{results.count}" if results.count != 17
+    results=con.execute("select distinct clinical_category from categorized_terms where term_type='free' ")
+    errors << "Number of Free-Text Clinical Categories is wrong. Expected: 21 Actual: #{results.count}" if results.count != 21
+
   end
 
   def current_users
