@@ -66,6 +66,8 @@ class Updater
     errors << "Number of MeSH Clinical Categories is wrong. Expected: 17 Actual: #{results.count}" if results.count != 17
     results=con.execute("select distinct clinical_category from categorized_terms where term_type='free' ")
     errors << "Number of Free-Text Clinical Categories is wrong. Expected: 21 Actual: #{results.count}" if results.count != 21
+    results=con.execute("select count(*) from categorized_terms where clinical_category='HEPATOLOGY_SPECIFIC' ")
+    errors << "Count for HEPATOLOGY_SPECIFIC is wrong. Expected: 135 Actual: #{results.first["count"]}" if results.first["count"].to_i != 135
 
   end
 
