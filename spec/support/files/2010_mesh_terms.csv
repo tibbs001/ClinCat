@@ -1,0 +1,33 @@
+MESH_ID|MESH_TERM
+A01|Body Regions
+A01.047|Abdomen
+A01.047.025|Abdominal Cavity
+A01.047.025.600|Peritoneum
+A01.047.025.600.225|Douglas' Pouch
+A01.047.025.600.451|Mesentery
+A01.047.025.600.451.535|Mesocolon
+A01.047.025.600.573|Omentum
+A01.047.025.600.678|Peritoneal Cavity
+A01.047.025.600.700|Peritoneal Stomata
+A01.047.025.750|Retroperitoneal Space
+A01.047.050|Abdominal Wall
+A01.047.365|Groin
+A01.047.412|Inguinal Canal
+A01.047.849|Umbilicus
+A01.176|Back
+A01.176.519|Lumbosacral Region
+A01.176.780|Sacrococcygeal Region
+A01.236|Breast
+A01.236.249|Mammary Glands, Human
+A01.236.500|Nipples
+A01.378|Extremities
+A01.378.100|Amputation Stumps
+A01.378.610|Lower Extremity
+A01.378.610.100|Buttocks
+A01.378.610.250|Foot
+A01.378.610.250.149|Ankle
+A01.378.610.250.300|Forefoot, Human
+A01.378.610.250.300.480|Metatarsus
+A01.378.610.250.300.792|Toes
+A01.378.610.250.300.792.380|Hallux
+A01.378.610.250.510|Heel

@@ -1,26 +1,24 @@
 class AnalyzedFreeTextTerm < ActiveRecord::Base
-  def self.populate_from_file(file_name=Rails.root.join('csv','analyzed_free_text_terms.csv'))
 
+  has_many :categorized_terms, :foreign_key => 'identifier', :dependent => :delete_all
+
+  def self.populate_from_file(file_name, year)
     File.open(file_name).each_line{|line|
       line_array=line.split('|')
-      old_id=line_array[0]
-      term=line_array[1].strip
-      if !old_id.nil? and old_id != 'FREE_TEXT_CONDITION_ID'
-        new(:identifier=>old_id,
-            :term=>term,
+      term=line_array[0].split.map(&:capitalize).join(' ').strip
+
+      if !term.nil? and term.downcase != 'condition'
+        new(:term=>term,
             :downcase_term=>term.downcase,
+            :year=>year,
+            :year_verification=>line_array.last
         ).save
-        (2..24).each{|i|
-          if line_array[i]=='Y'
-            CategorizedTerm.create(
-              :identifier=>old_id,
-              :clinical_category=>ClinicalCategory.indexed_free_text_categories[i],
-              :term_type=>'free'
-            ).save!
-          end
-        }
+
+        CategorizedTerm.create_for(line_array, year, 'free')
+
       end
     }
+
   end
 
 end

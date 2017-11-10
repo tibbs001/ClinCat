@@ -19,7 +19,6 @@ gem "puma"
 gem 'rubyzip'
 gem "recipient_interceptor"
 gem "sass-rails"
-gem "sprockets-rails",'>= 2.0'
 gem "title"
 gem "uglifier"
 gem "jbuilder"

@@ -1,12 +1,14 @@
 class Y2010MeshTerm < ActiveRecord::Base
+
   def self.populate_from_file(file_name=Rails.root.join('csv','2010_mesh_terms.csv'))
-    puts "about to populate table of mesh terms..."
+    puts "about to populate table of mesh terms... filename: #{file_name}"
+    destroy_all
     File.open(file_name).each_line{|line|
       line_array=line.split('|')
       tree=line_array.first
       qualifier=tree.split('.').first
       term=line_array.last.strip
-      if !qualifier.nil?
+      if !qualifier.nil? && qualifier != 'MESH_ID'
         if where('tree_number=?',tree).empty?
           new(:qualifier=>qualifier,
               :tree_number=>tree,
