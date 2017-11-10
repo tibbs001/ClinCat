@@ -2,9 +2,10 @@ class Updater
 
   def populate
     populate_mesh_tables
-    populate_2010_analysis_tables
-    populate_2017_analysis_tables
+    populate_analyzed_mesh_term_tables
+    populate_analyzed_free_text_tables
     reload_aact_data
+    sanity_checks
   end
 
   def populate_mesh_tables
@@ -14,18 +15,24 @@ class Updater
     Y2016MeshHeading.populate_from_file
   end
 
-  def populate_2010_analysis_tables
-    # Load term analysis for 2010
+  def populate_analyzed_mesh_term_tables
+    con=ActiveRecord::Base.establish_connection.connection
+    con.execute("truncate table analyzed_mesh_terms")
+    con.execute("delete from  categorized_terms where term_type='mesh'")
+    #con.disconnect!
     file=Rails.root.join('csv','2010_analyzed_mesh_terms.csv')
     AnalyzedMeshTerm.populate_from_file(file,'2010')
-    file=Rails.root.join('csv','2010_analyzed_free_text_terms.csv')
-    AnalyzedFreeTextTerm.populate_from_file(file,'2010')
-  end
-
-  def populate_2017_analysis_tables
-    # Load term analysis for 2017
     file=Rails.root.join('csv','2017_analyzed_mesh_terms.csv')
     AnalyzedMeshTerm.populate_from_file(file,'2017')
+  end
+
+  def populate_analyzed_free_text_tables
+    con=ActiveRecord::Base.establish_connection.connection
+    con.execute("truncate table analyzed_free_text_terms")
+    con.execute("delete from  categorized_terms where term_type='free'")
+    #con.disconnect!
+    file=Rails.root.join('csv','2010_analyzed_free_text_terms.csv')
+    AnalyzedFreeTextTerm.populate_from_file(file,'2010')
     file=Rails.root.join('csv','2017_analyzed_free_text_terms.csv')
     AnalyzedFreeTextTerm.populate_from_file(file,'2017')
   end
@@ -69,6 +76,9 @@ class Updater
     results=con.execute("select count(*) from categorized_terms where clinical_category='HEPATOLOGY_SPECIFIC' ")
     errors << "Count for HEPATOLOGY_SPECIFIC is wrong. Expected: 135 Actual: #{results.first["count"]}" if results.first["count"].to_i != 135
 
+    # Verify that we parsed thru the Y/N columns correctly
+    results=con.execute("select distinct year_verification from analyzed_mesh_terms ")
+    errors << "Year Verification looks wonky. Expected: 3 Actual: #{results.count}" if results.count != 3
   end
 
   def current_users
