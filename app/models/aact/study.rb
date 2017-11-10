@@ -1,5 +1,6 @@
 module Aact
-class Study < Aact
+class Study < ActiveRecord::Base
+
   self.primary_key = 'nct_id'
 
   has_one  :brief_summary,         :foreign_key => 'nct_id'

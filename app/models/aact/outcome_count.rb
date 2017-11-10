@@ -1,5 +1,5 @@
 module Aact
-  class OutcomeCount < Aact
+  class OutcomeCount < StudyRelationship
     belongs_to :outcome
     belongs_to :result_group
   end

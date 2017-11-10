@@ -1,4 +1,4 @@
 module Aact
-  class OverallOfficial < Aact
+  class OverallOfficial < StudyRelationship
   end
 end

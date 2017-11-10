@@ -1,4 +1,4 @@
 module Aact
-  class CalculatedValue < Aact
+  class CalculatedValue < StudyRelationship
   end
 end

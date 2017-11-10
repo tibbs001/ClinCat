@@ -1,5 +1,5 @@
 module Aact
-  class ResponsibleParty < Aact
+  class ResponsibleParty < StudyRelationship
 
     def type
       responsible_party_type

@@ -1,5 +1,5 @@
 module Aact
-  class ResultGroup < Aact
+  class ResultGroup < StudyRelationship
 
     has_many :reported_events
     has_many :milestones

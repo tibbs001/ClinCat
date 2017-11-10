@@ -1,4 +1,4 @@
 module Aact
-  class BrowseCondition < Aact
+  class BrowseCondition < StudyRelationship
   end
 end

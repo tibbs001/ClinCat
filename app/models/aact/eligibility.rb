@@ -1,4 +1,4 @@
 module Aact
-  class Eligibility < Aact
+  class Eligibility < StudyRelationship
   end
 end

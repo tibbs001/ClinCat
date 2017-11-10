@@ -1,4 +1,4 @@
 module Aact
-  class ResultAgreement < Aact
+  class ResultAgreement < StudyRelationship
   end
 end

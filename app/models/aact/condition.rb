@@ -1,4 +1,4 @@
 module Aact
-  class Condition < Aact
+  class Condition < StudyRelationship
   end
 end

@@ -1,4 +1,4 @@
 module Aact
-  class Link < Aact
+  class Link < StudyRelationship
   end
 end

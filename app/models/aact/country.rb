@@ -1,4 +1,4 @@
 module Aact
-  class Country < Aact
+  class Country < StudyRelationship
   end
 end

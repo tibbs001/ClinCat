@@ -1,5 +1,5 @@
 module Aact
-  class DesignOutcome < Aact
+  class DesignOutcome < StudyRelationship
 
     def display_outcome
       str=""

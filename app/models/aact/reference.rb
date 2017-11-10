@@ -1,5 +1,5 @@
 module Aact
-  class Reference < Aact
+  class Reference < StudyRelationship
     self.table_name='study_references'
 
     def type

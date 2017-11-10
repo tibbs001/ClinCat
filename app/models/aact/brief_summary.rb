@@ -1,4 +1,4 @@
 module Aact
-  class BriefSummary < Aact
+  class BriefSummary < StudyRelationship
   end
 end

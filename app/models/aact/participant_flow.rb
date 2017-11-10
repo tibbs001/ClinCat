@@ -1,4 +1,4 @@
 module Aact
-  class ParticipantFlow < Aact
+  class ParticipantFlow < StudyRelationship
   end
 end

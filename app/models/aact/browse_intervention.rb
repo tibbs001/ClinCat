@@ -1,4 +1,4 @@
 module Aact
-  class BrowseIntervention < Aact
+  class BrowseIntervention < StudyRelationship
   end
 end

@@ -1,5 +1,5 @@
 module Aact
-  class ReportedEvent < Aact
+  class ReportedEvent < StudyRelationship
 
     belongs_to :result_group
 

@@ -1,4 +1,4 @@
 module Aact
-  class CentralContact < Aact
+  class CentralContact < StudyRelationship
   end
 end

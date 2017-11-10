@@ -1,4 +1,4 @@
 module Aact
-  class Keyword < Aact
+  class Keyword < StudyRelationship
   end
 end

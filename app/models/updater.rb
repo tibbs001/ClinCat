@@ -41,7 +41,29 @@ class Updater
     }
   end
 
+  def sanity_checks
+    errors=[]
+
+    # Using a static copy of AACT db, so row counts don't change - we know what to expect.
+    # Spot check tables count to confirm reload_aac_data probably worked.
+    errors << "Study count expected: 253574. actual: #{Aact::Study.count}" if Aact::Study.count != 253574
+    errors << "BaselineCount count expected: 78029. actual: #{Aact::BaselineCount.count}" if Aact::BaselineCount.count != 78029
+    errors << "Outcome count expected: 204694. actual: #{Aact::Outcome.count}" if Aact::Outcome.count != 204694
+
+    # Verify load of 2010 analyzed terms
+    file_cnt=Rails.root.join('csv','2010_analyzed_mesh_terms.csv').readlines.size
+    table_cnt=AnalyzedMeshTerm.where('year like ?','%2010%').count
+    errors << "Number of 2010 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
+
+    # Verify load of 2017 analyzed terms
+    file_cnt=Rails.root.join('csv','2017_analyzed_mesh_terms.csv').readlines.size
+    table_cnt=AnalyzedMeshTerm.where('year like ?','%2017%').count
+    errors << "Number of 2017 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
+
+  end
+
   def current_users
+    # assumes these user accounts already exist.
     ['chisw001','pulmon','ctti']
   end
 

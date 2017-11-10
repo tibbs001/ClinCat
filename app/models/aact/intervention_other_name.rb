@@ -1,5 +1,5 @@
 module Aact
-  class InterventionOtherName < Aact
+  class InterventionOtherName < StudyRelationship
     belongs_to :intervention, inverse_of: :intervention_other_names
   end
 end

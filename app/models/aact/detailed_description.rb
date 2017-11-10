@@ -1,4 +1,4 @@
 module Aact
-  class DetailedDescription < Aact
+  class DetailedDescription < StudyRelationship
   end
 end
