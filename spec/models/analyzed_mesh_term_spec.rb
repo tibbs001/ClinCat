@@ -29,4 +29,23 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
 
   end
 
+  context 'loading 2017 analyzed terms' do
+
+    it 'should create appropriate categorized terms' do
+      AnalyzedMeshTerm.destroy_all
+      CategorizedTerm.destroy_all
+      file="spec/support/files/2017_analyzed_mesh_terms.csv"
+      AnalyzedMeshTerm.populate_from_file(file,'2017')
+      amt=AnalyzedMeshTerm.where("identifier=?","C01.252.100.375").first
+      cat=CategorizedTerm.where("identifier=?","C01.252.100.375").first
+      expect(amt.term).to eq('Hemorrhagic Septicemia')
+      expect(cat.clinical_category).to eq('PULMONARY')
+
+      #expect(amt.categorized_terms.size).to eq(1)
+      #pulmonary=amt.categorized_terms.select{|x|x.clinical_category=='PULMONARY'}
+      #transplant=amt.categorized_terms.select{|x|x.clinical_category=='TRANSPLANT'}
+      #expect(transplant).to be([])
+    end
+  end
+
 end

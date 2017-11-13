@@ -18,7 +18,7 @@ class Updater
   def populate_analyzed_mesh_term_tables
     con=ActiveRecord::Base.establish_connection.connection
     con.execute("truncate table analyzed_mesh_terms")
-    con.execute("delete from  categorized_terms where term_type='mesh'")
+    con.execute("delete from categorized_terms where term_type='mesh'")
     #con.disconnect!
     file=Rails.root.join('csv','2010_analyzed_mesh_terms.csv')
     AnalyzedMeshTerm.populate_from_file(file,'2010')
@@ -78,7 +78,7 @@ class Updater
 
     # Verify that we parsed thru the Y/N columns correctly
     results=con.execute("select distinct year_verification from analyzed_mesh_terms ")
-    errors << "Year Verification looks wonky. Expected: 3 Actual: #{results.count}" if results.count != 3
+    errors << "Year Verification looks wonky. Expected: 4 Actual: #{results.count}" if results.count != 3
   end
 
   def current_users
