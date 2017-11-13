@@ -44,7 +44,7 @@ CREATE TABLE analyzed_free_text_terms (
     term character varying,
     downcase_term character varying,
     year character varying,
-    year_verification character varying
+    note character varying
 );
 
 
@@ -79,7 +79,8 @@ CREATE TABLE analyzed_mesh_terms (
     term character varying,
     downcase_term character varying,
     year character varying,
-    year_verification character varying
+    note character varying,
+    former_term character varying
 );
 
 
@@ -389,6 +390,13 @@ CREATE INDEX index_analyzed_free_text_terms_on_downcase_term ON analyzed_free_te
 
 
 --
+-- Name: index_analyzed_free_text_terms_on_note; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_analyzed_free_text_terms_on_note ON analyzed_free_text_terms USING btree (note);
+
+
+--
 -- Name: index_analyzed_free_text_terms_on_term; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -403,25 +411,17 @@ CREATE INDEX index_analyzed_free_text_terms_on_year ON analyzed_free_text_terms 
 
 
 --
--- Name: index_analyzed_free_text_terms_on_year_verification; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX index_analyzed_free_text_terms_on_year_verification ON analyzed_free_text_terms USING btree (year_verification);
-
-
---
--- Name: index_analyzed_mesh_terms_on_description; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX index_analyzed_mesh_terms_on_description ON analyzed_mesh_terms USING btree (description);
-
-
---
->>>>>>> aact-471-add-year-analyzed
 -- Name: index_analyzed_mesh_terms_on_downcase_term; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX index_analyzed_mesh_terms_on_downcase_term ON analyzed_mesh_terms USING btree (downcase_term);
+
+
+--
+-- Name: index_analyzed_mesh_terms_on_note; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_analyzed_mesh_terms_on_note ON analyzed_mesh_terms USING btree (note);
 
 
 --
@@ -443,13 +443,6 @@ CREATE INDEX index_analyzed_mesh_terms_on_term ON analyzed_mesh_terms USING btre
 --
 
 CREATE INDEX index_analyzed_mesh_terms_on_year ON analyzed_mesh_terms USING btree (year);
-
-
---
--- Name: index_analyzed_mesh_terms_on_year_verification; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX index_analyzed_mesh_terms_on_year_verification ON analyzed_mesh_terms USING btree (year_verification);
 
 
 --

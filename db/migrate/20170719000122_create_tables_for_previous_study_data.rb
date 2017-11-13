@@ -12,7 +12,8 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
       t.string  'term'
       t.string  'downcase_term'
       t.string  'year'
-      t.string  'year_verification'
+      t.string  'note'
+      t.string  'former_term'
     end
 
     create_table :analyzed_free_text_terms do |t|
@@ -20,7 +21,7 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
       t.string  'term'
       t.string  'downcase_term'
       t.string  'year'
-      t.string  'year_verification'
+      t.string  'note'
     end
 
     create_table :categorized_terms do |t|
@@ -36,11 +37,11 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
     add_index :analyzed_free_text_terms, :term
     add_index :analyzed_free_text_terms, :downcase_term
     add_index :analyzed_free_text_terms, :year
-    add_index :analyzed_free_text_terms, :year_verification
+    add_index :analyzed_free_text_terms, :note
     add_index :analyzed_mesh_terms, :qualifier
     add_index :analyzed_mesh_terms, :term
     add_index :analyzed_mesh_terms, :downcase_term
     add_index :analyzed_mesh_terms, :year
-    add_index :analyzed_mesh_terms, :year_verification
+    add_index :analyzed_mesh_terms, :note
   end
 end
