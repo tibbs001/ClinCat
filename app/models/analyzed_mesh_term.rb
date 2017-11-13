@@ -8,16 +8,18 @@ class AnalyzedMeshTerm < ActiveRecord::Base
       line_array=line.split('|')
       qualifier=line_array.first.split('.').first
       term=line_array[1].strip
+      verif_note=get_year_verification(line_array, year)
 
       if !qualifier.nil? and qualifier.downcase != 'mesh_id'
         id=line_array.first
         existing=where('identifier=?',id).first  if year != '2010'
-        verif_note=get_year_verification(line_array, year)
-        if existing && verif_note != 'Old only'
+        if existing
           if existing.year == '2010,2017' || existing.year == '2017,2017'
             existing.year_verification='Appears MeSH term changed since 2010'
+            existing.term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
+            existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
           else
-            existing.year="#{existing.year},#{year}"
+            existing.year="#{existing.year},#{year}" if verif_note != 'Old only'
             existing.year_verification=verif_note
           end
           existing.save!
