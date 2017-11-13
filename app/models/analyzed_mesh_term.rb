@@ -10,14 +10,26 @@ class AnalyzedMeshTerm < ActiveRecord::Base
       term=line_array[1].strip
 
       if !qualifier.nil? and qualifier.downcase != 'mesh_id'
-
-        new(:qualifier=>qualifier,
-            :identifier=>line_array.first,
-            :downcase_term=>term.downcase,
-            :term=>term,
-            :year=>year,
-            :year_verification=>get_year_verification(line_array, year)
-        ).save
+        id=line_array.first
+        existing=where('identifier=?',id).first  if year != '2010'
+        verif_note=get_year_verification(line_array, year)
+        if existing && verif_note != 'Old only'
+          if existing.year == '2010,2017' || existing.year == '2017,2017'
+            existing.year_verification='Appears MeSH term changed since 2010'
+          else
+            existing.year="#{existing.year},#{year}"
+            existing.year_verification=verif_note
+          end
+          existing.save!
+        else
+          new(:qualifier=>qualifier,
+              :identifier=>id,
+              :downcase_term=>term.downcase,
+              :term=>term,
+              :year=>year,
+              :year_verification=>verif_note
+          ).save
+        end
         CategorizedTerm.create_for(line_array, year, 'mesh')
       end
     }

@@ -7,16 +7,20 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
       return if line.blank?
       line_array=line.split('|')
       term=line_array[0].split.map(&:capitalize).join(' ').strip
-
       if !term.nil? and term.downcase != 'condition'
-        new(:term=>term,
-            :downcase_term=>term.downcase,
-            :year=>year,
-            :year_verification=>get_year_verification(line_array, year)
-        ).save
-
+        existing=where('term=?',term).first  if year != '2010'
+        if existing  && existing.year_verification != 'Old only'
+          existing.year="#{existing.year},#{year}"
+          existing.year_verification=get_year_verification(line_array, year)
+          existing.save!
+        else
+          new(:term=>term,
+              :downcase_term=>term.downcase,
+              :year=>year,
+              :year_verification=>get_year_verification(line_array, year)
+          ).save
+        end
         CategorizedTerm.create_for(line_array, year, 'free')
-
       end
     }
   end
