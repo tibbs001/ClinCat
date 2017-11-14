@@ -1,6 +1,7 @@
 class AnalyzedFreeTextTerm < ActiveRecord::Base
 
   has_many :categorized_terms, :foreign_key => 'identifier', :dependent => :delete_all
+  self.primary_key = 'identifier'
 
   def self.populate_from_file(file_name, year)
     File.open(file_name).each_line{|line|
