@@ -1,3 +1,4 @@
+require 'active_support/all'
 class CategorizedTerm < ActiveRecord::Base
 
   belongs_to :analyzed_mesh_term, :foreign_key => 'identifier'
@@ -12,7 +13,7 @@ class CategorizedTerm < ActiveRecord::Base
         cat=ClinicalCategory.get_category_for(year, i, term_type)
         new(
           :identifier=>line.first,
-          :clinical_category=>cat,
+          :category=>cat,
           :term_type=>term_type,
           :year=>year
         ).save!

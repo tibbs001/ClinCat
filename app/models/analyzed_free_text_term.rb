@@ -9,15 +9,15 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
       term=line_array[0].split.map(&:capitalize).join(' ').strip
       if !term.nil? and term.downcase != 'condition'
         existing=where('term=?',term).first  if year != '2010'
-        if existing  && existing.year_verification != 'Old only'
+        if existing  && existing.note != 'Old only'
           existing.year="#{existing.year},#{year}"
-          existing.year_verification=get_year_verification(line_array, year)
+          existing.note=get_note(line_array, year)
           existing.save!
         else
           new(:term=>term,
               :downcase_term=>term.downcase,
               :year=>year,
-              :year_verification=>get_year_verification(line_array, year)
+              :note=>get_note(line_array, year)
           ).save
         end
         CategorizedTerm.create_for(line_array, year, 'free')
@@ -25,7 +25,7 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
     }
   end
 
-  def self.get_year_verification(line, year)
+  def self.get_note(line, year)
     return nil if year == '2010'
     val=line.last.gsub(/\n/,"").gsub(/\r/,"").strip
     return val if val == 'New only' || val == 'Old only' or val == 'Both'

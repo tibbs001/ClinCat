@@ -77,10 +77,10 @@ CREATE TABLE analyzed_mesh_terms (
     qualifier character varying,
     identifier character varying,
     term character varying,
+    former_term character varying,
     downcase_term character varying,
     year character varying,
-    note character varying,
-    former_term character varying
+    note character varying
 );
 
 
@@ -111,8 +111,8 @@ ALTER SEQUENCE analyzed_mesh_terms_id_seq OWNED BY analyzed_mesh_terms.id;
 CREATE TABLE categorized_terms (
     id integer NOT NULL,
     identifier character varying,
-    clinical_category character varying,
     term_type character varying,
+    category character varying,
     year character varying
 );
 
@@ -143,7 +143,7 @@ ALTER SEQUENCE categorized_terms_id_seq OWNED BY categorized_terms.id;
 
 CREATE TABLE clinical_categories (
     id integer NOT NULL,
-    name character varying,
+    category character varying,
     downcase_name character varying
 );
 
@@ -446,10 +446,10 @@ CREATE INDEX index_analyzed_mesh_terms_on_year ON analyzed_mesh_terms USING btre
 
 
 --
--- Name: index_categorized_terms_on_clinical_category; Type: INDEX; Schema: public; Owner: -
+-- Name: index_categorized_terms_on_category; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE INDEX index_categorized_terms_on_clinical_category ON categorized_terms USING btree (clinical_category);
+CREATE INDEX index_categorized_terms_on_category ON categorized_terms USING btree (category);
 
 
 --

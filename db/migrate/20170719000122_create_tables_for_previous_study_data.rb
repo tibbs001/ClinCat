@@ -2,7 +2,7 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
   def change
 
     create_table :clinical_categories do |t|
-      t.string  'name'
+      t.string  'category'
       t.string  'downcase_name'
     end
 
@@ -10,10 +10,10 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
       t.string  'qualifier'
       t.string  'identifier'
       t.string  'term'
+      t.string  'former_term'
       t.string  'downcase_term'
       t.string  'year'
       t.string  'note'
-      t.string  'former_term'
     end
 
     create_table :analyzed_free_text_terms do |t|
@@ -26,13 +26,13 @@ class CreateTablesForPreviousStudyData < ActiveRecord::Migration
 
     create_table :categorized_terms do |t|
       t.string  'identifier'
-      t.string  'clinical_category'
       t.string  'term_type'
+      t.string  'category'
       t.string  'year'
     end
 
     add_index :categorized_terms, :identifier
-    add_index :categorized_terms, :clinical_category
+    add_index :categorized_terms, :category
     add_index :categorized_terms, :term_type
     add_index :analyzed_free_text_terms, :term
     add_index :analyzed_free_text_terms, :downcase_term
