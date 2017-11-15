@@ -4,16 +4,19 @@ class CategorizedTerm < ActiveRecord::Base
   belongs_to :analyzed_mesh_term, :foreign_key => 'identifier'
   #belongs_to :analyzed_free_text_term, :foreign_key => 'identifier'
 
-  def self.create_for(line, year, term_type)
+  def self.ignore_key
+    ['compare','mesh_id','mesh_term','name','term','num_studies','note','qualifier_term','qualifier']
+  end
 
-    start_point=1 if term_type == 'free'
-    start_point=2 if term_type == 'mesh'
-    (start_point..line.size).each{|i|
-      if line[i] && line[i].gsub(/\n/,"")=='Y'
-        cat=ClinicalCategory.get_category_for(year, i, term_type)
+  def self.create_for(row, year, term_type)
+    row.each { |key, value|
+      # id column could either be called mesh_id or identifier
+      id=row['mesh_id']
+      id=row['identifier'] if id.nil?
+      if !(ignore_key.include? key.downcase) && value.try(:downcase) == 'y'
         new(
-          :identifier=>line.first,
-          :category=>cat,
+          :identifier=>id,
+          :category=>key.split.map(&:capitalize).join(' ').strip,
           :term_type=>term_type,
           :year=>year
         ).save!

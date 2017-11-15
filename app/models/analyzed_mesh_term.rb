@@ -3,49 +3,52 @@ class AnalyzedMeshTerm < ActiveRecord::Base
   has_many :categorized_terms, :foreign_key => 'identifier', :dependent => :delete_all
   self.primary_key = 'identifier'
 
-  def self.populate_from_file(file_name, year)
-    File.open(file_name).each_line{|line|
-      return if line.blank?
-      line_array=line.split('|')
-      qualifier=line_array.first.split('.').first
-      term=line_array[1].split.map(&:capitalize).join(' ').strip
-      verif_note=get_verification_note(line_array, year)
+  def self.populate_from_file(file, year)
 
-      if !qualifier.nil? and qualifier.downcase != 'mesh_id'
-        id=line_array.first
-        existing=where('identifier=?',id).first  if year != '2010'
-        if existing
-          if existing.year == '2010,2017' || existing.year == '2017,2010'
-            existing.note='Appears MeSH term changed since 2010'
-            existing.term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
-            existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
-          else
-            existing.year="#{existing.year},#{year}"
-            if existing.note.blank?
-              existing.note=verif_note
-            else
-              existing.note="#{existing.note}, #{verif_note}"
-            end
-          end
-          existing.save!
-        else
-          new(:qualifier=>qualifier,
-              :identifier=>id,
-              :downcase_term=>term.downcase,
-              :term=>term,
-              :year=>year,
-              :note=>verif_note
-          ).save
-        end
-        CategorizedTerm.create_for(line_array, year, 'mesh')
-      end
+    tabs=Roo::Spreadsheet.open(file)
+    header = tabs.first
+    header.each{|h| h.downcase!}
+    (2..tabs.last_row).each { |i|
+      row = Hash[[header, tabs.row(i)].transpose]
+      create_from(row, year)
     }
   end
 
-  def self.get_verification_note(line, year)
+  def self.create_from(row, year)
+    t=row['mesh_term']
+    t=row['term'] if t.nil?
+    term=t.split.map(&:capitalize).join(' ').strip
+    id=row['mesh_id']
+    id=row['identifier'] if id.nil?
+    qualifier=id.split('.').first
+    note=get_note(row, year)
+
+    existing=where('identifier=?',id).first
+    if existing
+      if existing.year == '2010,2017' || existing.year == '2017,2010'
+        existing.note='Appears MeSH term changed since 2010'
+        existing.term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
+        existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
+      else
+        existing.year="#{existing.year},#{year}"
+        if existing.note.blank?
+          existing.note=note
+        else
+          existing.note="#{existing.note}, #{note}"
+        end
+        existing.save!
+      end
+    else
+      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>year})
+    end
+    CategorizedTerm.create_for(row, year, 'mesh')
+  end
+
+  def self.get_note(row, year)
     return '' if year == '2010'
-    val=line.last.gsub(/\n/,"").gsub(/\r/,"").strip
-    return val if val == 'New only' || val == 'Old only' or val == 'Both'
+    val=row['note']
+    val=row['compare'] if val.nil?
+    return val
   end
 
 end

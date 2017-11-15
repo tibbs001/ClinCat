@@ -8,10 +8,10 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
       sample_identifier='C02.256.430.400'
       AnalyzedMeshTerm.destroy_all
       CategorizedTerm.destroy_all
-      category='HEPATOLOGY_SPECIFIC'
-      file_name="spec/support/files/#{category.downcase}_mesh_terms.csv"
+      category='Hepatology Specific'
+      file_name="spec/support/files/#{category.downcase}.xlsx"
       AnalyzedMeshTerm.populate_from_file(file_name, year)
-      expect(CategorizedTerm.where('clinical_category=? and year = ?',category, year).size).to eq(3)
+      expect(CategorizedTerm.where('category=? and year = ?',category, year).size).to eq(2)
       amt=AnalyzedMeshTerm.where('identifier=? and year = ?',sample_identifier, year).first
       expect(amt.term).to eq('Hepatitis B')
       expect(amt.qualifier).to eq('C02')
@@ -21,10 +21,14 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
       year='2010'
       AnalyzedMeshTerm.destroy_all
       CategorizedTerm.destroy_all
-      category='CARDIOLOGY'
-      file_name="spec/support/files/#{category.downcase}_mesh_terms.csv"
+      category='cardiology'
+      file_name="spec/support/files/#{category}.xlsx"
       AnalyzedMeshTerm.populate_from_file(file_name, year)
-      expect(CategorizedTerm.where('clinical_category=? and year = ?',category,year).size).to eq(2)
+      cat=category.split.map(&:capitalize).join(' ').strip
+      expect(CategorizedTerm.where('category=? and year = ?', cat, year).size).to eq(1)
+      expect(CategorizedTerm.where('category=? and year = ?', 'Oncology', year).size).to eq(1)
+      expect(AnalyzedMeshTerm.count).to eq(1)
+      expect(CategorizedTerm.count).to eq(3)
     end
 
   end
@@ -34,17 +38,26 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
     it 'should create appropriate categorized terms' do
       AnalyzedMeshTerm.destroy_all
       CategorizedTerm.destroy_all
-      file="spec/support/files/2017_analyzed_mesh_terms.csv"
+      file="spec/support/files/2017_analyzed_mesh_terms.xlsx"
       AnalyzedMeshTerm.populate_from_file(file,'2017')
-      amt=AnalyzedMeshTerm.where("identifier=?","C01.252.100.375").first
-      cat=CategorizedTerm.where("identifier=?","C01.252.100.375").first
-      expect(amt.term).to eq('Hemorrhagic Septicemia')
-      expect(cat.clinical_category).to eq('PULMONARY')
-
-      #expect(amt.categorized_terms.size).to eq(1)
-      #pulmonary=amt.categorized_terms.select{|x|x.clinical_category=='PULMONARY'}
-      #transplant=amt.categorized_terms.select{|x|x.clinical_category=='TRANSPLANT'}
-      #expect(transplant).to be([])
+      id="C01.539.757.360.150"
+      amt=AnalyzedMeshTerm.where("identifier=?",id).first
+      cat=CategorizedTerm.where("identifier=?",id).first
+      expect(amt.term).to eq('Candidemia')
+      expect(cat.category).to eq('Pulmonary_2016')
+      id='E02.870.500'
+      amt=AnalyzedMeshTerm.where("identifier=?",id).first
+      expect(amt.term).to eq('Kidney Transplantation')
+      cat=CategorizedTerm.where("identifier=?",id)
+      expect(CategorizedTerm.where("identifier=? and category=?",id,'Pulmonary_2010').size).to eq(1)
+      expect(CategorizedTerm.where("identifier=? and category=?",id,'Pulmonary_2016').size).to eq(1)
+      expect(CategorizedTerm.where("identifier=? and category=?",id,'Transplant_2016').size).to eq(1)
+      expect(cat.size).to eq(3)
+      id='C01.539.757.800'
+      amt=AnalyzedMeshTerm.where("identifier=?",id).first
+      expect(amt.term).to eq('Shock, Septic')
+      cat=CategorizedTerm.where("identifier=?",id)
+      expect(cat.size).to eq(2)
     end
   end
 

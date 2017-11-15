@@ -19,10 +19,10 @@ class Updater
     con=ActiveRecord::Base.establish_connection.connection
     con.execute("truncate table analyzed_mesh_terms")
     con.execute("delete from categorized_terms where term_type='mesh'")
-    #con.disconnect!
-    file=Rails.root.join('csv','2010_analyzed_mesh_terms.csv')
+
+    file='csv/2010_analyzed_mesh_terms.xlsx'
     AnalyzedMeshTerm.populate_from_file(file,'2010')
-    file=Rails.root.join('csv','2017_analyzed_mesh_terms.csv')
+    file='csv/2017_analyzed_mesh_terms.xlsx'
     AnalyzedMeshTerm.populate_from_file(file,'2017')
   end
 
