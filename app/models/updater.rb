@@ -29,11 +29,11 @@ class Updater
   def populate_analyzed_free_text_tables
     con=ActiveRecord::Base.establish_connection.connection
     con.execute("truncate table analyzed_free_text_terms")
-    con.execute("delete from  categorized_terms where term_type='free'")
-    #con.disconnect!
-    file=Rails.root.join('csv','2010_analyzed_free_text_terms.csv')
+    con.execute("delete from categorized_terms where term_type='free'")
+
+    file='csv/2010_analyzed_free_text_terms.xlsx'
     AnalyzedFreeTextTerm.populate_from_file(file,'2010')
-    file=Rails.root.join('csv','2017_analyzed_free_text_terms.csv')
+    file='csv/2017_analyzed_free_text_terms.xlsx'
     AnalyzedFreeTextTerm.populate_from_file(file,'2017')
   end
 
