@@ -6,12 +6,18 @@ class AnalyzedMeshTerm < ActiveRecord::Base
   def self.populate_from_file(file, year)
 
     tabs=Roo::Spreadsheet.open(file)
-    header = tabs.first
-    header.each{|h| h.downcase!}
+    header=get_header(tabs)
     (2..tabs.last_row).each { |i|
       row = Hash[[header, tabs.row(i)].transpose]
       create_from(row, year)
     }
+  end
+
+  def self.get_header(tabs)
+    result=[]
+    header = tabs.first
+    header.each{|h| result << ActionView::Base.full_sanitizer.sanitize(h).downcase}
+    result
   end
 
   def self.create_from(row, year)
