@@ -30,24 +30,28 @@ class AnalyzedMeshTerm < ActiveRecord::Base
     note=get_note(row, year)
 
     existing=where('identifier=?',id).first
-    if existing
-      if note =='Both'
+    if !existing
+      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>year,:note=>note})
+    else
+      case note
+      when 'Both'
         existing.note=note
         existing.year="#{existing.year},#{year}"
-      else
-        existing.note='Appears MeSH term changed since 2010'
-        existing.term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
-        existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
-        existing.year="#{existing.year},#{year}"
+      when 'Old only'
+        existing.year='2010'
+      when 'New only'
+        new_term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
+        if new_term
+          existing.note='Appears MeSH term changed since 2010'
+          existing.term=new_term
+          existing.downcase_term=new_term.downcase
+          existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
+        else
+          existing.note="Problem:  This term should be in 2016 MeSH Thesaurus, but was not found"
+        end
       end
       existing.save!
-    else
-      if note=='Old only'
-        yr='2010'
-      else
-        yr=year
-      end
-      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>yr,:note=>note})
+      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>year,:note=>note})
     end
     CategorizedTerm.create_for(row, year, 'mesh')
   end
