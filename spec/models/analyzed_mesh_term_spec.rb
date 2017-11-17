@@ -33,13 +33,58 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
 
   end
 
-  context 'loading 2017 analyzed terms' do
+  context 'loading 2010 & 2016 analyzed MeSH terms' do
+
+    it "should save only 2010 if the note says 'Old only'" do
+      AnalyzedMeshTerm.destroy_all
+      CategorizedTerm.destroy_all
+      file="spec/support/files/2010_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2010')
+      file="spec/support/files/2016_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2016')
+      id='G12.425.901.402'
+      amt=AnalyzedMeshTerm.where("identifier=?",id).first
+      expect(amt.categorized_terms.size).to eq(4)
+      expect(CategorizedTerm.where("identifier=? and category=?",id,'Pulmonary Medicine').size).to eq(1)
+      expect(CategorizedTerm.where("identifier=? and category=?",id,'Pulmonary_2016').size).to eq(1)
+      expect(CategorizedTerm.where("identifier=? and category=?",id,'Transplant_2016').size).to eq(1)
+      expect(amt.year).to eq('2010,2016')
+      expect(amt.term).to eq('A Pulmonary Term')
+      expect(amt.former_term).to be(nil)
+    end
+
+    it "should detect MeSH terms that have changed" do
+      # Load MeSH terms into lookup tables
+      Y2010MeshTerm.destroy_all
+      Y2016MeshTerm.destroy_all
+      Y2010MeshTerm.populate_from_file('spec/support/files/2010_mesh_terms.csv')
+      Y2016MeshTerm.populate_from_file('spec/support/files/2016_mesh_terms.csv')
+
+      AnalyzedMeshTerm.destroy_all
+      CategorizedTerm.destroy_all
+      id='C23.888.592.604.646'
+      file="spec/support/files/2010_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2010')
+      amt=AnalyzedMeshTerm.where("identifier=?",id).first
+      expect(amt.term).to eq('Mental Retardation')
+
+      file="spec/support/files/2016_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2016')
+      amt=AnalyzedMeshTerm.where("identifier=?",id).first
+      expect(amt.term).to eq('Intellectual Disability')
+      expect(amt.former_term).to eq('Mental Retardation')
+      expect(amt.note).to eq('Appears MeSH term changed since 2010')
+    end
+
+  end
+
+  context 'loading 2016 analyzed terms' do
 
     it 'should create appropriate categorized terms' do
       AnalyzedMeshTerm.destroy_all
       CategorizedTerm.destroy_all
-      file="spec/support/files/2017_analyzed_mesh_terms.xlsx"
-      AnalyzedMeshTerm.populate_from_file(file,'2017')
+      file="spec/support/files/2016_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2016')
       id="C01.539.757.360.150"
       amt=AnalyzedMeshTerm.where("identifier=?",id).first
       cat=CategorizedTerm.where("identifier=?",id).first
