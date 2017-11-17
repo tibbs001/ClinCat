@@ -104,6 +104,19 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
       cat=CategorizedTerm.where("identifier=?",id)
       expect(cat.size).to eq(2)
     end
+
+    it "should save just one row for 'Old only' terms" do
+      AnalyzedMeshTerm.destroy_all
+      CategorizedTerm.destroy_all
+      file="spec/support/files/2010_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2010')
+      file="spec/support/files/2016_analyzed_mesh_terms.xlsx"
+      AnalyzedMeshTerm.populate_from_file(file,'2016')
+      id="C21.866.915.300.200.150"
+      amt=AnalyzedMeshTerm.where("identifier=?",id)
+      expect(amt.count).to eq(1)
+    end
+
   end
 
 end
