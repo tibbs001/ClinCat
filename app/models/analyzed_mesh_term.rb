@@ -24,28 +24,30 @@ class AnalyzedMeshTerm < ActiveRecord::Base
     t=row['mesh_term']
     t=row['term'] if t.nil?
     term=t.split.map(&:capitalize).join(' ').strip
-    id=row['mesh_id']
-    id=row['identifier'] if id.nil?
+    id=row['mesh_id'].try(:strip)
+    id=row['identifier'].try(:strip) if id.nil?
     qualifier=id.split('.').first
     note=get_note(row, year)
 
     existing=where('identifier=?',id).first
     if existing
-      if existing.year == '2010,2017' || existing.year == '2017,2010'
+      if note =='Both'
+        existing.note=note
+        existing.year="#{existing.year},#{year}"
+      else
         existing.note='Appears MeSH term changed since 2010'
         existing.term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
         existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
-      else
         existing.year="#{existing.year},#{year}"
-        if existing.note.blank?
-          existing.note=note
-        else
-          existing.note="#{existing.note}, #{note}"
-        end
-        existing.save!
       end
+      existing.save!
     else
-      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>year})
+      if note=='Old only'
+        yr='2010'
+      else
+        yr=year
+      end
+      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>yr,:note=>note})
     end
     CategorizedTerm.create_for(row, year, 'mesh')
   end
