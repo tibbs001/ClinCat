@@ -3,6 +3,7 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
   has_many :categorized_terms, :foreign_key => 'identifier', :dependent => :delete_all
 
   def self.populate_from_file(file, year)
+
      tabs=Roo::Spreadsheet.open(file)
      header=get_header(tabs)
      (2..tabs.last_row).each { |i|
@@ -26,11 +27,16 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
     row['identifier']=term  # Free text don't have identifiers - need to use the term itself as an ID
     note=get_note(row, year)
 
-    existing=where('term=?',term).first  if year != '2010'
-    if existing && existing.note != 'Old only'
-      existing.year="#{existing.year},#{year}"
-      existing.note=get_note(row, year)
-      existing.save!
+    existing=where('downcase_term=?',term.downcase).first
+    if existing
+      if existing.note == 'Old only'
+        existing.note=get_note(row, year)
+        existing.save!
+      else
+        existing.year="#{existing.year},#{year}"
+        existing.note=get_note(row, year)
+        existing.save!
+      end
     else
       new(:term=>term,
           :identifier=>row['identifier'],
@@ -46,6 +52,7 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
     return '' if year == '2010'
     val=row['note']
     val=row['compare'] if val.nil?
+    val
   end
 
 end
