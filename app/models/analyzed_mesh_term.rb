@@ -51,7 +51,6 @@ class AnalyzedMeshTerm < ActiveRecord::Base
         end
       end
       existing.save!
-      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>year,:note=>note})
     end
     CategorizedTerm.create_for(row, year, 'mesh')
   end
