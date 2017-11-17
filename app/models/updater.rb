@@ -10,8 +10,12 @@ class Updater
 
   def populate_mesh_tables
     # Load MeSH terms for 2010 & 2016
+    con=ActiveRecord::Base.establish_connection.connection
+    con.execute("truncate table y2010_mesh_terms")
     Y2010MeshTerm.populate_from_file
+    con.execute("truncate table y2016_mesh_terms")
     Y2016MeshTerm.populate_from_file
+    con.execute("truncate table y2016_mesh_headings")
     Y2016MeshHeading.populate_from_file
   end
 
