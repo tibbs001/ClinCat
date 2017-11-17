@@ -62,12 +62,14 @@ class Updater
     errors << "Outcome count expected: 204694. actual: #{Aact::Outcome.count}" if Aact::Outcome.count != 204694
 
     # Verify load of 2010 analyzed terms
-    file_cnt=Rails.root.join('csv','2010_analyzed_mesh_terms.csv').readlines.size
+    file='csv/2010_analyzed_mesh_terms.xlsx'
+    file_cnt=Roo::Spreadsheet.open(file).count
     table_cnt=AnalyzedMeshTerm.where('year like ?','%2010%').count
     errors << "Number of 2010 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
 
     # Verify load of 2016 analyzed terms
-    file_cnt=Rails.root.join('csv','2016_analyzed_mesh_terms.csv').readlines.size
+    file='csv/2016_analyzed_mesh_terms.xlsx'
+    file_cnt=Roo::Spreadsheet.open(file).count
     table_cnt=AnalyzedMeshTerm.where('year like ?','%2016%').count
     errors << "Number of 2016 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
 
