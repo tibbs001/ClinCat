@@ -26,8 +26,8 @@ class Updater
 
     file='csv/2010_analyzed_mesh_terms.xlsx'
     AnalyzedMeshTerm.populate_from_file(file,'2010')
-    file='csv/2017_analyzed_mesh_terms.xlsx'
-    AnalyzedMeshTerm.populate_from_file(file,'2017')
+    file='csv/2016_analyzed_mesh_terms.xlsx'
+    AnalyzedMeshTerm.populate_from_file(file,'2016')
   end
 
   def populate_analyzed_free_text_tables
@@ -37,8 +37,8 @@ class Updater
 
     file='csv/2010_analyzed_free_text_terms.xlsx'
     AnalyzedFreeTextTerm.populate_from_file(file,'2010')
-    file='csv/2017_analyzed_free_text_terms.xlsx'
-    AnalyzedFreeTextTerm.populate_from_file(file,'2017')
+    file='csv/2016_analyzed_free_text_terms.xlsx'
+    AnalyzedFreeTextTerm.populate_from_file(file,'2016')
   end
 
   def reload_aact_data(dmp_file='/var/local/share/other/20170903_aact.dmp')
@@ -66,10 +66,10 @@ class Updater
     table_cnt=AnalyzedMeshTerm.where('year like ?','%2010%').count
     errors << "Number of 2010 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
 
-    # Verify load of 2017 analyzed terms
-    file_cnt=Rails.root.join('csv','2017_analyzed_mesh_terms.csv').readlines.size
-    table_cnt=AnalyzedMeshTerm.where('year like ?','%2017%').count
-    errors << "Number of 2017 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
+    # Verify load of 2016 analyzed terms
+    file_cnt=Rails.root.join('csv','2016_analyzed_mesh_terms.csv').readlines.size
+    table_cnt=AnalyzedMeshTerm.where('year like ?','%2016%').count
+    errors << "Number of 2016 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}" if file_cnt != table_cnt
 
     # Verify that we parsed thru the Y/N columns correctly
     con=ActiveRecord::Base.establish_connection.connection
