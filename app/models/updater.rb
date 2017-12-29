@@ -75,15 +75,15 @@ class Updater
 
     # Verify that we parsed thru the Y/N columns correctly
     con=ActiveRecord::Base.establish_connection.connection
-    results=con.execute("select distinct clinical_category from categorized_terms where term_type='mesh' ")
+    results=con.execute("select distinct category from categorized_terms where term_type='mesh' ")
     errors << "Number of MeSH Clinical Categories is wrong. Expected: 17 Actual: #{results.count}" if results.count != 17
-    results=con.execute("select distinct clinical_category from categorized_terms where term_type='free' ")
+    results=con.execute("select distinct category from categorized_terms where term_type='free' ")
     errors << "Number of Free-Text Clinical Categories is wrong. Expected: 21 Actual: #{results.count}" if results.count != 21
-    results=con.execute("select count(*) from categorized_terms where clinical_category='HEPATOLOGY_SPECIFIC' ")
+    results=con.execute("select count(*) from categorized_terms where category='HEPATOLOGY_SPECIFIC' ")
     errors << "Count for HEPATOLOGY_SPECIFIC is wrong. Expected: 135 Actual: #{results.first["count"]}" if results.first["count"].to_i != 135
 
     # Verify that we parsed thru the Y/N columns correctly
-    results=con.execute("select distinct year_verification from analyzed_mesh_terms ")
+    results=con.execute("select distinct year from analyzed_mesh_terms ")
     errors << "Year Verification looks wonky. Expected: 4 Actual: #{results.count}" if results.count != 3
   end
 
