@@ -4,12 +4,12 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
 
   def self.populate_from_file(file, year)
 
-     tabs=Roo::Spreadsheet.open(file)
-     header=get_header(tabs)
-     (2..tabs.last_row).each { |i|
-       row = Hash[[header, tabs.row(i)].transpose]
-       create_from(row, year)
-     }
+    tabs=Roo::Spreadsheet.open(file)
+    header=get_header(tabs)
+    (2..tabs.last_row).each { |i|
+      row = Hash[[header, tabs.row(i)].transpose]
+      create_from(row, year)
+    }
   end
 
   def self.get_header(tabs)
@@ -31,6 +31,7 @@ class AnalyzedFreeTextTerm < ActiveRecord::Base
     if existing
       if existing.note == 'Old only'
         existing.note=get_note(row, year)
+        existing.year='2010'
         existing.save!
       else
         existing.year="#{existing.year},#{year}"
