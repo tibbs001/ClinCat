@@ -39,10 +39,11 @@ class AnalyzedMeshTerm < ActiveRecord::Base
         existing.year="#{existing.year},#{year}"
       when 'Old only'
         existing.year='2010'
+        existing.note='Old only'
       when 'New only'
         new_term=Y2016MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
         if new_term
-          existing.note='Appears MeSH term changed since 2010'
+          existing.note='MeSH term changed'
           existing.term=new_term
           existing.downcase_term=new_term.downcase
           existing.former_term=Y2010MeshTerm.where('tree_number=?',existing.identifier).first.try(:mesh_term)
@@ -51,7 +52,6 @@ class AnalyzedMeshTerm < ActiveRecord::Base
         end
       end
       existing.save!
-      create({:identifier=>id,:qualifier=>qualifier,:term=>term,:downcase_term=>term.downcase,:year=>year,:note=>note})
     end
     CategorizedTerm.create_for(row, year, 'mesh')
   end
