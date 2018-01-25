@@ -93,7 +93,7 @@ class Updater
 
   def current_users
     # assumes these user accounts already exist.
-    ['chisw001','pulmon','ctti']
+    ['aact','ctti']
   end
 
 end
