@@ -13,7 +13,7 @@ class CategorizedTerm < ActiveRecord::Base
       # id column could either be called mesh_id or identifier
       id=row['mesh_id']
       id=row['identifier'] if id.nil?
-      if !(ignore_key.include? key.downcase) && ['y','x'].include? value.try(:downcase).strip
+      if !(ignore_key.include? key.downcase) && (['y','x'].include? value.try(:downcase).try(:strip))
         new(
           :identifier=>id,
           :category=>key.split.map(&:capitalize).join(' ').strip,
