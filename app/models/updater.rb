@@ -1,10 +1,10 @@
 class Updater
 
   def populate
+    reload_aact_data
     populate_mesh_tables
     populate_analyzed_mesh_term_tables
     populate_analyzed_free_text_tables
-    reload_aact_data
     sanity_checks
   end
 
@@ -47,7 +47,7 @@ class Updater
 
   def reload_aact_data(dmp_file='/aact-files/other/aact_20170903.psql')
     db_name=ActiveRecord::Base.connection.current_database
-    cmd="psql -h localhost #{db_name} < #{dump_file} > /dev/null"
+    cmd="psql -h localhost #{db_name} < #{dmp_file} > /dev/null"
     system cmd
     con=ActiveRecord::Base.establish_connection.connection
     con.execute('grant SELECT on all tables in schema public to public')
