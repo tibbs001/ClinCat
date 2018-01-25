@@ -28,6 +28,8 @@ class Updater
     AnalyzedMeshTerm.populate_from_file(file,'2010')
     file='csv/2016_analyzed_mesh_terms.xlsx'
     AnalyzedMeshTerm.populate_from_file(file,'2016')
+    file='csv/2018_analyzed_mesh_terms.xlsx'
+    AnalyzedMeshTerm.populate_from_file(file,'2018')
   end
 
   def populate_analyzed_free_text_tables
@@ -39,11 +41,13 @@ class Updater
     AnalyzedFreeTextTerm.populate_from_file(file,'2010')
     file='csv/2016_analyzed_free_text_terms.xlsx'
     AnalyzedFreeTextTerm.populate_from_file(file,'2016')
+    file='csv/2018_analyzed_free_text_terms.xlsx'
+    AnalyzedFreeTextTerm.populate_from_file(file,'2018')
   end
 
-  def reload_aact_data(dmp_file='/var/local/share/other/20170903_aact.dmp')
+  def reload_aact_data(dmp_file='/aact-files/other/aact_20170903.psql')
     db_name=ActiveRecord::Base.connection.current_database
-    cmd="pg_restore -c -j 5 -v -h localhost -p 5432 -U #{ENV['DB_SUPER_USERNAME']} -d #{db_name} #{dmp_file}"
+    cmd="psql -h localhost #{db_name} < #{dump_file} > /dev/null"
     system cmd
     con=ActiveRecord::Base.establish_connection.connection
     con.execute('grant SELECT on all tables in schema public to public')
