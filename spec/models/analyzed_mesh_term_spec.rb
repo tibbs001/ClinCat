@@ -73,7 +73,7 @@ RSpec.describe AnalyzedMeshTerm, type: :model do
       amt=AnalyzedMeshTerm.where("identifier=?",id).first
       expect(amt.term).to eq('Intellectual Disability')
       expect(amt.former_term).to eq('Mental Retardation')
-      expect(amt.note).to eq('Appears MeSH term changed since 2010')
+      expect(amt.note).to eq('MeSH term changed')
     end
 
   end
