@@ -43,7 +43,7 @@ group :development do
   gem 'capistrano-chruby'
   gem "quiet_assets"
   gem "spring"
-  gem "spring-commands-rspec"
+  gem "rspec-rails"
   gem 'letter_opener'
 end
 
