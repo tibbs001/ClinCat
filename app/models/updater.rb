@@ -3,7 +3,7 @@ class Updater
   attr_accessor :con, :pub_con
 
   def populate
-    reload_aact_data
+#    reload_aact_data
     populate_mesh_tables
     populate_analyzed_mesh_term_tables
     populate_analyzed_free_text_tables
@@ -87,7 +87,11 @@ class Updater
   end
 
   def con
-    @con ||= ActiveRecord::Base.establish_connection(ENV["CLINCAT_LOCAL_DATABASE_URL"]).connection
+    if Rails.env == 'test'
+      @con ||= ActiveRecord::Base.establish_connection.connection
+    else
+      @con ||= ActiveRecord::Base.establish_connection(ENV["CLINCAT_LOCAL_DATABASE_URL"]).connection
+    end
   end
 
   def sanity_checks
