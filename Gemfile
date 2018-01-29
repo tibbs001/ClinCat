@@ -10,7 +10,6 @@ gem "rack-timeout"
 gem "autoprefixer-rails"
 gem "flutie"
 gem "high_voltage"
-gem 'appsignal', '~> 2.3'
 gem "normalize-rails"
 gem 'rails_12factor'
 gem "pg"
@@ -20,7 +19,6 @@ gem "sass-rails"
 gem "title"
 gem "uglifier"
 gem "jbuilder"
-gem 'rest-client'
 gem 'enumerize'
 gem 'bulk_insert'
 gem 'activerecord-import'

@@ -1,11 +1,6 @@
 class CreateTablesForPreviousStudyData < ActiveRecord::Migration
   def change
 
-    create_table :clinical_categories do |t|
-      t.string  'category'
-      t.string  'downcase_name'
-    end
-
     create_table :analyzed_mesh_terms do |t|
       t.string  'qualifier'
       t.string  'identifier'

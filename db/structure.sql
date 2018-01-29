@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 10.0
--- Dumped by pg_dump version 10.0
+-- Dumped from database version 10.1
+-- Dumped by pg_dump version 10.1
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -138,37 +138,6 @@ ALTER SEQUENCE categorized_terms_id_seq OWNED BY categorized_terms.id;
 
 
 --
--- Name: clinical_categories; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE clinical_categories (
-    id integer NOT NULL,
-    category character varying,
-    downcase_name character varying
-);
-
-
---
--- Name: clinical_categories_id_seq; Type: SEQUENCE; Schema: public; Owner: -
---
-
-CREATE SEQUENCE clinical_categories_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
-
-
---
--- Name: clinical_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
---
-
-ALTER SEQUENCE clinical_categories_id_seq OWNED BY clinical_categories.id;
-
-
---
 -- Name: schema_migrations; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -299,13 +268,6 @@ ALTER TABLE ONLY categorized_terms ALTER COLUMN id SET DEFAULT nextval('categori
 
 
 --
--- Name: clinical_categories id; Type: DEFAULT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY clinical_categories ALTER COLUMN id SET DEFAULT nextval('clinical_categories_id_seq'::regclass);
-
-
---
 -- Name: y2010_mesh_terms id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -348,14 +310,6 @@ ALTER TABLE ONLY analyzed_mesh_terms
 
 ALTER TABLE ONLY categorized_terms
     ADD CONSTRAINT categorized_terms_pkey PRIMARY KEY (id);
-
-
---
--- Name: clinical_categories clinical_categories_pkey; Type: CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY clinical_categories
-    ADD CONSTRAINT clinical_categories_pkey PRIMARY KEY (id);
 
 
 --
