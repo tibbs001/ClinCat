@@ -43,12 +43,12 @@ class SanityChecker
     record_error("Number of 2016 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}") if file_cnt != table_cnt
     print "."
 
-    # Verify load of 2018 analyzed terms
-    file='csv/2018_analyzed_mesh_terms.xlsx'
+    # Verify load of 2017 analyzed terms
+    file='csv/2017_analyzed_mesh_terms.xlsx'
     # subtract 1 from the file count to eliminate the header
     file_cnt=(Roo::Spreadsheet.open(file).count - 1).to_i
-    table_cnt=AnalyzedMeshTerm.where('year like ?','%2018%').count
-    record_error("Number of 2018 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}") if file_cnt != table_cnt
+    table_cnt=AnalyzedMeshTerm.where('year like ?','%2017%').count
+    record_error("Number of 2017 MeSH analyzed expected: #{file_cnt}. actual: #{table_cnt}") if file_cnt != table_cnt
     print "."
 
     # Verify that we parsed thru the Y/N columns correctly
@@ -97,21 +97,21 @@ class SanityChecker
     results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2010','Gi Hepatology')
     record_error("Expected: 1 2010 GI Hepatology entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
     print "."
-    results=CategorizedTerm.where('identifier=? and year=?','C06.405.249.411.184.290','2018')
-    record_error("Expected: 3 2018 entries for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 3
+    results=CategorizedTerm.where('identifier=? and year=?','C06.405.249.411.184.290','2017')
+    record_error("Expected: 3 2017 entries for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 3
     print "."
-    results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2018','Colorectum')
-    record_error("Expected: 1 2018 Colorectum entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
+    results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2017','Colorectum')
+    record_error("Expected: 1 2017 Colorectum entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
     print "."
-    results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2018','Oncology_2010')
-    record_error("Expected: 1 2018 Oncology_2010 entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
+    results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2017','Oncology_2010')
+    record_error("Expected: 1 2017 Oncology_2010 entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
     print "."
-    results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2018','Oncology_2017')
-    record_error("Expected: 1 2018 Oncology_2017 entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
+    results=CategorizedTerm.where('identifier=? and year=? and category=?','C06.405.249.411.184.290','2017','Oncology_2017')
+    record_error("Expected: 1 2017 Oncology_2017 entry for C06.405.249.411.184.290. Actual: #{results.count}") if results.count != 1
     print "."
 
-    results=CategorizedTerm.where('year like ? and term_type=? and category=?','%2018%','mesh','Oncology_2017')
-    record_error("Unexpected number of 2018 MeSH Oncology_2017 rows") if results.count != 1485
+    results=CategorizedTerm.where('year like ? and term_type=? and category=?','%2017%','mesh','Oncology_2017')
+    record_error("Unexpected number of 2017 MeSH Oncology_2017 rows") if results.count != 1485
     print "."
 
     # Display Errors

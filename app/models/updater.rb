@@ -7,7 +7,7 @@ class Updater
     populate_mesh_tables
     populate_analyzed_mesh_term_tables
     populate_analyzed_free_text_tables
-    sanity_checker
+    sanity_check
     dump_database
   end
 
@@ -30,8 +30,8 @@ class Updater
     AnalyzedMeshTerm.populate_from_file(file,'2010')
     file='csv/2016_analyzed_mesh_terms.xlsx'
     AnalyzedMeshTerm.populate_from_file(file,'2016')
-    file='csv/2018_analyzed_mesh_terms.xlsx'
-    AnalyzedMeshTerm.populate_from_file(file,'2018')
+    file='csv/2017_analyzed_mesh_terms.xlsx'
+    AnalyzedMeshTerm.populate_from_file(file,'2017')
   end
 
   def populate_analyzed_free_text_tables
@@ -43,8 +43,8 @@ class Updater
     AnalyzedFreeTextTerm.populate_from_file(file,'2010')
     file='csv/2016_analyzed_free_text_terms.xlsx'
     AnalyzedFreeTextTerm.populate_from_file(file,'2016')
-    file='csv/2018_analyzed_free_text_terms.xlsx'
-    AnalyzedFreeTextTerm.populate_from_file(file,'2018')
+    file='csv/2017_analyzed_free_text_terms.xlsx'
+    AnalyzedFreeTextTerm.populate_from_file(file,'2017')
   end
 
   def reload_aact_data(dmp_file='/aact-files/other/aact_20170903.dmp')
@@ -94,7 +94,7 @@ class Updater
     end
   end
 
-  def sanity_checks
+  def sanity_check
     SanityChecker.new.run
   end
 

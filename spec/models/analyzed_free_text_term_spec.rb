@@ -55,9 +55,9 @@ RSpec.describe AnalyzedFreeTextTerm, type: :model do
       expect(CategorizedTerm.where('category=? and year = ?','Pulmonary_2016', year).size).to eq(5)
       expect(a.first.year).to eq('2010,2016')
 
-      # -------------  2018
-      year='2018'
-      file_name="spec/support/files/2018_analyzed_free_text_terms.xlsx"
+      # -------------  2017
+      year='2017'
+      file_name="spec/support/files/2017_analyzed_free_text_terms.xlsx"
       AnalyzedFreeTextTerm.populate_from_file(file_name, year)
       sample_term='Adult Solid Neoplasm'
       rows=CategorizedTerm.where('identifier=? and year = ? and term_type=?', sample_term, year, 'free')
