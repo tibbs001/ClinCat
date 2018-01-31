@@ -3,7 +3,7 @@ class Updater
   attr_accessor :con, :pub_con
 
   def run
-#    reload_aact_data
+    reload_aact_data
     populate_mesh_tables
     populate_analyzed_mesh_term_tables
     populate_analyzed_free_text_tables
@@ -48,12 +48,7 @@ class Updater
   end
 
   def reload_aact_data(dmp_file='/aact-files/other/aact_20170903.dmp')
-    if Rails.env == 'production'
-      host=ENV['CLINCAT_HOSTNAME_PROD']
-    else
-      host='localhost'
-    end
-    cmd="PGPASSWORD=#{ENV['CLINCAT_PASSWORD_PROD']} pg_restore -c -j 5 -v -h #{host} -p 5432 -U #{ENV['DB_SUPER_USERNAME']} -d #{db_name} #{dmp_file}"
+    cmd="PGPASSWORD=#{ENV['CLINCAT_PASSWORD']} pg_restore -c -j 5 -v -h localhost -p 5432 -U #{ENV['DB_SUPER_USERNAME']} -d #{db_name} #{dmp_file}"
     system cmd
     con=ActiveRecord::Base.establish_connection.connection
     con.execute('grant SELECT on all tables in schema public to public')
@@ -87,11 +82,7 @@ class Updater
   end
 
   def con
-    if Rails.env == 'test'
-      @con ||= ActiveRecord::Base.establish_connection.connection
-    else
-      @con ||= ActiveRecord::Base.establish_connection(ENV["CLINCAT_LOCAL_DATABASE_URL"]).connection
-    end
+    @con ||= ActiveRecord::Base.establish_connection.connection
   end
 
   def sanity_check
