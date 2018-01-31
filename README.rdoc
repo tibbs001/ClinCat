@@ -1,6 +1,6 @@
 == README
 
-* Ruby version:  ruby-2.2.3
+* Ruby version:  ruby-2.4.0
 * Currently saves data to postgres. (change database.yml to switch to different platform)
 
 Setup/Launch Application:
